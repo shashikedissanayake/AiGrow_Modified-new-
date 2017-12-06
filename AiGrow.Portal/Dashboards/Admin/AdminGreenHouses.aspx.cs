@@ -41,7 +41,7 @@ namespace AiGrow.Portal.Dashboards.Admin
 
         private void gridGetDataSet()
         {
-            gvNetworks.DataSource = new BL_GreenHouses().select();
+            gvNetworks.DataSource = new BL_Greenhouse().select();
 
         }
 

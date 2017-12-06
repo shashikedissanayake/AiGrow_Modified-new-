@@ -66,6 +66,11 @@
     <Compile Include="BL_BayRack.cs" />
     <Compile Include="BL_BayRackDevice.cs" />
     <Compile Include="BL_BayRackDeviceData.cs" />
+    <Compile Include="BL_BayRackLevel.cs" />
+    <Compile Include="BL_BayRackLevelDevice.cs" />
+    <Compile Include="BL_BayRackLevelDeviceData.cs" />
+    <Compile Include="BL_BayRackLevelLine.cs" />
+    <Compile Include="BL_BayRackLevelLineDevice.cs" />
     <Compile Include="BL_Configurations.cs" />
     <Compile Include="BL_Greenhouse.cs" />
     <Compile Include="BL_GreenhouseDevice.cs" />
@@ -74,7 +79,6 @@
     <Compile Include="BL_Login.cs" />
     <Compile Include="BL_RackDeviceData.cs" />
     <Compile Include="BL_User.cs" />
-    <Compile Include="BL_GreenHouses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
