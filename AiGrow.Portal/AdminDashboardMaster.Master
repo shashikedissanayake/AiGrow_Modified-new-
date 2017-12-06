@@ -1,0 +1,264 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminDashboardMaster.Master.cs" Inherits="AiGrow.Portal.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AiGrow | Dashboard</title>
+    <link rel="shortcut icon" href="../../img/logo.png" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../bower_components/Ionicons/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+
+<% 
+    Boolean returnBooleanOnSession = AiGrow.SessionHandler.doesSessionExist();
+    Boolean isUserAdmin = AiGrow.SessionHandler.isUserAdmin();
+    if (returnBooleanOnSession != true || isUserAdmin != true)
+    {
+        Response.Redirect(AiGrow.Constants.LOGIN_URL + "?error=" + AiGrow.Classes.Messages.invalidRequest + "&token=" + AiGrow.Encryption.createSHA1(AiGrow.Classes.Messages.invalidRequest));
+    }
+%>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="../dist/img/avatar.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>A</b>G</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>AiGrow</b></span>
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- home button-->
+                        <li class=" user home">
+                            <a href="index.aspx">
+                                <i class="fa fa-home"></i>
+                                <span>&nbsp;Home</span>
+                            </a>
+
+                        </li>
+
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="../dist/img/avatar.png" class="user-image" alt="User Image">
+                                <span class="hidden-xs"><%String fullName = AiGrow.SessionHandler.getLoggedInUserFullName();
+                                                          Response.Write(fullName);%></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <!-- User image -->
+                                <li class="user-header">
+                                    <img src="../dist/img/avatar.png" class="img-circle" alt="User Image">
+
+                                    <p>
+                                        <% Response.Write(fullName + " - " + AiGrow.SessionHandler.getLoggedInUserTypeAlias()); %>
+                                        <small><% Response.Write(AiGrow.SessionHandler.getLoggedInUserOrganization()); %></small>
+                                    </p>
+                                </li>
+
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="<% Response.Write(AiGrow.Constants.VIEW_PROFILE_URL_ADMIN);%>" class="btn btn-default btn-flat">Profile</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="<% Response.Write(AiGrow.Constants.LOG_OUT_URL);%>" class="btn btn-default btn-flat">Sign out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- =============================================== -->
+
+        <!-- Left side column. contains the sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar user panel -->
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="../dist/img/avatar.png" class="img-circle" alt="User Image">
+                    </div>
+                    <div class="pull-left info">
+                        <p><% Response.Write(fullName);  %></p>
+                        <a><i class="fa fa-circle text-success"></i>Online</a>
+                    </div>
+                </div>
+
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu" data-widget="tree">
+                    <li class="header">MANAGEMENT</li>
+                    <li id="menuProfile"><a href="<% Response.Write(AiGrow.Constants.VIEW_PROFILE_URL_ADMIN);%>"><i class="fa fa-user"></i><span>My Profile</span></a></li>
+
+                    <li id="menuNetworks"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_GREEN_HOUSE);%>"><i class="fa fa-tree"></i><span>&nbsp; Green Houses</span></a></li>
+
+                    <li id="menuChargePoints"><a href="/Dashboards/Admin/AdminChargePoints.aspx"><i class="fa fa-plug"></i><span>Points</span></a></li>
+
+                    <li id="menuLocations"><a href="/Dashboards/Admin/AdminLocations.aspx"><i class="fa fa-map-marker"></i><span>Locations</span></a></li>
+
+                    <li id="menuNetworkOwners"><a href="/Dashboards/Admin/AdminNetworkOwners.aspx"><i class="fa fa-user-md"></i><span>Green House Owners</span></a></li>
+
+                    <li id="menuPointOwners"><a href="/Dashboards/Admin/AdminPointOwners.aspx"><i class="fa fa-user-md"></i><span>Point Owners</span></a></li>
+
+                    <li id="menuCustomers"><a href="/Dashboards/Admin/AdminCustomers.aspx"><i class="ionicons ion-battery-charging"></i><span>&nbsp; Customers</span></a></li>
+
+                    <li class="header">VIEW</li>
+
+                    <li id="menuSummary"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_DATA_VISUALIZER);%>"><i class="fa fa-area-chart"></i><span>Data Visualization</span></a></li>
+
+                    <li id="menuTransactions"><a href="/Dashboards/Admin/AdminTransactions.aspx"><i class="fa fa-area-chart"></i><span>Transactions</span></a></li>
+
+                    <li id="menuReloads"><a href="/Dashboards/Admin/AdminReloads.aspx"><i class="fa fa-money"></i><span>Reloads</span></a></li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- =============================================== -->
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>
+                    <asp:ContentPlaceHolder ID="cphH1Main" runat="server"></asp:ContentPlaceHolder>
+                    <small>
+                        <asp:ContentPlaceHolder ID="cphH1Small" runat="server"></asp:ContentPlaceHolder>
+                    </small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a><i class="fa fa-dashboard"></i>Home</a></li>
+                    <li><a href="index.aspx">Dashboard</a></li>
+                    <li class="active">
+                        <asp:ContentPlaceHolder ID="cphBreadcrumbs" runat="server"></asp:ContentPlaceHolder>
+                    </li>
+                </ol>
+
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container body-content">
+
+                    <% 
+                        //If "error" is returned the "alert-danger" div is displayed.
+                        //If "message" is returned the "alert-success" div is displayed.
+                        //Each value is validated against the SHA1 encryption value returned in the "token" variable. 
+                        String value = Request.QueryString["message"];
+                        String valueError = Request.QueryString["error"];
+                        String token = Request.QueryString["token"];
+                        if (value != null && token == AiGrow.Encryption.createSHA1(value))
+                        {
+                    %>
+                    <div class="alert alert-dismissable alert-success">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Message: </strong><% Response.Write(value); %>
+                    </div>
+                    <% }
+                        else if (valueError != null && token == AiGrow.Encryption.createSHA1(valueError))
+                        {
+                    %>
+                    <div class="alert alert-dismissable alert-danger">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Error: </strong><% Response.Write(valueError); %>
+                    </div>
+                    <% } %>
+
+                    <div id="errorDiv" runat="server" class="alert alert-dismissable alert-danger">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong id="strongText" runat="server">Error:</strong>
+                        <div id="errorMessage" runat="server"></div>
+                    </div>
+
+                    <div id="successDiv" runat="server" class="alert alert-dismissable alert-success">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong id="strongTextSuccess" runat="server">Message:</strong>
+                        <div id="successMessage" runat="server"></div>
+                    </div>
+                </div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </section>
+        </div>
+        <!-- /.content -->
+
+
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 2.4.0
+   
+            </div>
+            <strong>Copyright &copy; 2014-2016 <a href="https://aigrow.lk">AiGrow</a>.</strong> All rights
+    reserved.
+ 
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery 3 -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../dist/js/demo.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidebar-menu').tree()
+        })
+</script>
+</body>
+
+</html>

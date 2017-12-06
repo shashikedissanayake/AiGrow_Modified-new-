@@ -1,0 +1,204 @@
+*, *:before, *:after {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px}
+
+.alert-danger{color:#b94a48;background-color:#f2dede;border-color:#eed3d7}
+
+.alert-dismissable{padding-right:35px}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  padding: 1px 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: "Comfortaa", "Helvetica", sans-serif;
+}
+
+.login {
+  max-width: 280px;
+  min-height: 500px;
+  margin: 30px auto;
+  background-color: rgba(10, 10, 10, 0.20);
+}
+
+.login-icon-field {
+  height: 250px;
+  width: 100%;
+}
+
+.login-icon {
+  margin: 50px 65px;
+}
+
+.login-form {
+  padding: 8px 20px 20px;
+  height: 120px;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+.row {
+  display: none;
+}
+
+.username-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.password-row {
+  position: relative;
+  height: 40px;
+ /* background-color: grey;*/
+  border-bottom: 1px solid;
+}
+
+.password-icon,
+.user-icon {
+  margin: 5px;
+}
+
+.password-icon .key-path,
+.user-icon .user-path{
+  fill: rgba(10,10,10,0);
+  stroke: #fff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  -webkit-animation: dash 3s .3s linear forwards;
+  animation: dash 3s .3s linear forwards;
+}
+
+.user-icon .user-path {
+  -webkit-animation: dash 3s .8s linear forwards;
+  animation: dash 3s .8s linear forwards;
+}
+
+input[type="checkbox"]{
+  width: 12px; /*Desired width*/
+  height: 12px; /*Desired height*/
+  cursor: pointer;
+  font-size: 10px;
+}
+
+input {
+  position: absolute;
+  width: 195px;
+  height: 30px;
+  margin: 5px 0;
+  background: transparent;
+  border: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,.4);
+}
+
+input::-moz-placeholder {
+  color: rgba(255,255,255,.4);
+}
+
+.call-to-action {
+  margin: 22px 0;
+  height: 130px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+#loginButton {
+  display: block;
+  width: 100px;
+  height: 40px;
+  padding: 0;
+  margin: 10px 20px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #52d923;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+#loginButton:hover {
+  background-color: #26d69a;
+}
+
+#loginButton:active {
+  background-color: #0ab20d;
+}
+
+p.login__signup {
+    text-align:end;
+    }
+
+p {
+  display: inline-block;
+  width: 170px;
+  margin: 0 40px;
+  font-size: 1rem;
+  color: rgba(255,255,255,.9);
+  /*background-color: yellow;*/
+}
+
+.forgot {
+  margin: 10px 0;
+  height: 1px;
+  width: 100%;
+  text-align="end"
+}
+
+p a {
+  color: #fff;
+}
+p a:hover{
+    color:rgba(255,255,255,.4)
+}
+
+label,
+p a:hover {
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+ #footer p {color: yellow;}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
