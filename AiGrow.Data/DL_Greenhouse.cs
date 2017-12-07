@@ -52,7 +52,7 @@ namespace AiGrow.Data
 
         public DataTable selectAllGreenhouses()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_unique_id FROM greenhouse");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_unique_id, greenhouse_id FROM greenhouse");
         }
 
         

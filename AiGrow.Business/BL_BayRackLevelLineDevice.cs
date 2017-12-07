@@ -8,14 +8,19 @@ namespace AiGrow.Business
 {
     public class BL_BayRackLevelLineDevice
     {
-        public bool insert(AiGrow.Model.ML_BayRackLevelLineDevice device)
-        {
-            return new DL_BayRackLevelLineDevice().insert(device);
-        }
+        //public bool insert(AiGrow.Model.ML_BayRackLevelLineDevice device)
+        //{
+        //    return new DL_BayRackLevelLineDevice().insert(device);
+        //}
 
-        public bool doesDeviceExist(string device)
+        //public bool doesDeviceExist(string device)
+        //{
+        //    return new DL_BayRackLevelLineDevice().doesDeviceExist(device);
+        //}
+
+        public System.Data.DataTable selectAllDevices(string id)
         {
-            return new DL_BayRackLevelLineDevice().doesDeviceExist(device);
+            throw new NotImplementedException();
         }
     }
 }

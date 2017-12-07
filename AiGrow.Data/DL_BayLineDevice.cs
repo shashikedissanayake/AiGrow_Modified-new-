@@ -31,5 +31,13 @@ namespace AiGrow.Data
             int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `bay_line_device` WHERE bay_line_device_unique_id = @device_id", para).Rows.Count;
             return count >= 1;
         }
+
+        public DataTable selectAllDevices(string id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@device_id", id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_line_device_unique_id, device_id FROM bay_line_device bld WHERE bld.bay_line_id = @device_id", para);
+        }
     }
 }
