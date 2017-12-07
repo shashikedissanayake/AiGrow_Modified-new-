@@ -35,9 +35,9 @@ namespace AiGrow.Data
         public DataTable selectAllDevices(string id)
         {
             var para = new MySqlParameter[1];
-            para[0] = new MySqlParameter("@device_id", id);
+            para[0] = new MySqlParameter("@greenhouse_id", id);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_device_unique_id, device_id FROM bay_line_device bld WHERE bld.bay_line_id = @device_id", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_device_unique_id AS device_unique_id FROM greenhouse_device gd WHERE gd.greenhouse_id = @greenhouse_id", para);
         }
     }
 }

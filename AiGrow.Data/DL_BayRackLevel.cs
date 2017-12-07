@@ -10,7 +10,7 @@ namespace AiGrow.Data
     {
         public System.Data.DataTable selectAllLevels()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT level_unique_id,level_id FROM level");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT level_unique_id AS unique_id,level_id AS id FROM level");
         }
     }
 }

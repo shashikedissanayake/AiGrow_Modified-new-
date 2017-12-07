@@ -19,34 +19,21 @@ namespace AiGrow.Portal.Dashboards.Admin
             {
                 gridGetDataSet();
                 gvNetworks.DataBind();
-                selectGreenHouses_DataBinding();
             }
         }
 
-        private void selectGreenHouses_DataBinding()
-        {
-            DataTable dt_owner_user_names = new BL_Greenhouse().selectAllGreenhouses();
-            //Map the list to the username list box.
-            selectGreenHouses.DataSource = dt_owner_user_names;
-            selectGreenHouses.DataValueField = "greenhouse_id";
-            selectGreenHouses.DataTextField = "greenhouse_unique_id";
-            selectGreenHouses.DataBind();
-           
-        }
+
 
         protected void gvNetworks_DataBinding(object sender, EventArgs e)
         {
+            selectGreenHouses.DataValueField = "greenhouse_id";
+            selectGreenHouses.DataTextField = "greenhouse_unique_id";
             gridGetDataSet();
         }
 
         private void gridGetDataSet()
         {
             gvNetworks.DataSource = new BL_Greenhouse().select();
-
-        }
-
-        protected void addNewgreenhouse(object sender, EventArgs e)
-        {
 
         }
     }

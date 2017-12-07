@@ -20,5 +20,13 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO bay_device_data (device_unique_id, received_time, data, data_unit) VALUES (@unique_id, @time, @data, @unit)", para) != -1;
         }
+
+        public DataTable selectDataSet(string device)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@device_id", device);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bdd.received_time, bdd.data FROM bay_device_data bdd WHERE bdd.device_unique_id = @device_id;", para);
+        }
     }
 }

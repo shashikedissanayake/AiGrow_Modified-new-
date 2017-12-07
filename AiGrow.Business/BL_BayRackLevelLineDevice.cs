@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AiGrow.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +21,7 @@ namespace AiGrow.Business
 
         public System.Data.DataTable selectAllDevices(string id)
         {
-            throw new NotImplementedException();
+            return new DL_BayRackLevelLineDevice().selectAllDevices(id);
         }
     }
 }

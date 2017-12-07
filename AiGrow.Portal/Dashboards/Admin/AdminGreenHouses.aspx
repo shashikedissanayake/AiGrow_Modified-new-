@@ -14,7 +14,7 @@
     Green Houses
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MainContent" runat="server">
-    <center><button runat="server" id="addNewghButton" style="display: block; width: 220px; height: 40px; padding: 0; margin: 10px 20px 10px; font-weight: 700; color: #fff; background-color: #419325; border: none; border-radius: 20px; transition: background-color .10s ease-in-out; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;" onserverclick="addNewgreenhouse">Create New Greenhouse</button></center>
+    
     <form runat="server">
         <center> <dx:ASPxGridView ID="gvNetworks" runat="server" AutoGenerateColumns="False" OnDataBinding="gvNetworks_DataBinding" Width="80%">
             <SettingsEditing Mode="Inline">
