@@ -14,9 +14,13 @@ namespace AiGrow.Business
             return new DL_BayRackLevelDeviceData().insert(data);
         }
 
-        public bool doesDeviceExist(string device)
+        //public bool doesDeviceExist(string device)
+        //{
+        //    return new DL_BayRackLevelDevice().doesDeviceExist(device);
+        //}
+        public System.Data.DataTable selectDataSet(string device)
         {
-            return new DL_BayRackLevelDevice().doesDeviceExist(device);
+            throw new NotImplementedException();
         }
     }
 }
