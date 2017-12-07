@@ -101,6 +101,7 @@ namespace AiGrow.DeviceServer
         public const string bayNotRegsitered = "Bay registration error.";
         public const string lineNotRegsitered = "Line registration error.";
         public const string rackNotRegsitered = "Rack registration error.";
+        public const string rackLevelNotRegsitered = "Rack level registration error.";
         public const string messageNotSent = "The SMS was not sent.";
         public const string invalidTransactionID = "The supplied transaction ID is invalid or malformed.";
         public const string duplicateStopRequest = "Duplicate stop request for a stopped transaction ID.";
@@ -128,6 +129,7 @@ namespace AiGrow.DeviceServer
         public const string bayLineDevice = "registerBayLineDevice";
         public const string bayRack = "registerBayRack";
         public const string bayRackDevice = "registerBayRackDevice";
+        public const string bayRackLevel = "registerBayRackLevel";
 
         public static int greenhouse_device = 1;
         public static int bay_device = 2;
@@ -143,6 +145,7 @@ namespace AiGrow.DeviceServer
         public static string BAY_REGISTERED_SUCCESSFULLY = "Bay Registered succesfully";
         public static string LINE_REGISTERED_SUCCESSFULLY = "Line Registered succesfully";
         public static string RACK_REGISTERED_SUCCESSFULLY = "Rack Registered succesfully";
+        public static string RACK_LEVEL_REGISTERED_SUCCESSFULLY = "Rack Level Registered succesfully";
         public static string DEVICE_REGISTERED_SUCCESSFULLY = "Device Registered succesfully";
 
         public static string DUPLICATE_BAY = "Bay Already Exists";
@@ -151,7 +154,10 @@ namespace AiGrow.DeviceServer
         public static string DUPLICATE_GREENHOUSE_DEVICE = "Greenhouse Device Already Exists";
         public static string DUPLICATE_BAY_LINE = "Bay Line Already Exists";
         public static string DUPLICATE_BAY_RACK = "Bay Rack Already Exists";
+        public static string DUPLICATE_BAY_RACK_LEVEL = "Bay Rack Level Already Exists";
+        public static string DUPLICATE_BAY_RACK_LEVEL_LINE = "Bay Rack Level Line Already Exists";
         public static string DUPLICATE_BAY_LINE_DEVICE = "Bay Line Device Already Exists";
+        public static string DUPLICATE_BAY_RACK_LEVEL_DEVICE = "Bay Rack Level Device Already Exists";
         
         #endregion
 

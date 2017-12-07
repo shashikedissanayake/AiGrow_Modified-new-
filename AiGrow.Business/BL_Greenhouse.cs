@@ -48,7 +48,7 @@ namespace AiGrow.Business
                     return new DL_BayRackLevel().selectAllLevels();
                     
                 case "level_line":
-                    return new DL_BayRackLevelLevelline().selectAllLevellines();
+                    return new DL_BayRackLevelLine().selectAllLevellines();
                     
                 case "rack":
                     return new DL_BayRack().selectAllRacks();

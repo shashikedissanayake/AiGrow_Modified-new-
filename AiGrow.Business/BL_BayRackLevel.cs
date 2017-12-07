@@ -9,13 +9,13 @@ namespace AiGrow.Business
 {
     public class BL_BayRackLevel
     {
-        //public bool doesBayRackLevelExist(string bayRackLevel)
-        //{
-        //    return new DL_BayRackLevel().doesBayRackExist(bayRackLevel);
-        //}
-        //public bool insert(AiGrow.Model.ML_BayRack bayRackLevel)
-        //{
-        //    return new DL_BayRackLevel().insert(bayRackLevel);
-        //}
+        public bool doesBayRackLevelExist(string bayRackLevel)
+        {
+            return new DL_BayRackLevel().doesBayRackLevelExist(bayRackLevel);
+        }
+        public bool insert(AiGrow.Model.ML_BayRackLevel bayRackLevel)
+        {
+            return new DL_BayRackLevel().insert(bayRackLevel);
+        }
     }
 }

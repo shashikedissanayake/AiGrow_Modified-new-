@@ -20,14 +20,14 @@ namespace AiGrow.Data
             para[5] = new MySqlParameter("@status", device.status);
             para[1] = new MySqlParameter("@units", device.default_unit);
 
-            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO rack_device (device_unique_id, device_type, io_type, rack_id, default_unit, status) VALUES (@device_unique_id, @device_type, @io_type, @rack_line_id, @units, @status);", para) != -1;
+            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO rack_device (rack_device_unique_id, device_type, io_type, rack_id, default_unit, status) VALUES (@device_unique_id, @device_type, @io_type, @rack_line_id, @units, @status);", para) != -1;
         }
         public bool doesDeviceExist(string device)
         {
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@device_id", device);
 
-            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `rack_device` WHERE device_unique_id = @device_id", para).Rows.Count;
+            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `rack_device` WHERE rack_device_unique_id = @device_id", para).Rows.Count;
             return count >= 1;
         }
 

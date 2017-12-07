@@ -10,6 +10,8 @@ namespace AiGrow.DeviceServer
         public string bay_rack_unique_id { get; set; }
         public int bay_id { get; set; }
         public List<BayRackDeviceRequest> listOfRackDevices { get; set; }
+        public List<BayRackLevelRequest> listOfRackLevels { get; set; }
+
 
     }
 }

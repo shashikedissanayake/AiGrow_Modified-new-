@@ -11,8 +11,13 @@ namespace AiGrow.DeviceServer
 
             new Thread(delegate()
             {
-                new MQTTHandler().Subscribe();
+                new MQTTHandler().Initiate();
             }).Start();
+
+            //new Thread(delegate()
+            //{
+            //    new NewMQTT().Initiate();
+            //}).Start();
 
             // new MQTTHandler().Subscribe();        
         }

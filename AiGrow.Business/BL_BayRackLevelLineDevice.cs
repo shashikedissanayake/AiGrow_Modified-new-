@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AiGrow.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,15 +9,15 @@ namespace AiGrow.Business
 {
     public class BL_BayRackLevelLineDevice
     {
-        //public bool insert(AiGrow.Model.ML_BayRackLevelLineDevice device)
-        //{
-        //    return new DL_BayRackLevelLineDevice().insert(device);
-        //}
+        public bool insert(AiGrow.Model.ML_BayRackLevelLineDevice device)
+        {
+            return new DL_BayRackLevelLineDevice().insert(device);
+        }
 
-        //public bool doesDeviceExist(string device)
-        //{
-        //    return new DL_BayRackLevelLineDevice().doesDeviceExist(device);
-        //}
+        public bool doesDeviceExist(string device)
+        {
+            return new DL_BayRackLevelLineDevice().doesDeviceExist(device);
+        }
 
         public System.Data.DataTable selectAllDevices(string id)
         {

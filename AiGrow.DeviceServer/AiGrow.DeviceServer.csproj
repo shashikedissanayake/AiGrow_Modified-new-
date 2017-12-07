@@ -46,7 +46,7 @@
       <HintPath>..\..\MQTTAmazon\MQTTAmazon\bin\Debug\AWSSDK.IoT.dll</HintPath>
     </Reference>
     <Reference Include="M2Mqtt.Net, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
+      <HintPath>..\packages\Plt.M2Mqtt.4.3.0.2\lib\net45\M2Mqtt.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp">
@@ -144,6 +144,9 @@
     <Compile Include="Tables\BayLineDeviceRequest.cs" />
     <Compile Include="Tables\BayLineRequest.cs" />
     <Compile Include="Tables\BayRackDeviceRequest.cs" />
+    <Compile Include="Tables\BayRackLevelDeviceRequest.cs" />
+    <Compile Include="Tables\BayRackLevelLineRequest.cs" />
+    <Compile Include="Tables\BayRackLevelRequest.cs" />
     <Compile Include="Tables\BayRackRequest.cs" />
     <Compile Include="Tables\BayRequest.cs" />
     <Compile Include="Tables\GreenhouseDeviceRequest.cs" />
@@ -183,7 +186,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>24106</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

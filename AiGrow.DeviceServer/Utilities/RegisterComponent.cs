@@ -68,6 +68,35 @@ namespace AiGrow.DeviceServer
                     device.requestID = rack.requestID;
                     new DatabaseUpdate().registerBayRackDevice(device);
                 }
+
+                foreach (BayRackLevelRequest level in rack.listOfRackLevels)
+                {
+                    level.requestID = rack.requestID;
+                    new DatabaseUpdate().registerBayRackLevel(level);
+                }
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+        public bool registerBayRackLevel(BayRackLevelRequest level)
+        {
+            try
+            {
+                new DatabaseUpdate().registerBayRackLevel(level);
+
+                foreach (BayRackLevelDeviceRequest device in level.listOfLevelDevices)
+                {
+                    device.requestID = level.requestID;
+                    new DatabaseUpdate().registerBayRackLevelDevice(device);
+                }
+                foreach (BayRackLevelLineRequest line in level.listOfLevelLines)
+                {
+                    line.requestID = level.requestID;
+                    new DatabaseUpdate().registerBayRackLevelLine(line);
+                }
             }
             catch
             {

@@ -183,7 +183,7 @@ namespace AiGrow.DeviceServer
                     default_unit = bayLineDevice.default_unit,
                     device_type = bayLineDevice.device_type,
                     io_type = bayLineDevice.io_type,
-                    line_id = bayLineDevice.bay_line_id,
+                    bay_line_id = bayLineDevice.bay_line_id,
                     status = bayLineDevice.status
                 });
                 return true;
@@ -201,6 +201,80 @@ namespace AiGrow.DeviceServer
                 return false;
             }
         }
+        public void registerBayRackLevel(BayRackLevelRequest bayRackLevel)
+        {
+            if (!(new AiGrow.Business.BL_BayRackLevel().doesBayRackLevelExist(bayRackLevel.bay_rack_level_unique_id)))
+            {
+                new BL_BayRackLevel().insert(new ML_BayRackLevel()
+                {
+                    level_id = bayRackLevel.level_id,
+                    level_unique_id = bayRackLevel.bay_rack_level_unique_id
+                });
+            }
+            else
+            {
+                BaseResponse response = new BaseResponse();
+                response.success = false;
+                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK;
+                response.requestID = bayRackLevel.requestID;
+                response.deviceID = bayRackLevel.bay_rack_level_unique_id;
+                response.errorCode = UniversalProperties.EC_RegistrationError;
+                string responseJSON = new JavaScriptSerializer().Serialize(response);
+                new MQTTHandler().Publish(UniversalProperties.MQTT_topic, responseJSON);
+            }
+        }
+        public bool registerBayRackLevelDevice(BayRackLevelDeviceRequest bayRackLevelDevice)
+        {
+            if (!(new AiGrow.Business.BL_BayRackLevelDevice().doesDeviceExist(bayRackLevelDevice.level_device_unique_id)))
+            {
+                new BL_BayRackLevelDevice().insert(new ML_BayRackLevelDevice()
+                {
+                    level_device_unique_id = bayRackLevelDevice.level_device_unique_id,
+                    level_device_name = bayRackLevelDevice.level_device_name,
+                    default_unit = bayRackLevelDevice.default_unit,
+                    device_type = bayRackLevelDevice.device_type,
+                    io_type = bayRackLevelDevice.io_type,
+                    level_id = bayRackLevelDevice.level_id,
+                    status = bayRackLevelDevice.status
+                });
+                return true;
+            }
+            else
+            {
+                BaseResponse response = new BaseResponse();
+                response.success = false;
+                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK_LEVEL_DEVICE;
+                response.errorCode = UniversalProperties.EC_RegistrationError;
+                response.requestID = bayRackLevelDevice.requestID;
+                response.deviceID = bayRackLevelDevice.level_device_unique_id;
+                string responseJSON = new JavaScriptSerializer().Serialize(response);
+                new MQTTHandler().Publish(UniversalProperties.MQTT_topic, responseJSON);
+                return false;
+            }
+        }
+        public void registerBayRackLevelLine(BayRackLevelLineRequest bayRackLevelLine){
+        
+            if (!(new AiGrow.Business.BL_BayRackLevelLine().doesBayRackLevelLineExist(bayRackLevelLine.level_line_unique_id)))
+            {
+                new BL_BayRackLevelLine().insert(new ML_BayRackLevelLine()
+                {
+                    level_id = bayRackLevelLine.level_id,
+                    level_line_unique_id = bayRackLevelLine.level_line_unique_id
+                });
+            }
+            else
+            {
+                BaseResponse response = new BaseResponse();
+                response.success = false;
+                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK_LEVEL_LINE;
+                response.errorCode = UniversalProperties.EC_RegistrationError;
+                response.deviceID = bayRackLevelLine.level_line_unique_id;
+                response.requestID = bayRackLevelLine.requestID;
+                string responseJSON = new JavaScriptSerializer().Serialize(response);
+                new MQTTHandler().Publish(UniversalProperties.MQTT_topic, responseJSON);
+            }
+        }
+
         public void bayDeviceDataEntry(BaseDeviceRequest data)
         {
             string device = (data.deviceID).getUniqueID();
