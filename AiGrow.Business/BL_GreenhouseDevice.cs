@@ -18,5 +18,10 @@ namespace AiGrow.Business
         {
             return new DL_GreenhouseDevice().doesDeviceExist(device);
         }
+
+        public System.Data.DataTable selectAllDevices(string id)
+        {
+            return new DL_GreenhouseDevice().selectAllDevices(id);
+        }
     }
 }

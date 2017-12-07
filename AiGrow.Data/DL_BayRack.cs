@@ -29,7 +29,7 @@ namespace AiGrow.Data
 
         public DataTable selectAllRacks()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT rack_unique_id FROM rack");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT rack_unique_id, rack_id FROM rack");
         }
     }
 }

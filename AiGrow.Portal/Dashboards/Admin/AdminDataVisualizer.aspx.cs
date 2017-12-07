@@ -11,6 +11,9 @@ namespace AiGrow.Portal.Dashboards.Admin
 {
     public partial class AdminDataVisualizer : System.Web.UI.Page
     {
+        private string location;
+        private string id;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             Master.FindControl("errorDiv").Visible = false;
@@ -26,24 +29,24 @@ namespace AiGrow.Portal.Dashboards.Admin
 
         protected void table_Select(object sender, EventArgs e)
         {
-            string selected = selectLocation.SelectedValue;
+            location = selectLocation.SelectedValue;
             selectId.Visible = true;
             Label1.Visible = true;
             Label2.Visible = false;
             selectDevice.Visible = false;
-            selectId_DataBinding(selected);
+            selectId_DataBinding();
         }
 
        
 
         protected void id_select(object sender, EventArgs e)
         {
-            string selected = selectId.SelectedValue;
+            id = selectId.SelectedValue;
             selectId.Visible = true;
             Label1.Visible = true;
             Label2.Visible = true;
             selectDevice.Visible = true;
-            selectDevice_DataBinding(selected);
+            selectDevice_DataBinding();
         }
 
         protected void device_select(object sender, EventArgs e)
@@ -51,11 +54,38 @@ namespace AiGrow.Portal.Dashboards.Admin
 
         }
 
-        private void selectDevice_DataBinding(string tableName)
+        private void selectDevice_DataBinding()
         {
-            
+            DataTable dt_device_names;
 
-            DataTable dt_device_names = new BL_Greenhouse().selectUniqueIdsByTableName(tableName);
+            switch (location)
+            {
+                case "bay_line":
+                    dt_device_names = new BL_BayLineDevice().selectAllDevices(id);
+                    break;
+
+                case "greenhouse":
+                    dt_device_names = new BL_GreenhouseDevice().selectAllDevices(id);
+                    break;
+
+                //case "level":
+                //    dt_device_names = new BL_BayRackLevelDevice().selectAllDevices(id);
+                //    break;
+
+                //case "level_line":
+                //    dt_device_names = new BL_BayRackLevelLineDevice().selectAllDevices(id);
+                //    break;
+
+                case "rack":
+                    dt_device_names = new BL_BayRackDevice().selectAllDevices(id);
+                    break;
+
+                default:
+                    dt_device_names = new BL_BayDevice().selectAllDevices(id);
+                    break;
+            }
+
+            
             //Map the list to the username list box.
             selectDevice.DataSource = dt_device_names;
             selectDevice.DataValueField = "device_unique_id";
@@ -64,13 +94,12 @@ namespace AiGrow.Portal.Dashboards.Admin
 
         }
 
-        private void selectId_DataBinding(string tableName)
+        private void selectId_DataBinding()
         {
-            DataTable dt_id_names = new BL_Greenhouse().selectUniqueIdsByTableName(tableName);
-            //Map the list to the username list box.
+            DataTable dt_id_names = new BL_Greenhouse().selectUniqueIdsByTableName(location);
             selectId.DataSource = dt_id_names;
-            selectId.DataValueField = tableName+"_unique_id";
-            selectId.DataTextField = tableName + "_unique_id";
+            selectId.DataValueField = location+"_id";
+            selectId.DataTextField = location + "_unique_id";
             selectId.DataBind();
 
         }

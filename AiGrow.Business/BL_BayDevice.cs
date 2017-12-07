@@ -18,5 +18,10 @@ namespace AiGrow.Business
         {
             return new DL_BayDevice().doesDeviceExist(device);
         }
+
+        public System.Data.DataTable selectAllDevices(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
