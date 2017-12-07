@@ -53,8 +53,11 @@ namespace AiGrow.Business
                 case "rack":
                     return new DL_BayRack().selectAllRacks();
                     
-                default :
+                case "bay" :
                     return new DL_Bay().selectAllBays();
+
+                default :
+                    return null;
             }
             
         }

@@ -14,5 +14,10 @@ namespace AiGrow.Business
             return new DL_BayDeviceData().insert(data);
         }
 
+
+        public System.Data.DataTable selectDataSet(string device)
+        {
+            return new DL_BayDeviceData().selectDataSet(device);
+        }
     }
 }

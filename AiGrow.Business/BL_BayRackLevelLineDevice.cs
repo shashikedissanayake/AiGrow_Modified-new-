@@ -21,7 +21,7 @@ namespace AiGrow.Business
 
         public System.Data.DataTable selectAllDevices(string id)
         {
-            throw new NotImplementedException();
+            return new DL_BayRackLevelLineDevice().selectAllDevices(id);
         }
     }
 }

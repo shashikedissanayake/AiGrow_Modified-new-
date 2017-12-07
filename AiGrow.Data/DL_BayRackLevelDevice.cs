@@ -31,5 +31,12 @@ namespace AiGrow.Data
             return count >= 1;
         }
 
+        public System.Data.DataTable selectAllDevices(string id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@level_id", id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT level_device_unique_id AS device_unique_id FROM level_device ld WHERE ld.level_id = @level_id", para);
+        }
     }
 }

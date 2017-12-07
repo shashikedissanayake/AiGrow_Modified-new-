@@ -23,5 +23,9 @@ namespace AiGrow.Business
         //{
         //    return new DL_BayRackLevelDevice().selectAllDevices(id);
         //}
+        public System.Data.DataTable selectAllDevices(string id)
+        {
+            return new DL_BayRackLevelDevice().selectAllDevices(id);
+        }
     }
 }

@@ -29,7 +29,7 @@ namespace AiGrow.Data
 
         public DataTable selectAllBayLines()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_line_unique_id, bay_line_id FROM bay_line");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_line_unique_id AS unique_id, bay_line_id AS id FROM bay_line");
         }
     }
 }
