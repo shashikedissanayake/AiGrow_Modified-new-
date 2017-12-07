@@ -1,50 +1,71 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Web;
-using System.Web.Script.Serialization;
+using System.Net;
 using uPLibrary.Networking.M2Mqtt;
-using uPLibrary.Networking.M2Mqtt.Messages;
+using System.Web.Script.Serialization;
+using System.Text;
+using System.Threading;
 
 namespace AiGrow.DeviceServer
 {
     public class MQTTHandler
     {
-
-        static string clientCert_path = "";
-        static string caCert_path = "";
+        public void Initiate()
+        {
+            ApplicationUtilities.writeMsg("Initiating");
+            Subscribe();
+        }
         public void Subscribe()
         {
-            string IotEndpoint = "a2o8dyvqdg4v1r.iot.us-west-2.amazonaws.com";
-            int BrokerPort = 8883;
+            try
+            {
+                string IotEndpoint = "a2o8dyvqdg4v1r.iot.us-west-2.amazonaws.com";
+                int BrokerPort = 8883;
 
-            string path = System.Web.Hosting.HostingEnvironment.MapPath("/");
-            string path2 = System.Web.Hosting.HostingEnvironment.MapPath("/root.pem");
+                string path = System.Web.Hosting.HostingEnvironment.MapPath("/");
+                string path2 = System.Web.Hosting.HostingEnvironment.MapPath("/root.pem");
 
-            X509Certificate2 clientCert = new X509Certificate2(path + "070bf213e6-certificate.pem.pfx", "", X509KeyStorageFlags.MachineKeySet);
-            X509Certificate caCert = X509Certificate.CreateFromSignedFile(path2);
-            var client = new MqttClient(IotEndpoint, BrokerPort, true, caCert, clientCert, MqttSslProtocols.TLSv1_2);
+                X509Certificate2 clientCert = new X509Certificate2(path + "070bf213e6-certificate.pem.pfx", "", X509KeyStorageFlags.MachineKeySet);
+                X509Certificate caCert = X509Certificate.CreateFromSignedFile(path2);
+                var client = new MqttClient(IotEndpoint, BrokerPort, true, caCert, clientCert, MqttSslProtocols.TLSv1_2);
 
-            client.MqttMsgPublishReceived += ClientMqttMsgPublishReceived;
+                client.MqttMsgPublishReceived += ClientMqttMsgPublishReceived;
+                client.ConnectionClosed += client_ConnectionClosed;
 
-            client.Connect("listener");
 
-            client.Subscribe(new[] { UniversalProperties.MQTT_topic }, new[] { MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE });
+                client.Connect("listener");
 
-            //while (true)
-            //{
-            //    //listen good!
-            //}
+                client.Subscribe(new[] { UniversalProperties.MQTT_topic }, new[] { uPLibrary.Networking.M2Mqtt.Messages.MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE });
+                ApplicationUtilities.writeMsg("subscribed: " + DateTime.Now.ToString());
 
+                //while (true)  
+                //{
+                //    //listen good!
+                //}
+            }
+            catch (Exception ex)
+            {
+                ApplicationUtilities.writeMsg("ERROR: " + ex.Message.ToString());
+                Thread.Sleep(3000);
+                Initiate();
+            }
+        }
+        private void client_ConnectionClosed(object sender, EventArgs e)
+        {
+            ApplicationUtilities.writeMsg("Connection closed: " + DateTime.Now.ToString());
+            Subscribe();
         }
 
-        public void ClientMqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
+        public void ClientMqttMsgPublishReceived(object sender, uPLibrary.Networking.M2Mqtt.Messages.MqttMsgPublishEventArgs e)
         {
             BaseResponse response = new BaseResponse();
             bool msgSent = false;
             string JSONMessage = System.Text.Encoding.UTF8.GetString(e.Message);
-
+            ApplicationUtilities.writeMsg("\nreceived: " + DateTime.Now.ToString());
             try
             {
                 BaseRequest request = new JavaScriptSerializer().Deserialize<BaseRequest>(JSONMessage);
@@ -65,7 +86,6 @@ namespace AiGrow.DeviceServer
                 if (request.command == null)
                 {
                     return;
-
                 }
 
                 switch (request.command)
@@ -275,7 +295,26 @@ namespace AiGrow.DeviceServer
                             msgSent = true;
                         }
                         break;
-
+                    case UniversalProperties.bayRackLevel:
+                        BayRackLevelRequest bayRackLevel = new JavaScriptSerializer().Deserialize<BayRackLevelRequest>(JSONMessage);
+                        bool rackLevelRegistered = new RegisterComponent().registerBayRackLevel(bayRackLevel);
+                        if (!rackLevelRegistered)
+                        {
+                            response.errorMessage = UniversalProperties.rackLevelNotRegsitered;
+                            response.errorCode = UniversalProperties.EC_RegistrationError;
+                            response.requestID = bayRackLevel.requestID;
+                            response.deviceID = bayRackLevel.bay_rack_level_unique_id;
+                            response.success = false;
+                            break;
+                        }
+                        else
+                        {
+                            response.message = UniversalProperties.RACK_LEVEL_REGISTERED_SUCCESSFULLY;
+                            response.success = true;
+                            response.requestID = bayRackLevel.requestID;
+                            response.deviceID = bayRackLevel.bay_rack_level_unique_id;
+                            break;
+                        }
 
                     //*****************************USE DEVICE ENTRY FOR ALL OTHER QUERIES***********************
 
@@ -322,6 +361,7 @@ namespace AiGrow.DeviceServer
             }
             catch (Exception ex)
             {
+                ApplicationUtilities.writeMsg("mqtt publish exception" + System.DateTime.Now.ToString());
                 throw;
             }
             ApplicationUtilities.writeMsg("mqtt published  " + System.DateTime.Now.ToString());

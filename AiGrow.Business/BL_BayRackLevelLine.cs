@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AiGrow.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,13 @@ namespace AiGrow.Business
 {
     public class BL_BayRackLevelLine
     {
-        //public bool doesBayRackLineExist(string bayRackLevel)
-        //{
-        //    return new DL_BayRackLevel().doesBayRackExist(bayRackLevel);
-        //}
-        //public bool insert(AiGrow.Model.ML_BayRackLevel bayRackLevel)
-        //{
-        //    return new DL_BayRackLevel().insert(bayRackLevel);
-        //}
+        public bool doesBayRackLevelLineExist(string bayRackLevelLine)
+        {
+            return new DL_BayRackLevelLine().doesBayRackLevelLineExist(bayRackLevelLine);
+        }
+        public bool insert(AiGrow.Model.ML_BayRackLevelLine bayRackLevelLine)
+        {
+            return new DL_BayRackLevelLine().insert(bayRackLevelLine);
+        }
     }
 }

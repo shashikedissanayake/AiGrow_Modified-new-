@@ -9,9 +9,9 @@ namespace AiGrow.Business
 {
     public class BL_BayRackDeviceData
     {
-        public bool insert(AiGrow.Model.ML_BayRackDeviceData device)
+        public bool insert(AiGrow.Model.ML_BayRackDeviceData data)
         {
-            return new DL_BayRackDeviceData().insert(device);
+            return new DL_BayRackDeviceData().insert(data);
         }
 
         public bool doesDeviceExist(string device)

@@ -15,7 +15,7 @@ namespace AiGrow.Model
         public string default_unit { get; set; }
         public string status { get; set; }
         public int device_id { get; set; }
-        public int line_id { get; set; }
+        public int level_line_id { get; set; }
         public bool deleted { get; set; }
 
     }
