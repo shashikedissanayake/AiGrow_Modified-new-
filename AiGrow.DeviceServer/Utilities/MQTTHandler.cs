@@ -14,6 +14,8 @@ namespace AiGrow.DeviceServer
 {
     public class MQTTHandler
     {
+
+       //called in global.asax
         public void Initiate()
         {
             ApplicationUtilities.writeMsg("Initiating");

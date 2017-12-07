@@ -7,8 +7,6 @@ namespace AiGrow.DeviceServer
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            //  new MQTTHandler().Subscribe();
-
             new Thread(delegate()
             {
                 new MQTTHandler().Initiate();
