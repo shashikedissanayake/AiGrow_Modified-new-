@@ -24,23 +24,21 @@
             <asp:ListItem Value="rack">Rack</asp:ListItem>
         </asp:DropDownList><br />
 
-        <asp:Label ID="Label1" runat="server" Text="Select Unique ID:"></asp:Label><br />
+        <asp:Label ID="Label1" runat="server" Text="Select Unique ID:" Style="display: block;"></asp:Label><br />
 
         <asp:DropDownList ID="selectId" runat="server" AutoPostBack="True" OnSelectedIndexChanged="id_select"></asp:DropDownList><br />
 
-        <asp:Label ID="Label2" runat="server" Text="Select Unique Component:"></asp:Label><br />
+        <asp:Label ID="Label2" runat="server" Text="Select Unique Component:" Style="display: block"></asp:Label><br />
 
-        <asp:DropDownList ID="selectDevice" runat="server" AutoPostBack="True" OnSelectedIndexChanged="device_select"></asp:DropDownList>
-        <div>  
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>  
-        <asp:GridView ID="gvData" runat="server">  
-        </asp:GridView>  
-        <br />  
-        <br />  
-        <asp:Literal ID="ltScripts" runat="server"></asp:Literal>  
-        <div id="chart_div" style="width: 660px; height: 400px;">  
-        </div>  
-    </div> 
+        <asp:DropDownList ID="selectDevice" runat="server" AutoPostBack="True" OnSelectedIndexChanged="get_visualize_dataset"></asp:DropDownList><br />
+        <div>
+            <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+            <center>
+                <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
+                <div id="chart_div" style="width: 800px; height: 400px;"> 
+                </div>
+            </center>
+        </div>
 
 
     </form>

@@ -131,10 +131,11 @@
 
                 <!-- sidebar menu: : style can be found in sidebar.less -->
                 <ul class="sidebar-menu" data-widget="tree">
-                    <li class="header">MANAGEMENT</li>
-                    <li id="menuProfile"><a href="<% Response.Write(AiGrow.Constants.VIEW_PROFILE_URL_ADMIN);%>"><i class="fa fa-user"></i><span>My Profile</span></a></li>
+                    <li class="header">Transactions</li>
+                    <li id="menuProfile"><a href="<% Response.Write(AiGrow.Constants.VIEW_PROFILE_URL_ADMIN);%>"><i class="fa fa-user"></i><span>Profile</span></a></li>
 
-                    <li id="menuNetworks"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_GREEN_HOUSE);%>"><i class="fa fa-tree"></i><span>&nbsp; Green Houses</span></a></li>
+                    <li id="menuNetworks"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_GREEN_HOUSE);%>"><i class="fa fa-tree"></i><span>&nbsp; Green Houses
+                                                                                                                                                 </span></a></li>
 
                     <li id="menuChargePoints"><a href="/Dashboards/Admin/AdminChargePoints.aspx"><i class="fa fa-plug"></i><span>Points</span></a></li>
 
@@ -148,7 +149,7 @@
 
                     <li class="header">VIEW</li>
 
-                    <li id="menuSummary"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_DATA_VISUALIZER);%>"><i class="fa fa-area-chart"></i><span>Data Visualization</span></a></li>
+                    <li id="menuSummary"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_DATA_VISUALIZER);%>"><i class="fa fa-line-chart"></i><span>Device Summary</span></a></li>
 
                     <li id="menuTransactions"><a href="/Dashboards/Admin/AdminTransactions.aspx"><i class="fa fa-area-chart"></i><span>Transactions</span></a></li>
 
