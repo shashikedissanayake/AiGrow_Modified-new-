@@ -17,7 +17,7 @@ namespace AiGrow.Business
 
         public System.Data.DataTable selectDataSet(string device)
         {
-            throw new NotImplementedException();
+            return new DL_GreenhouseDeviceData().selectDataSet(device);
         }
     }
 }

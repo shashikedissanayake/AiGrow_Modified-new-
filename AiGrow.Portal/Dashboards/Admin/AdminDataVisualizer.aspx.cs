@@ -15,16 +15,16 @@ namespace AiGrow.Portal.Dashboards.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!this.IsPostBack) 
-            { 
+            if (!this.IsPostBack)
+            {
                 Master.FindControl("errorDiv").Visible = false;
                 Master.FindControl("successDiv").Visible = false;
-                selectDevice.Visible=false;
+                selectDevice.Visible = false;
                 selectId.Visible = false;
                 Label1.Visible = false;
-                Label2.Visible = false;   
+                Label2.Visible = false;
             }
-            
+
 
         }
 
@@ -35,6 +35,7 @@ namespace AiGrow.Portal.Dashboards.Admin
             Label1.Visible = true;
             Label2.Visible = false;
             selectDevice.Visible = false;
+            ltScripts.Text = null;
             selectId_GetDataSet(selected);
         }
 
@@ -47,10 +48,11 @@ namespace AiGrow.Portal.Dashboards.Admin
             Label1.Visible = true;
             Label2.Visible = true;
             selectDevice.Visible = true;
-            selectDevice_GetDataSet(location,id);
+            ltScripts.Text = null;
+            selectDevice_GetDataSet(location, id);
         }
 
-        protected void device_select(object sender, EventArgs e)
+        protected void get_visualize_dataset(object sender, EventArgs e)
         {
             string location = selectLocation.SelectedValue;
             string device = selectDevice.SelectedValue;
@@ -71,9 +73,9 @@ namespace AiGrow.Portal.Dashboards.Admin
                     dt_device_names = new BL_BayRackLevelDeviceData().selectDataSet(device);
                     break;
 
-                //case "level_line":
-                //    dt_device_names = new BL_BayRackLevelLineDeviceData().selectDataSet(device);
-                //    break;
+                case "level_line":
+                    dt_device_names = new BL_BayRackLevelLineDeviceData().selectDataSet(device);
+                    break;
 
                 case "rack":
                     dt_device_names = new BL_BayRackDeviceData().selectDataSet(device);
@@ -87,8 +89,15 @@ namespace AiGrow.Portal.Dashboards.Admin
                     dt_device_names = null;
                     break;
             }
+            if (dt_device_names.Rows.Count != 0)
+            {
+                BindChart(dt_device_names);
+            }
+            else
+            {
+                ltScripts.Text = "No Data.";
+            }
 
-            BindChart(dt_device_names);
 
         }
 
@@ -104,8 +113,8 @@ namespace AiGrow.Portal.Dashboards.Admin
                     google.load('visualization', '1', {packages: ['corechart']});</script>  
   
                     <script type='text/javascript'>  
-                    function drawChart() {         
-                    var data = google.visualization.arrayToDataTable([  
+                    function drawVisualization() {         
+                    var data = google.visualization.arrayToDataTable([   
                     ['received_time', 'data'],");
 
                 foreach (DataRow row in dsChartData.Rows)
@@ -115,8 +124,8 @@ namespace AiGrow.Portal.Dashboards.Admin
                 strScript.Remove(strScript.Length - 1, 1);
                 strScript.Append("]);");
 
-                strScript.Append("var options = { title: 'Device Data', curveType: 'function', legend: { position: 'bottom' } };");
-                strScript.Append(" var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  chart.draw(data, options); } google.setOnLoadCallback(drawChart);");
+                strScript.Append("var options = { title: 'Device Data', titleTextStyle: {  fontName: 'Spectral SC', fontSize: '35', bold: 'true', italic: 'true' }, hAxis: { title: 'Time' }, vAxis: { title: 'Sensor Reading' }, legend: { position: 'right' } };");
+                strScript.Append(" var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  chart.draw(data, options); } google.setOnLoadCallback(drawVisualization);");
                 strScript.Append(" </script>");
 
                 ltScripts.Text = strScript.ToString();
@@ -126,13 +135,12 @@ namespace AiGrow.Portal.Dashboards.Admin
             }
             finally
             {
-
                 strScript.Clear();
             }
         }
- 
 
-        private void selectDevice_GetDataSet(string location,string id)
+
+        private void selectDevice_GetDataSet(string location, string id)
         {
 
             DataTable dt_device_names;
@@ -163,7 +171,7 @@ namespace AiGrow.Portal.Dashboards.Admin
                     dt_device_names = new BL_BayDevice().selectAllDevices(id);
                     break;
 
-                default :
+                default:
                     dt_device_names = null;
                     break;
             }
@@ -183,6 +191,6 @@ namespace AiGrow.Portal.Dashboards.Admin
             selectId.DataBind();
         }
 
-       
+
     }
 }

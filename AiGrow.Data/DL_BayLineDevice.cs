@@ -39,5 +39,7 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_line_device_unique_id AS device_unique_id FROM bay_line_device bld WHERE bld.bay_line_id = @bay_line_id", para);
         }
+
+        
     }
 }

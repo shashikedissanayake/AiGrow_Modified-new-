@@ -28,7 +28,7 @@ namespace AiGrow.Data
         }
         public System.Data.DataTable selectAllLevellines()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT level_line_unique_id,level_line_id FROM level_line");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT level_line_unique_id AS unique_id, level_line_id AS id FROM level_line");
         }
     }
 }
