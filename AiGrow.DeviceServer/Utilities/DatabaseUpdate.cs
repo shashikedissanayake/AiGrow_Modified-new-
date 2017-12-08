@@ -6,6 +6,7 @@ using AiGrow.Business;
 using AiGrow.Model;
 using AiGrow.DeviceServer;
 using System.Web.Script.Serialization;
+using System.Data;
 
 namespace AiGrow.DeviceServer
 {
@@ -18,13 +19,13 @@ namespace AiGrow.DeviceServer
             {
                 new BL_GreenhouseDevice().insert(new ML_GreenhouseDevice()
                 {
-                 default_unit = greenhouseDevice.default_unit,
-                 device_type = greenhouseDevice.device_type,
-                 greenhouse_device_name = greenhouseDevice.greenhouse_device_name,
-                 greenhouse_device_unique_id = greenhouseDevice.greenhouse_device_unique_id,
-                 greenhouse_id = greenhouseDevice.greenhouse_id,
-                 io_type = greenhouseDevice.io_type,
-                 status = greenhouseDevice.status
+                    default_unit = greenhouseDevice.default_unit,
+                    device_type = greenhouseDevice.device_type,
+                    greenhouse_device_name = greenhouseDevice.greenhouse_device_name,
+                    greenhouse_device_unique_id = greenhouseDevice.greenhouse_device_unique_id,
+                    greenhouse_id = greenhouseDevice.greenhouse_id,
+                    io_type = greenhouseDevice.io_type,
+                    status = greenhouseDevice.status
                 });
                 return true;
             }
@@ -149,12 +150,12 @@ namespace AiGrow.DeviceServer
             {
                 new BL_BayRackDevice().insert(new ML_BayRackDevice()
                 {
-                 default_unit = rackDevice.default_unit,
-                 device_type = rackDevice.device_type,
-                 device_unique_id = rackDevice.device_unique_id,
-                 io_type = rackDevice.io_type,
-                 rack_id = rackDevice.rack_id,
-                 status = rackDevice.status
+                    default_unit = rackDevice.default_unit,
+                    device_type = rackDevice.device_type,
+                    device_unique_id = rackDevice.device_unique_id,
+                    io_type = rackDevice.io_type,
+                    rack_id = rackDevice.rack_id,
+                    status = rackDevice.status
                 });
                 return true;
             }
@@ -207,7 +208,7 @@ namespace AiGrow.DeviceServer
             {
                 new BL_BayRackLevel().insert(new ML_BayRackLevel()
                 {
-                    level_id = bayRackLevel.level_id,
+                    rack_id = bayRackLevel.rack_id,
                     level_unique_id = bayRackLevel.bay_rack_level_unique_id
                 });
             }
@@ -215,7 +216,7 @@ namespace AiGrow.DeviceServer
             {
                 BaseResponse response = new BaseResponse();
                 response.success = false;
-                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK;
+                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK_LEVEL;
                 response.requestID = bayRackLevel.requestID;
                 response.deviceID = bayRackLevel.bay_rack_level_unique_id;
                 response.errorCode = UniversalProperties.EC_RegistrationError;
@@ -252,8 +253,9 @@ namespace AiGrow.DeviceServer
                 return false;
             }
         }
-        public void registerBayRackLevelLine(BayRackLevelLineRequest bayRackLevelLine){
-        
+        public void registerBayRackLevelLine(BayRackLevelLineRequest bayRackLevelLine)
+        {
+
             if (!(new AiGrow.Business.BL_BayRackLevelLine().doesBayRackLevelLineExist(bayRackLevelLine.level_line_unique_id)))
             {
                 new BL_BayRackLevelLine().insert(new ML_BayRackLevelLine()
@@ -274,16 +276,45 @@ namespace AiGrow.DeviceServer
                 new MQTTHandler().Publish(UniversalProperties.MQTT_topic, responseJSON);
             }
         }
+        public bool registerBayRackLevelLineDevice(BayRackLevelLineDeviceRequest bayRackLevelLineDevice)
+        {
 
+            if (!(new AiGrow.Business.BL_BayRackLevelLineDevice().doesDeviceExist(bayRackLevelLineDevice.device_unique_id)))
+            {
+                new BL_BayRackLevelLineDevice().insert(new ML_BayRackLevelLineDevice()
+                {
+                    level_line_device_unique_id = bayRackLevelLineDevice.device_unique_id,
+                    level_line_device_name = bayRackLevelLineDevice.level_device_name,
+                    default_unit = bayRackLevelLineDevice.default_unit,
+                    device_type = bayRackLevelLineDevice.device_type,
+                    io_type = bayRackLevelLineDevice.io_type,
+                    level_line_id = bayRackLevelLineDevice.line_id,
+                    status = bayRackLevelLineDevice.status
+                });
+                return true;
+            }
+            else
+            {
+                BaseResponse response = new BaseResponse();
+                response.success = false;
+                response.errorMessage = UniversalProperties.DUPLICATE_BAY_RACK_LEVEL_LINE_DEVICE;
+                response.errorCode = UniversalProperties.EC_RegistrationError;
+                response.requestID = bayRackLevelLineDevice.requestID;
+                response.deviceID = bayRackLevelLineDevice.device_unique_id;
+                string responseJSON = new JavaScriptSerializer().Serialize(response);
+                new MQTTHandler().Publish(UniversalProperties.MQTT_topic, responseJSON);
+                return false;
+            }
+        }
         public void bayDeviceDataEntry(BaseDeviceRequest data)
         {
-            string device = (data.deviceID).getUniqueID();
+            //string device = (data.deviceID).getUniqueID();
             DateTime t = DateTime.Now;
             string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayDeviceData().insert(new ML_BayDeviceData()
             {
                 received_time = time,
-                device_unique_id = device,
+                device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
             });
@@ -291,42 +322,75 @@ namespace AiGrow.DeviceServer
 
         public void greenhouseDeviceDataEntry(BaseDeviceRequest data)
         {
-            string device = (data.deviceID).getUniqueID();
+            //string device = (data.deviceID).getUniqueID();
             DateTime t = DateTime.Now;
             string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_GreenhouseDeviceData().insert(new ML_GreenhouseDeviceData()
             {
                 received_time = time,
-                device_unique_id = device,
+                device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
             });
         }
         public void bayLineDeviceDataEntry(BaseDeviceRequest data)
         {
-            string device = (data.deviceID).getUniqueID();
+            //string device = (data.deviceID).getUniqueID();
             DateTime t = DateTime.Now;
             string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayLineDeviceData().insert(new ML_BayLineDeviceData()
             {
                 received_time = time,
-                device_unique_id = device,
+                device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
             });
         }
         public void bayRackDeviceDataEntry(BaseDeviceRequest data)
         {
-            string device = (data.deviceID).getUniqueID();
+            //string device = (data.deviceID).getUniqueID();
             DateTime t = DateTime.Now;
             string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayRackDeviceData().insert(new ML_BayRackDeviceData()
             {
                 received_time = time,
-                device_unique_id = device,
+                device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
             });
+        }
+        public void bayRackLevelDeviceDataEntry(BaseDeviceRequest data)
+        {
+            //string device = (data.deviceID).getUniqueID();
+            DateTime t = DateTime.Now;
+            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            new BL_BayRackLevelDeviceData().insert(new ML_BayRackLevelDeviceData()
+            {
+                received_time = time,
+                device_unique_id = data.deviceID,
+                data = data.data,
+                data_unit = data.data_unit
+            });
+        }
+        public void bayRackLevelLineDeviceDataEntry(BaseDeviceRequest data)
+        {
+            //string device = (data.deviceID).getUniqueID();
+            DateTime t = DateTime.Now;
+            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            new BL_BayRackLevelLineDeviceData().insert(new ML_BayRackLevelLineDeviceData()
+            {
+                received_time = time,
+                device_unique_id = data.deviceID,
+                data = data.data,
+                data_unit = data.data_unit
+            });
+        }
+        public string getTable(string device)
+        {
+            using (DataTable dt = new BL_Data().getTable(device))
+            {
+                return dt.Rows.Count >= 1 ? dt.Rows[0]["table_name"].ToString() : "device not found";
+            }
         }
 
     }

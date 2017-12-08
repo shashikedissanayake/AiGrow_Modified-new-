@@ -15,7 +15,7 @@ namespace AiGrow.DeviceServer
     public class MQTTHandler
     {
 
-       //called in global.asax
+        //called in global.asax
         public void Initiate()
         {
             ApplicationUtilities.writeMsg("Initiating");
@@ -93,52 +93,114 @@ namespace AiGrow.DeviceServer
                 switch (request.command)
                 {
                     case UniversalProperties.data:
-                        int device_id = (request.deviceID).getDeviceID();
-                        if (device_id < 0)
+                        #region identifying device
+                        //int device_id = (request.deviceID).getDeviceID();
+                        //if (device_id < 0)
+                        //{
+                        //    response.errorMessage = UniversalProperties.UNKNOWN_COMPONENT;
+                        //    response.errorCode = UniversalProperties.EC_UnknownComponent;
+                        //    response.requestID = request.requestID;
+                        //    response.deviceID = request.deviceID;
+                        //    response.success = false;
+                        //}
+                        //else if (device_id == UniversalProperties.greenhouse_device)
+                        //{
+                        //    BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                        //    new DatabaseUpdate().greenhouseDeviceDataEntry(dataRequest);
+                        //    response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                        //    response.success = true;
+                        //    response.requestID = dataRequest.requestID;
+                        //    response.deviceID = dataRequest.deviceID;
+                        //}
+                        //else if (device_id == UniversalProperties.bay_device)
+                        //{
+                        //    BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                        //    new DatabaseUpdate().bayDeviceDataEntry(dataRequest);
+                        //    response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                        //    response.success = true;
+                        //    response.requestID = dataRequest.requestID;
+                        //    response.deviceID = dataRequest.deviceID;
+                        //}
+                        //else if (device_id == UniversalProperties.bay_line_device)
+                        //{
+                        //    BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                        //    new DatabaseUpdate().bayLineDeviceDataEntry(dataRequest);
+                        //    response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                        //    response.success = true;
+                        //    response.requestID = dataRequest.requestID;
+                        //    response.deviceID = dataRequest.deviceID;
+                        //}
+                        //else if (device_id == UniversalProperties.bay_rack_device)
+                        //{
+                        //    BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                        //    new DatabaseUpdate().bayRackDeviceDataEntry(dataRequest);
+                        //    response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                        //    response.success = true;
+                        //    response.requestID = dataRequest.requestID;
+                        //    response.deviceID = dataRequest.deviceID;
+                        //}
+                        #endregion
+                        string table = new DatabaseUpdate().getTable(request.deviceID);
+                        switch (table)
                         {
-                            response.errorMessage = UniversalProperties.UNKNOWN_COMPONENT;
-                            response.errorCode = UniversalProperties.EC_UnknownComponent;
-                            response.requestID = request.requestID;
-                            response.deviceID = request.deviceID;
-                            response.success = false;
+                            case "device not found":
+                                response.errorMessage = UniversalProperties.UNKNOWN_COMPONENT;
+                                response.errorCode = UniversalProperties.EC_UnknownComponent;
+                                response.requestID = request.requestID;
+                                response.deviceID = request.deviceID;
+                                response.success = false;
+                                break;
+                            case "greenhosue_device":
+                                BaseDeviceRequest greenhouseDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().greenhouseDeviceDataEntry(greenhouseDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = greenhouseDataRequest.requestID;
+                                response.deviceID = greenhouseDataRequest.deviceID;
+                                break;
+                            case"bay_device":
+                                BaseDeviceRequest bayDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().bayDeviceDataEntry(bayDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = bayDataRequest.requestID;
+                                response.deviceID = bayDataRequest.deviceID;
+                                break;
+                            case"bay_line-device":
+                                BaseDeviceRequest bayLineDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().bayLineDeviceDataEntry(bayLineDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = bayLineDataRequest.requestID;
+                                response.deviceID = bayLineDataRequest.deviceID;
+                                break;
+                            case"rack_device":
+                                BaseDeviceRequest rackDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().bayRackDeviceDataEntry(rackDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = rackDataRequest.requestID;
+                                response.deviceID = rackDataRequest.deviceID;
+                                break;
+                            case "level_device":
+                                BaseDeviceRequest rackLevelDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().bayRackLevelDeviceDataEntry(rackLevelDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = rackLevelDataRequest.requestID;
+                                response.deviceID = rackLevelDataRequest.deviceID;
+                                break;
+                            case "level_line_device":
+                                BaseDeviceRequest rackLevelLineDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
+                                new DatabaseUpdate().bayRackLevelLineDeviceDataEntry(rackLevelLineDataRequest);
+                                response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
+                                response.success = true;
+                                response.requestID = rackLevelLineDataRequest.requestID;
+                                response.deviceID = rackLevelLineDataRequest.deviceID;
+                                break;
+                            default:
+                                break;
                         }
-                        else if (device_id == UniversalProperties.greenhouse_device)
-                        {
-                            BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
-                            new DatabaseUpdate().greenhouseDeviceDataEntry(dataRequest);
-                            response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
-                            response.success = true;
-                            response.requestID = dataRequest.requestID;
-                            response.deviceID = dataRequest.deviceID;
-                        }
-                        else if (device_id == UniversalProperties.bay_device)
-                        {
-                            BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
-                            new DatabaseUpdate().bayDeviceDataEntry(dataRequest);
-                            response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
-                            response.success = true;
-                            response.requestID = dataRequest.requestID;
-                            response.deviceID = dataRequest.deviceID;
-                        }
-                        else if (device_id == UniversalProperties.bay_line_device)
-                        {
-                            BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
-                            new DatabaseUpdate().bayLineDeviceDataEntry(dataRequest);
-                            response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
-                            response.success = true;
-                            response.requestID = dataRequest.requestID;
-                            response.deviceID = dataRequest.deviceID;
-                        }
-                        else if (device_id == UniversalProperties.bay_rack_device)
-                        {
-                            BaseDeviceRequest dataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
-                            new DatabaseUpdate().bayRackDeviceDataEntry(dataRequest);
-                            response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
-                            response.success = true;
-                            response.requestID = dataRequest.requestID;
-                            response.deviceID = dataRequest.deviceID;
-                        }
-
                         break;
 
                     case UniversalProperties.greenhouse:

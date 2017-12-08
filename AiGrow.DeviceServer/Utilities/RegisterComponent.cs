@@ -72,7 +72,7 @@ namespace AiGrow.DeviceServer
                 foreach (BayRackLevelRequest level in rack.listOfRackLevels)
                 {
                     level.requestID = rack.requestID;
-                    new DatabaseUpdate().registerBayRackLevel(level);
+                    registerBayRackLevel(level);
                 }
             }
             catch
@@ -95,13 +95,32 @@ namespace AiGrow.DeviceServer
                 foreach (BayRackLevelLineRequest line in level.listOfLevelLines)
                 {
                     line.requestID = level.requestID;
-                    new DatabaseUpdate().registerBayRackLevelLine(line);
+                    registerBayRackLevelLine(line);
                 }
             }
             catch
             {
                 return false;
             }
+            return true;
+        }
+        public bool registerBayRackLevelLine(BayRackLevelLineRequest line)
+        {
+            try
+            {
+                new DatabaseUpdate().registerBayRackLevelLine(line);
+
+                foreach (BayRackLevelLineDeviceRequest device in line.listOfBayRackLevelLineDevices)
+                {
+                    device.requestID = line.requestID;
+                    new DatabaseUpdate().registerBayRackLevelLineDevice(device);
+                }
+            }
+            catch
+            {
+                return false;
+            }
+
             return true;
         }
     }

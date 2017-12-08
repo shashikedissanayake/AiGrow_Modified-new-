@@ -158,6 +158,8 @@ namespace AiGrow.DeviceServer
         public static string DUPLICATE_BAY_RACK_LEVEL_LINE = "Bay Rack Level Line Already Exists";
         public static string DUPLICATE_BAY_LINE_DEVICE = "Bay Line Device Already Exists";
         public static string DUPLICATE_BAY_RACK_LEVEL_DEVICE = "Bay Rack Level Device Already Exists";
+        public static string DUPLICATE_BAY_RACK_LEVEL_LINE_DEVICE = "Bay Rack Level Line Device Already Exists";
+
         
         #endregion
 

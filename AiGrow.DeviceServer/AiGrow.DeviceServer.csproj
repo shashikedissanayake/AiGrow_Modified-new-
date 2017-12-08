@@ -145,6 +145,7 @@
     <Compile Include="Tables\BayLineRequest.cs" />
     <Compile Include="Tables\BayRackDeviceRequest.cs" />
     <Compile Include="Tables\BayRackLevelDeviceRequest.cs" />
+    <Compile Include="Tables\BayRackLevelLineDeviceRequest.cs" />
     <Compile Include="Tables\BayRackLevelLineRequest.cs" />
     <Compile Include="Tables\BayRackLevelRequest.cs" />
     <Compile Include="Tables\BayRackRequest.cs" />

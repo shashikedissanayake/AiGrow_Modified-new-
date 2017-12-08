@@ -28,7 +28,7 @@ namespace AiGrow.Data
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@device_id", device);
 
-            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `bay_line_device` WHERE bay_line_device_unique_id = @device_id", para).Rows.Count;
+            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `devices` WHERE device_unique_id = @device_id", para).Rows.Count;
             return count >= 1;
         }
 

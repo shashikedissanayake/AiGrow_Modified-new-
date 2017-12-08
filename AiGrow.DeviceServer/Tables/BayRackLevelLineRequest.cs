@@ -9,6 +9,6 @@ namespace AiGrow.DeviceServer
     {
         public string level_line_unique_id { get; set; }
         public int level_id { get; set; }
-        public List<BayLineDeviceRequest> listOfBayLineDevices { get; set; }
+        public List<BayRackLevelLineDeviceRequest> listOfBayRackLevelLineDevices { get; set; }
     }
 }

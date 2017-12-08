@@ -73,6 +73,7 @@
     <Compile Include="BL_BayRackLevelLineDevice.cs" />
     <Compile Include="BL_BayRackLevelLineDeviceData.cs" />
     <Compile Include="BL_Configurations.cs" />
+    <Compile Include="BL_Data.cs" />
     <Compile Include="BL_Greenhouse.cs" />
     <Compile Include="BL_GreenhouseDevice.cs" />
     <Compile Include="BL_GreenhouseDeviceData.cs" />

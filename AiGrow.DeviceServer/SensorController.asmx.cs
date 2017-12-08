@@ -30,11 +30,11 @@ namespace AiGrow.DeviceServer
         public void GetDeviceJSONTest()
         {
             BaseDeviceRequest request = new BaseDeviceRequest();
-            request.data = "12345";
-            request.deviceID = "G_001:B_002:BR_002:BRD_0012222";
+            request.data = "1.2";
+            request.deviceID = "BR_009:BRL_003:BRLL_001:BRLLD_002";
             request.command = "dataEntry";
-            request.requestID = "0000002";
-            //request.received_time = "2017-12-33 21:32:43";
+            request.requestID = "0000072";
+            request.received_time = "2017-12-33 21:32:43";
 
             //List<BayRequest> baylist1 = new List<BayRequest>();
             //List<BayDeviceRequest> devicelist1 = new List<BayDeviceRequest>();
@@ -43,6 +43,10 @@ namespace AiGrow.DeviceServer
             //List<BayRackRequest> racklist1 = new List<BayRackRequest>();
             //List<GreenhouseDeviceRequest> grDevicelist1 = new List<GreenhouseDeviceRequest>();
             //List<BayRackDeviceRequest> bayRackDevicelist1 = new List<BayRackDeviceRequest>();
+            //List<BayRackLevelRequest> bayRackLevellist1 = new List<BayRackLevelRequest>();
+            //List<BayRackLevelDeviceRequest> bayRacklevelDeviceList1 = new List<BayRackLevelDeviceRequest>();
+            //List<BayRackLevelLineRequest> bayRackLevelLinelist1 = new List<BayRackLevelLineRequest>();
+            //List<BayRackLevelLineDeviceRequest> bayRacklevelLineDevicelist1 = new List<BayRackLevelLineDeviceRequest>();
 
             //GreenhouseRequest gr1 = new GreenhouseRequest();
             //GreenhouseDeviceRequest gdr1 = new GreenhouseDeviceRequest();
@@ -58,6 +62,60 @@ namespace AiGrow.DeviceServer
             //BayRackRequest brr1 = new BayRackRequest();
             //BayRackRequest brr2 = new BayRackRequest();
             //BayRackDeviceRequest brdr1 = new BayRackDeviceRequest();
+            //BayRackLevelRequest brlr1 = new BayRackLevelRequest();
+            //BayRackLevelRequest brlr2 = new BayRackLevelRequest();
+            //BayRackLevelDeviceRequest brld1 = new BayRackLevelDeviceRequest();
+            //BayRackLevelDeviceRequest brld2 = new BayRackLevelDeviceRequest();
+            //BayRackLevelLineRequest brllr1 = new BayRackLevelLineRequest();
+            //BayRackLevelLineDeviceRequest brlldr1 = new BayRackLevelLineDeviceRequest();
+            //BayRackLevelLineDeviceRequest brlldr2 = new BayRackLevelLineDeviceRequest();
+
+            //brllr1.level_line_unique_id = "BR_009:BRL_003:BRLL_001";
+            //brllr1.level_id = 4;
+            //brllr1.listOfBayRackLevelLineDevices = bayRacklevelLineDevicelist1;
+            //bayRackLevelLinelist1.Add(brllr1);
+
+            //brlldr1.default_unit = "zxc";
+            //brlldr1.device_type = "pump";
+            //brlldr1.device_unique_id = "BR_009:BRL_003:BRLL_001:BRLLD_001";
+            //brlldr1.io_type = "out";
+            //brlldr1.line_id = 1;
+            //brlldr1.status = "active";
+            //brlldr2.default_unit = "zxc";
+            //brlldr2.device_type = "pump";
+            //brlldr2.device_unique_id = "BR_009:BRL_003:BRLL_001:BRLLD_002";
+            //brlldr2.io_type = "out";
+            //brlldr2.line_id = 1;
+            //brlldr2.status = "active";
+            //bayRacklevelLineDevicelist1.Add(brlldr1);
+            //bayRacklevelLineDevicelist1.Add(brlldr2);
+
+            //brld1.command = "registerBayRackLineDevice";
+            //brld1.default_unit = "zxc";
+            //brld1.device_type = "pump";
+            //brld1.level_device_unique_id = "BR_009:BRL_003:BRLD_001";
+            //brld1.io_type = "out";
+            //brld1.level_id = 4;
+            //brld1.status = "active";
+            //brld2.default_unit = "zxc";
+            //brld2.device_type = "pump";
+            //brld2.level_device_unique_id = "BR_009:BRL_003:BRLD_002";
+            //brld2.io_type = "out";
+            //brld2.level_id = 4;
+            //brld2.status = "active";
+            //bayRacklevelDeviceList1.Add(brld1);
+            //bayRacklevelDeviceList1.Add(brld2);
+
+            //brlr1.bay_rack_level_unique_id = "BR_009:BRL_003";
+            //brlr1.rack_id = 11;
+            //brlr1.listOfLevelDevices = bayRacklevelDeviceList1;
+            //brlr1.listOfLevelLines = bayRackLevelLinelist1;
+            //brlr2.bay_rack_level_unique_id = "BR_009:BRL_004";
+            //brlr2.rack_id = 11;
+            //brlr2.listOfLevelDevices = bayRacklevelDeviceList1;
+            //brlr2.listOfLevelLines = bayRackLevelLinelist1;
+            //bayRackLevellist1.Add(brlr1);
+            //bayRackLevellist1.Add(brlr2);
 
             //brdr1.command = "registerBayRackDevice";
             //brdr1.default_unit = "zxc";
@@ -94,6 +152,7 @@ namespace AiGrow.DeviceServer
             //brr2.bay_id = 4;
             //brr2.bay_rack_unique_id = "BR_005";
             //brr1.listOfRackDevices = bayRackDevicelist1;
+            //brr1.listOfRackLevels = bayRackLevellist1;
             //brr2.listOfRackDevices = bayRackDevicelist1;
 
             //bldr1.bay_line_device_name = "pump";
@@ -174,7 +233,8 @@ namespace AiGrow.DeviceServer
             //gr1.listOfBays = baylist1;
             //gr1.listOfDevices = grDevicelist1;
             //gr1.requestID = "000001";
-            //brdr1.requestID = "asd"; 
+            //brdr1.requestID = "asd";
+            //brr1.requestID = "request 0021";
             HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(request));
         }
 
