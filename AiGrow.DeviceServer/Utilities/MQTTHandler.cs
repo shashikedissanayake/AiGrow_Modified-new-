@@ -18,7 +18,7 @@ namespace AiGrow.DeviceServer
         //called in global.asax
         public void Initiate()
         {
-            ApplicationUtilities.writeMsg("Initiating");
+            ApplicationUtilities.writeMsg("Initiating...");
             Subscribe();
         }
         public void Subscribe()
@@ -59,6 +59,7 @@ namespace AiGrow.DeviceServer
         private void client_ConnectionClosed(object sender, EventArgs e)
         {
             ApplicationUtilities.writeMsg("Connection closed: " + DateTime.Now.ToString());
+            ApplicationUtilities.writeMsg("***********************************************\n");
             Subscribe();
         }
 
@@ -386,8 +387,11 @@ namespace AiGrow.DeviceServer
                         break;
                 }
             }
-            catch
+            catch(Exception exep)
             {
+                ApplicationUtilities.writeMsg(exep.Source);
+                ApplicationUtilities.writeMsg(exep.Message);
+                ApplicationUtilities.writeMsg(exep.StackTrace);
                 response.errorMessage = UniversalProperties.unknownError;
                 response.errorCode = UniversalProperties.EC_UnhandledError;
                 response.success = false;

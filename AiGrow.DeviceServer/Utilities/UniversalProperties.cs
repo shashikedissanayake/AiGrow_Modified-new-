@@ -29,6 +29,9 @@ namespace AiGrow.DeviceServer
 
         public const string passwordLengthInvalid = "The password length does not match the requirements.";
         public const string locationInsertedSuccessfully = "Location inserted successfully.";
+        public const string bayInsertedSuccessfully = "Bay inserted successfully.";
+        public const string greenhouseInsertedSuccessfully = "Greenhouse inserted successfully.";
+        public const string greenhouseDeviceInsertedSuccessfully = "Greenhouse Device inserted successfully.";
         public const string locationDeletedSuccessfully = "Location deleted successfully.";
         public const string invalidRequest = "Invalid request.";
         public const string invalidEmail = "You have entered an invalid email. Please re-check!";
