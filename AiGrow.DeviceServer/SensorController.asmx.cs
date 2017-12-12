@@ -18,12 +18,12 @@ namespace AiGrow.DeviceServer
     // [System.Web.Script.Services.ScriptService]
     public class SensorController : System.Web.Services.WebService
     {
-        [WebMethod]
-        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
-        public string AddDeviceToBayLine(string deviceID, string status)
-        {
-            return "Hello World";
-        }
+        //[WebMethod]
+        //[ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        //public string AddDeviceToBayLine(string deviceID, string status)
+        //{
+        //    return "Hello World";
+        //}
 
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
