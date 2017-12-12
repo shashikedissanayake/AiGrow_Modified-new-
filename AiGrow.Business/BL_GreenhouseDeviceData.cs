@@ -15,9 +15,9 @@ namespace AiGrow.Business
             return new DL_GreenhouseDeviceData().insert(data);
         }
 
-        public System.Data.DataTable selectDataSet(string device)
+        public System.Data.DataTable selectDataSet(string device, string from, string to)
         {
-            return new DL_GreenhouseDeviceData().selectDataSet(device);
+            return new DL_GreenhouseDeviceData().selectDataSet(device,from,to);
         }
     }
 }
