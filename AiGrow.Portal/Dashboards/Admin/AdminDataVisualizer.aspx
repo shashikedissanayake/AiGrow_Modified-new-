@@ -16,22 +16,30 @@
     <form runat="server">
         <p>Select Location of the Device:</p>
         <asp:DropDownList ID="selectLocation" runat="server" OnSelectedIndexChanged="table_Select" AutoPostBack="True">
-            <asp:ListItem Value="bay">Bay</asp:ListItem>
+            <asp:ListItem Value="bay" Selected="True">Bay</asp:ListItem>
             <asp:ListItem Value="bay_line">Bay Line</asp:ListItem>
             <asp:ListItem Value="greenhouse">Greenhouse</asp:ListItem>
             <asp:ListItem Value="level">Level</asp:ListItem>
             <asp:ListItem Value="level_line">Level Line</asp:ListItem>
             <asp:ListItem Value="rack">Rack</asp:ListItem>
+        </asp:DropDownList>
+
+        <asp:Label ID="Label1" runat="server" Style="display: block;"></asp:Label><br />
+
+        <asp:DropDownList ID="selectId" runat="server" AutoPostBack="True" OnSelectedIndexChanged="id_select">
         </asp:DropDownList><br />
 
-        <asp:Label ID="Label1" runat="server" Text="Select Unique ID:" Style="display: block;"></asp:Label><br />
+        <asp:Label ID="Label2" runat="server" Style="display: block"></asp:Label><br />
 
-        <asp:DropDownList ID="selectId" runat="server" AutoPostBack="True" OnSelectedIndexChanged="id_select"></asp:DropDownList><br />
-
-        <asp:Label ID="Label2" runat="server" Text="Select Unique Component:" Style="display: block"></asp:Label><br />
-
-        <asp:DropDownList ID="selectDevice" runat="server" AutoPostBack="True" OnSelectedIndexChanged="get_visualize_dataset"></asp:DropDownList><br />
+        <asp:DropDownList ID="selectDevice" runat="server" AutoPostBack="True" OnSelectedIndexChanged="get_visualize_dataset">
+        </asp:DropDownList><br />
         <div>
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" TabIndex="3" AutoPostBack="True" OnSelectedIndexChanged="period_select">
+                <asp:ListItem Value="1 DAY" Selected="True">Today</asp:ListItem>
+                <asp:ListItem Value="1 MONTH">This Month</asp:ListItem>
+                <asp:ListItem Value="3 MONTH">Last 3 Month</asp:ListItem>
+                <asp:ListItem Value="all">All</asp:ListItem>
+            </asp:RadioButtonList>
             <script type="text/javascript" src="https://www.google.com/jsapi"></script>
             <center>
                 <asp:Literal ID="ltScripts" runat="server"></asp:Literal>

@@ -36,7 +36,7 @@ namespace AiGrow.Data
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@rack_id", id);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT rack_device_unique_id AS device_unique_id FROM rack_device rd WHERE rd.rack_id = @rack_id", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT rack_device_unique_id AS device_unique_id FROM rack_device rd WHERE rd.rack_id = @rack_id AND rd.io_type = 'in'", para);
         }
     }
 }

@@ -36,8 +36,9 @@ namespace AiGrow.Data
         {
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@bay_id", id);
+            
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_device_unique_id AS device_unique_id FROM bay_device bd WHERE bd.bay_id = @bay_id", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bay_device_unique_id AS device_unique_id FROM bay_device bd WHERE bd.bay_id = @bay_id AND bd.io_type = 'in'", para);
         }
     }
 }

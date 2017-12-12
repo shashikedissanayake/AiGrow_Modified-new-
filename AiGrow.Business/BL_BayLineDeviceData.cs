@@ -19,9 +19,9 @@ namespace AiGrow.Business
             return new DL_BayLineDevice().doesDeviceExist(device);
         }
 
-        public System.Data.DataTable selectDataSet(string device)
+        public System.Data.DataTable selectDataSet(string device, string from, string to)
         {
-            return new DL_BayLineDeviceData().selectDataSet(device);
+            return new DL_BayLineDeviceData().selectDataSet(device,from,to);
         }
     }
 }

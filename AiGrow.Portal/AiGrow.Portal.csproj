@@ -7343,6 +7343,7 @@
     <Content Include="Dashboards\dist\css\adminlte.min.css.map" />
     <Content Include="Dashboards\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="Dashboards\plugins\input-mask\phone-codes\phone-codes.json" />
+    <None Include="Properties\PublishProfiles\AmazonLive.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ResetPassword.aspx" />
     <Content Include="Scripts\alertify.min.js" />

@@ -21,12 +21,15 @@ namespace AiGrow.Data
             return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO bay_line_device_data (device_unique_id, received_time, data, data_unit) VALUES (@unique_id, @time, @data, @unit)", para) != -1;
         }
 
-        public DataTable selectDataSet(string device)
+        public DataTable selectDataSet(string device,string from,string to)
         {
-            var para = new MySqlParameter[1];
-            para[0] = new MySqlParameter("@device_id", device);
+                var para = new MySqlParameter[3];
+                para[0] = new MySqlParameter("@device_id", device);
+                para[1] = new MySqlParameter("@fromDate", from);
+                para[2] = new MySqlParameter("@toDate", to);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bldd.received_time, bldd.data FROM bay_line_device_data bldd WHERE bldd.device_unique_id = @device_id", para);
+                return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bldd.received_time, bldd.data FROM bay_line_device_data bldd WHERE bldd.device_unique_id = @device_id AND (bldd.received_time BETWEEN @fromDate AND @toDate)", para);
+            
         }
     }
 }
