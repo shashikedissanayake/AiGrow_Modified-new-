@@ -244,6 +244,7 @@ namespace AiGrow
         {
             RequestHandler post = new RequestHandler();
             post.Url = Constants.CHECK_LOGIN_POST_JSON;
+            Portal.ApplicationUtilities.writeMsg(post.Url);
             post.PostItems.Add("UserName", username);
             post.PostItems.Add("Password", password);
             post.PostItems.Add("token", Encryption.createSHA1(username + password));

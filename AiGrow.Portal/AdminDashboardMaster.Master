@@ -137,23 +137,13 @@
                     <li id="menuNetworks"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_GREEN_HOUSE);%>"><i class="fa fa-tree"></i><span>&nbsp; Green Houses
                                                                                                                                                  </span></a></li>
 
-                    <li id="menuChargePoints"><a href="/Dashboards/Admin/AdminChargePoints.aspx"><i class="fa fa-plug"></i><span>Points</span></a></li>
-
-                    <li id="menuLocations"><a href="/Dashboards/Admin/AdminLocations.aspx"><i class="fa fa-map-marker"></i><span>Locations</span></a></li>
-
-                    <li id="menuNetworkOwners"><a href="/Dashboards/Admin/AdminNetworkOwners.aspx"><i class="fa fa-user-md"></i><span>Green House Owners</span></a></li>
-
-                    <li id="menuPointOwners"><a href="/Dashboards/Admin/AdminPointOwners.aspx"><i class="fa fa-user-md"></i><span>Point Owners</span></a></li>
-
-                    <li id="menuCustomers"><a href="/Dashboards/Admin/AdminCustomers.aspx"><i class="ionicons ion-battery-charging"></i><span>&nbsp; Customers</span></a></li>
+                    
 
                     <li class="header">VIEW</li>
 
                     <li id="menuSummary"><a href="<% Response.Write(AiGrow.Constants.ADMIN_DASHBOARD_DATA_VISUALIZER);%>"><i class="fa fa-line-chart"></i><span>Device Summary</span></a></li>
 
-                    <li id="menuTransactions"><a href="/Dashboards/Admin/AdminTransactions.aspx"><i class="fa fa-area-chart"></i><span>Transactions</span></a></li>
-
-                    <li id="menuReloads"><a href="/Dashboards/Admin/AdminReloads.aspx"><i class="fa fa-money"></i><span>Reloads</span></a></li>
+                    
                 </ul>
             </section>
             <!-- /.sidebar -->
