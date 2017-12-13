@@ -7645,6 +7645,7 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="Utilities\ApplicationUtilities.cs" />
     <Compile Include="Utilities\CustomMethods.cs" />
     <Compile Include="Utilities\Encryption.cs" />
     <Compile Include="Utilities\RequestHandler.cs" />

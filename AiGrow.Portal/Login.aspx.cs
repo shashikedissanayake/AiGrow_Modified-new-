@@ -86,8 +86,11 @@ namespace AiGrow.Portal
                         }
                     }
                 }
-                catch
+                catch(Exception error)
                 {
+                    ApplicationUtilities.writeMsg(error.StackTrace);
+                    ApplicationUtilities.writeMsg(error.Message);
+
                     Response.Redirect(string.Format("{0}?error={1}&token={2}", Constants.LOGIN_URL, Messages.undefinedError, Encryption.createSHA1(Messages.undefinedError)), false);
                 }
             }
