@@ -254,6 +254,7 @@
     <Content Include="Dashboards\Admin\AdminDataVisualizer.aspx" />
     <Content Include="Dashboards\Admin\AdminEditGreenHouse.aspx" />
     <Content Include="Dashboards\Admin\AdminEditProfile.aspx" />
+    <Content Include="Dashboards\Admin\AdminGreenhouseDashboard.aspx" />
     <Content Include="Dashboards\Admin\AdminGreenHouses.aspx" />
     <Content Include="Dashboards\Admin\AdminGreenHouseView.aspx" />
     <Content Include="Dashboards\Admin\AdminProfile.aspx" />
@@ -6861,6 +6862,8 @@
     <Content Include="ForgotPassword.aspx" />
     <Content Include="img\Aigrow_Logo.png" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\greenhouse_img1.jpg" />
+    <Content Include="img\greenhouse_img2.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="js\index.js" />
     <Content Include="js\sha1.js" />
@@ -7554,6 +7557,13 @@
     </Compile>
     <Compile Include="Dashboards\Admin\AdminEditProfile.aspx.designer.cs">
       <DependentUpon>AdminEditProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\AdminGreenhouseDashboard.aspx.cs">
+      <DependentUpon>AdminGreenhouseDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\AdminGreenhouseDashboard.aspx.designer.cs">
+      <DependentUpon>AdminGreenhouseDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dashboards\Admin\AdminGreenHouses.aspx.cs">
       <DependentUpon>AdminGreenHouses.aspx</DependentUpon>

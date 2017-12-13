@@ -131,7 +131,7 @@ namespace AiGrow.Portal.Dashboards.Admin
 
                 foreach (DataRow row in dsChartData.Rows)
                 {
-                    strScript.Append("['" + row["received_time"] + "'," + row["data"] + "],");
+                    strScript.Append("['" + row["collected_time"] + "'," + row["data"] + "],");
                 }
                 strScript.Remove(strScript.Length - 1, 1);
                 strScript.Append("]);");

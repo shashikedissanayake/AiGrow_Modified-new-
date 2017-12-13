@@ -35,10 +35,10 @@
         </asp:DropDownList><br />
         <div>
             <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" TabIndex="3" AutoPostBack="True" OnSelectedIndexChanged="period_select">
-                <asp:ListItem Value="1 DAY" Selected="True">Today</asp:ListItem>
+                <asp:ListItem Value="1 DAY">Today</asp:ListItem>
                 <asp:ListItem Value="1 MONTH">This Month</asp:ListItem>
                 <asp:ListItem Value="3 MONTH">Last 3 Month</asp:ListItem>
-                <asp:ListItem Value="all">All</asp:ListItem>
+                <asp:ListItem Value="all" Selected="True">All</asp:ListItem>
             </asp:RadioButtonList>
             <script type="text/javascript" src="https://www.google.com/jsapi"></script>
             <center>
