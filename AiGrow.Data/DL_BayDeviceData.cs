@@ -28,7 +28,7 @@ namespace AiGrow.Data
             para[1] = new MySqlParameter("@fromDate", from);
             para[2] = new MySqlParameter("@toDate", to);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bdd.received_time, bdd.data FROM bay_device_data bdd WHERE bdd.device_unique_id = @device_id AND (bdd.received_time BETWEEN @fromDate AND @toDate)", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT bdd.collected_time, bdd.data FROM bay_device_data bdd WHERE bdd.device_unique_id = @device_id AND (bdd.collected_time BETWEEN @fromDate AND @toDate)", para);
         }
     }
 }

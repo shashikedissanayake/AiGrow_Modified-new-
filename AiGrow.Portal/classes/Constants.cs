@@ -15,7 +15,7 @@ namespace AiGrow
     {
         //User Constants
         public const String AIGROW_ADMIN = "ADMIN";
-        public const String CHG_NETWORK = "CHG_NETWORK";
+        public const String CHG_NETWORK = "HOME_USER";
         public const String CHG_OWNER = "CHG_OWNER";
         public const String AIGROW_CUSTOMER = "CUSTOMER";
         public const String CHG_STAFF = "CHG_STAFF";
