@@ -18,7 +18,7 @@ namespace AiGrow.DeviceServer
         //called in global.asax
         public void Initiate()
         {
-            ApplicationUtilities.writeMsg("Initiating...");
+            ApplicationUtilities.writeMsg("Initiating..." + DateTime.Now.ToString());
             Subscribe();
         }
         public void Subscribe()

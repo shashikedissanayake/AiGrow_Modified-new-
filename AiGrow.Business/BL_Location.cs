@@ -17,5 +17,9 @@ namespace AiGrow.Business
         {
             return new AiGrow.Data.DL_Location().update(location);
         }
+        public System.Data.DataTable getAllLocations(string user_id)
+        {
+            return new AiGrow.Data.DL_Location().getAllLocations(user_id);
+        }
     }
 }

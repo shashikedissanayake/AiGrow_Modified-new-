@@ -7207,3 +7207,147 @@ Connection closed: 13-Dec-17 11:36:14 AM
  
 Connection closed: 13-Dec-17 11:36:17 AM
 subscribed: 13-Dec-17 11:36:17 AM
+Initiating...13-Dec-17 4:54:12 PM
+subscribed: 13-Dec-17 4:54:16 PM
+Connection closed: 13-Dec-17 4:54:17 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:19 PM
+Connection closed: 13-Dec-17 4:54:19 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:22 PM
+Connection closed: 13-Dec-17 4:54:22 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:24 PM
+Connection closed: 13-Dec-17 4:54:25 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:27 PM
+Connection closed: 13-Dec-17 4:54:27 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:30 PM
+Connection closed: 13-Dec-17 4:54:30 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:33 PM
+Connection closed: 13-Dec-17 4:54:33 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:36 PM
+Connection closed: 13-Dec-17 4:54:36 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:38 PM
+Connection closed: 13-Dec-17 4:54:39 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:41 PM
+Connection closed: 13-Dec-17 4:54:41 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:54:44 PM
+Connection closed: 13-Dec-17 4:54:44 PM
+***********************************************
+ 
+Initiating...13-Dec-17 4:55:16 PM
+subscribed: 13-Dec-17 4:55:19 PM
+Connection closed: 13-Dec-17 4:55:20 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:55:22 PM
+Connection closed: 13-Dec-17 4:55:23 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:55:25 PM
+Connection closed: 13-Dec-17 4:55:25 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:55:27 PM
+Connection closed: 13-Dec-17 4:55:28 PM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...13-Dec-17 4:56:02 PM
+subscribed: 13-Dec-17 4:56:04 PM
+Connection closed: 13-Dec-17 4:56:05 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:07 PM
+Connection closed: 13-Dec-17 4:56:07 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:10 PM
+Connection closed: 13-Dec-17 4:56:10 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:13 PM
+Connection closed: 13-Dec-17 4:56:13 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:15 PM
+Connection closed: 13-Dec-17 4:56:16 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:18 PM
+Connection closed: 13-Dec-17 4:56:18 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:21 PM
+Connection closed: 13-Dec-17 4:56:22 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:24 PM
+Connection closed: 13-Dec-17 4:56:24 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:27 PM
+Connection closed: 13-Dec-17 4:56:27 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:29 PM
+Connection closed: 13-Dec-17 4:56:30 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:32 PM
+Connection closed: 13-Dec-17 4:56:33 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:35 PM
+Connection closed: 13-Dec-17 4:56:35 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:38 PM
+Connection closed: 13-Dec-17 4:56:38 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:40 PM
+Connection closed: 13-Dec-17 4:56:41 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:43 PM
+Connection closed: 13-Dec-17 4:56:43 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:46 PM
+Connection closed: 13-Dec-17 4:56:46 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:49 PM
+Connection closed: 13-Dec-17 4:56:49 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:51 PM
+Connection closed: 13-Dec-17 4:56:51 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:54 PM
+Connection closed: 13-Dec-17 4:56:54 PM
+***********************************************
+ 
+subscribed: 13-Dec-17 4:56:56 PM
+Connection closed: 13-Dec-17 4:57:31 PM
+***********************************************
+ 

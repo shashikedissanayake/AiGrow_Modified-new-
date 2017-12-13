@@ -7,6 +7,7 @@ using System.Web.Services;
 using AiGrow.Business;
 using AiGrow.Model;
 using System.Web.Script.Serialization;
+using System.Data;
 
 namespace AiGrow.DeviceServer
 {
@@ -186,6 +187,65 @@ namespace AiGrow.DeviceServer
                 response.errorMessage = UniversalProperties.unknownError;
             }
             HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
+        }
+
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public void GetGreenouseLocationsByUserID(string user_id, string token)
+        {
+            token = token.Trim();
+
+            if (new BL_User().validateToken(token) == 1)
+            {
+                LocationResponse response = new LocationResponse();
+                try
+                {
+                    DataTable allLocations = new Business.BL_Location().getAllLocations(user_id);
+
+                    List<LocationResponse> locationList = new List<LocationResponse>();
+
+                    foreach (DataRow item in allLocations.Rows)
+                    {
+                        locationList.Add(new LocationResponse()
+                        {
+                            location_address = item["location_address"].ToString(),
+                            latitude = item["latitude"].ToString(),
+                            longitude = item["longitude"].ToString(),
+                            location_name = item["location_name"].ToString(),
+                            location_unique_id = item["location_unique_id"].ToString(),
+                            location_id = item["location_id"].ToString(),
+                        });
+                    }
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
+                    {
+                        success = true,
+                        errorMessage = null,
+                        listOfLocations = locationList
+                    }));
+                    return;
+                }
+                catch 
+                {
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new BaseResponse()
+                    {
+                        success = false,
+                        errorCode = UniversalProperties.EC_UnhandledError,
+                        errorMessage = UniversalProperties.unknownError
+                    }));
+                }
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
+
+            }
+            else
+            {
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationResponse()
+                {
+                    success = false,
+                    errorMessage = UniversalProperties.invalidRequest,
+                    errorCode = UniversalProperties.EC_InvalidRequest,
+                }));
+            }
+
         }
     }
 }

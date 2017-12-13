@@ -9,7 +9,7 @@ namespace AiGrow.DeviceServer
     {
         public string data_unit { get; set; }
         public string collected_time { get; set; }
-        public int data_id { get; set; }
+        public string data_id { get; set; }
         //public string device_unique_id { get; set; }
     }
 }
