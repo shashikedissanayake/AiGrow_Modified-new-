@@ -31,10 +31,10 @@ namespace AiGrow.DeviceServer
         {
             BaseDeviceRequest request = new BaseDeviceRequest();
             request.data = "1.2";
-            request.deviceID = "BR_009:BRL_003:BRLL_001:BRLLD_002";
+            request.deviceID = "RHS_001";
             request.command = "dataEntry";
             request.requestID = "0000072";
-            request.received_time = "2017-12-33 21:32:43";
+            request.collected_time = DateTime.Now.ToString(UniversalProperties.MySQLDateFormat);
 
             //List<BayRequest> baylist1 = new List<BayRequest>();
             //List<BayDeviceRequest> devicelist1 = new List<BayDeviceRequest>();

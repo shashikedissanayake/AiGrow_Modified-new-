@@ -15,10 +15,10 @@ namespace AiGrow.Data
             var para = new MySqlParameter[4];
             para[1] = new MySqlParameter("@data", data.data);
             para[0] = new MySqlParameter("@unique_id", data.device_unique_id);
-            para[2] = new MySqlParameter("@time", data.received_time);
+            para[2] = new MySqlParameter("@time", data.received_server_time);
             para[3] = new MySqlParameter("@unit", data.data_unit);
 
-            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO level_line_device_data (device_unique_id, received_time, data, data_unit) VALUES (@unique_id, @time, @data, @unit)", para) != -1;
+            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO level_line_device_data (device_unique_id, received_server_time, collected_time, data, data_unit) VALUES (@unique_id, NOW(), @time, @data, @unit)", para) != -1;
         }
 
         public DataTable selectDataSet(string device, string from, string to)

@@ -309,11 +309,11 @@ namespace AiGrow.DeviceServer
         public void bayDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayDeviceData().insert(new ML_BayDeviceData()
             {
-                received_time = time,
+                received_server_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
@@ -323,11 +323,11 @@ namespace AiGrow.DeviceServer
         public void greenhouseDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_GreenhouseDeviceData().insert(new ML_GreenhouseDeviceData()
             {
-                received_time = time,
+                collected_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
@@ -336,11 +336,11 @@ namespace AiGrow.DeviceServer
         public void bayLineDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayLineDeviceData().insert(new ML_BayLineDeviceData()
             {
-                received_time = time,
+                received_server_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
@@ -349,11 +349,11 @@ namespace AiGrow.DeviceServer
         public void bayRackDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayRackDeviceData().insert(new ML_BayRackDeviceData()
             {
-                received_time = time,
+                collected_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
@@ -362,11 +362,11 @@ namespace AiGrow.DeviceServer
         public void bayRackLevelDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayRackLevelDeviceData().insert(new ML_BayRackLevelDeviceData()
             {
-                received_time = time,
+                received_server_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit
@@ -375,11 +375,11 @@ namespace AiGrow.DeviceServer
         public void bayRackLevelLineDeviceDataEntry(BaseDeviceRequest data)
         {
             //string device = (data.deviceID).getUniqueID();
-            DateTime t = DateTime.Now;
-            string time = t.ToString(UniversalProperties.MySQLDateFormat);
+            //DateTime t = DateTime.Now;
+            //string time = t.ToString(UniversalProperties.MySQLDateFormat);
             new BL_BayRackLevelLineDeviceData().insert(new ML_BayRackLevelLineDeviceData()
             {
-                received_time = time,
+                received_server_time = data.collected_time,
                 device_unique_id = data.deviceID,
                 data = data.data,
                 data_unit = data.data_unit

@@ -132,6 +132,10 @@ namespace AiGrow.IdentityServer
                 {
                     username = UserName
                 }).Rows[0][0].ToString();
+                string userRole = new AiGrow.Business.BL_User().getUserRole(new ML_User()
+                {
+                    username = UserName
+                });
 
                 string[] encPassword = new CustomCryptography().encryptPassword(Password, saltFromDb);
 
@@ -166,7 +170,7 @@ namespace AiGrow.IdentityServer
                     returnObj.loginID = loginID.ToString();
                     returnObj.userName = UserName;
                     returnObj.userID = userIDString;
-
+                    returnObj.userRole = userRole;
                 }
 
                 else

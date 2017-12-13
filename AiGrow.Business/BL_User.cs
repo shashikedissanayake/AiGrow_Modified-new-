@@ -8,6 +8,11 @@ namespace AiGrow.Business
         {
             return new DL_User().doesUserExist(userName);
         }
+        public string getUserRole(AiGrow.Model.ML_User user)
+        {
+            var x = new DL_User().getUserRole(user.username);
+            return x;
+        }
         public System.Data.DataTable selectByUserName(AiGrow.Model.ML_User user)
         {
             return new DL_User().selectByUserName(user);
