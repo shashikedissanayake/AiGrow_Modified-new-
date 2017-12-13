@@ -121,7 +121,7 @@ namespace AiGrow.DeviceServer
 
         #region Data Table Constants
 
-        public const string MQTT_topic = "/ai_test";
+        public const string MQTT_topic = "/aigrow_common";
 
         public const string data = "dataEntry";
         public const string greenhouse = "registerGreenhouse";
@@ -155,6 +155,7 @@ namespace AiGrow.DeviceServer
         public static string DUPLICATE_BAY_DEVICE = "Bay Device Already Exists";
         public static string DUPLICATE_BAY_RACK_DEVICE = "Bay Rack Device Already Exists";
         public static string DUPLICATE_GREENHOUSE_DEVICE = "Greenhouse Device Already Exists";
+        public static string DUPLICATE_GREENHOUSE = "Greenhouse Already Exists";
         public static string DUPLICATE_BAY_LINE = "Bay Line Already Exists";
         public static string DUPLICATE_BAY_RACK = "Bay Rack Already Exists";
         public static string DUPLICATE_BAY_RACK_LEVEL = "Bay Rack Level Already Exists";

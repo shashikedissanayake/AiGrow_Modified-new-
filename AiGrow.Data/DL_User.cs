@@ -46,6 +46,14 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT salt FROM user u WHERE u.username = @Username", para);
         }
+        public string getUserRole(string user)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@Username", user);
+
+            var x =  MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT role_name FROM user u INNER JOIN role r ON u.role_id = r.id_role WHERE u.username = @Username", para).Rows[0]["role_name"].ToString();
+            return x;
+        }
         public DataTable checkLoginSecure(AiGrow.Model.ML_User user)
         {
 

@@ -11,7 +11,8 @@ namespace AiGrow.Model
         public string data { get; set; }
         public string data_unit { get; set; }
         public string device_unique_id { get; set; }
-        public String received_time { get; set; }
+        public string received_server_time { get; set; }
+        public string collected_time { get; set; }
         public int data_id { get; set; }
         public bool is_shown { get; set; }
 

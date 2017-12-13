@@ -14,7 +14,7 @@ namespace AiGrow.DeviceServer
 {
     public class MQTTHandler
     {
-
+        MqttClient client;
         //called in global.asax
         public void Initiate()
         {
@@ -33,13 +33,17 @@ namespace AiGrow.DeviceServer
 
                 X509Certificate2 clientCert = new X509Certificate2(path + "070bf213e6-certificate.pem.pfx", "", X509KeyStorageFlags.MachineKeySet);
                 X509Certificate caCert = X509Certificate.CreateFromSignedFile(path2);
-                var client = new MqttClient(IotEndpoint, BrokerPort, true, caCert, clientCert, MqttSslProtocols.TLSv1_2);
+
+
+                client = new MqttClient(IotEndpoint, BrokerPort, true, caCert, clientCert, MqttSslProtocols.TLSv1_2);
+                //var client = new MqttClient(IotEndpoint, BrokerPort, true, caCert, clientCert, MqttSslProtocols.TLSv1_2);
 
                 client.MqttMsgPublishReceived += ClientMqttMsgPublishReceived;
                 client.ConnectionClosed += client_ConnectionClosed;
-
+                //client.Settings.TimeoutOnReceiving = 1;
 
                 client.Connect("listener");
+
 
                 client.Subscribe(new[] { UniversalProperties.MQTT_topic }, new[] { uPLibrary.Networking.M2Mqtt.Messages.MqttMsgBase.QOS_LEVEL_AT_LEAST_ONCE });
                 ApplicationUtilities.writeMsg("subscribed: " + DateTime.Now.ToString());
@@ -51,15 +55,19 @@ namespace AiGrow.DeviceServer
             }
             catch (Exception ex)
             {
+                //ApplicationUtilities.writeMsg("ERROR: 1 " + ex.Message.ToString());
+                //client.Disconnect();
                 ApplicationUtilities.writeMsg("ERROR: " + ex.Message.ToString());
                 Thread.Sleep(3000);
+
                 Initiate();
             }
         }
         private void client_ConnectionClosed(object sender, EventArgs e)
         {
             ApplicationUtilities.writeMsg("Connection closed: " + DateTime.Now.ToString());
-            ApplicationUtilities.writeMsg("***********************************************\n");
+            ApplicationUtilities.writeMsg("***********************************************\n ");
+            //((MqttClient)sender).Disconnect();
             Subscribe();
         }
 
@@ -151,7 +159,7 @@ namespace AiGrow.DeviceServer
                                 response.deviceID = request.deviceID;
                                 response.success = false;
                                 break;
-                            case "greenhosue_device":
+                            case "greenhouse_device":
                                 BaseDeviceRequest greenhouseDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
                                 new DatabaseUpdate().greenhouseDeviceDataEntry(greenhouseDataRequest);
                                 response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
@@ -159,7 +167,7 @@ namespace AiGrow.DeviceServer
                                 response.requestID = greenhouseDataRequest.requestID;
                                 response.deviceID = greenhouseDataRequest.deviceID;
                                 break;
-                            case"bay_device":
+                            case "bay_device":
                                 BaseDeviceRequest bayDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
                                 new DatabaseUpdate().bayDeviceDataEntry(bayDataRequest);
                                 response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
@@ -167,7 +175,7 @@ namespace AiGrow.DeviceServer
                                 response.requestID = bayDataRequest.requestID;
                                 response.deviceID = bayDataRequest.deviceID;
                                 break;
-                            case"bay_line-device":
+                            case "bay_line_device":
                                 BaseDeviceRequest bayLineDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
                                 new DatabaseUpdate().bayLineDeviceDataEntry(bayLineDataRequest);
                                 response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
@@ -175,7 +183,7 @@ namespace AiGrow.DeviceServer
                                 response.requestID = bayLineDataRequest.requestID;
                                 response.deviceID = bayLineDataRequest.deviceID;
                                 break;
-                            case"rack_device":
+                            case "rack_device":
                                 BaseDeviceRequest rackDataRequest = new JavaScriptSerializer().Deserialize<BaseDeviceRequest>(JSONMessage);
                                 new DatabaseUpdate().bayRackDeviceDataEntry(rackDataRequest);
                                 response.message = UniversalProperties.DATA_ENTERED_SUCCESSFULLY;
@@ -200,6 +208,11 @@ namespace AiGrow.DeviceServer
                                 response.deviceID = rackLevelLineDataRequest.deviceID;
                                 break;
                             default:
+                                response.errorMessage = UniversalProperties.UNKNOWN_COMPONENT;
+                                response.errorCode = UniversalProperties.EC_UnknownComponent;
+                                response.success = false;
+                                response.requestID = request.requestID;
+                                response.deviceID = request.deviceID;
                                 break;
                         }
                         break;
@@ -387,7 +400,7 @@ namespace AiGrow.DeviceServer
                         break;
                 }
             }
-            catch(Exception exep)
+            catch (Exception exep)
             {
                 ApplicationUtilities.writeMsg(exep.Source);
                 ApplicationUtilities.writeMsg(exep.Message);
@@ -426,11 +439,12 @@ namespace AiGrow.DeviceServer
                 {
                     Debug.WriteLine("SUCCESS!");
                 }
+               // client1.Disconnect();
             }
             catch (Exception ex)
             {
                 ApplicationUtilities.writeMsg("mqtt publish exception" + System.DateTime.Now.ToString());
-                throw;
+                //throw;
             }
             ApplicationUtilities.writeMsg("mqtt published  " + System.DateTime.Now.ToString());
 

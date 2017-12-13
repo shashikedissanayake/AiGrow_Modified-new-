@@ -2823,3 +2823,4387 @@ subscribed: 11-Dec-17 4:53:47 PM
 Connection closed: 11-Dec-17 4:53:47 PM
 ***********************************************
 
+Initiating...
+subscribed: 12-Dec-17 12:25:44 PM
+Connection closed: 12-Dec-17 12:25:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:45 PM
+Connection closed: 12-Dec-17 12:25:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:47 PM
+Connection closed: 12-Dec-17 12:25:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:50 PM
+Connection closed: 12-Dec-17 12:25:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:51 PM
+Connection closed: 12-Dec-17 12:25:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:53 PM
+Connection closed: 12-Dec-17 12:25:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:25:56 PM
+Connection closed: 12-Dec-17 12:25:56 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 12:26:31 PM
+Connection closed: 12-Dec-17 12:26:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:33 PM
+Connection closed: 12-Dec-17 12:26:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:38 PM
+Connection closed: 12-Dec-17 12:26:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:40 PM
+Connection closed: 12-Dec-17 12:26:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:42 PM
+Connection closed: 12-Dec-17 12:26:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:47 PM
+Connection closed: 12-Dec-17 12:26:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:49 PM
+Connection closed: 12-Dec-17 12:26:49 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:51 PM
+Connection closed: 12-Dec-17 12:26:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:53 PM
+Connection closed: 12-Dec-17 12:26:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:55 PM
+Connection closed: 12-Dec-17 12:26:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:56 PM
+Connection closed: 12-Dec-17 12:26:57 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:26:58 PM
+Connection closed: 12-Dec-17 12:26:59 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:00 PM
+Connection closed: 12-Dec-17 12:27:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:02 PM
+Connection closed: 12-Dec-17 12:27:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:04 PM
+Connection closed: 12-Dec-17 12:27:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:05 PM
+Connection closed: 12-Dec-17 12:27:06 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:07 PM
+Connection closed: 12-Dec-17 12:27:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:09 PM
+Connection closed: 12-Dec-17 12:27:09 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:11 PM
+Connection closed: 12-Dec-17 12:27:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:12 PM
+Connection closed: 12-Dec-17 12:27:13 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:14 PM
+Connection closed: 12-Dec-17 12:27:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:16 PM
+Connection closed: 12-Dec-17 12:27:19 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:20 PM
+Connection closed: 12-Dec-17 12:27:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:22 PM
+Connection closed: 12-Dec-17 12:27:22 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:25 PM
+Connection closed: 12-Dec-17 12:27:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:27:27 PM
+Connection closed: 12-Dec-17 12:27:27 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 12:28:04 PM
+Connection closed: 12-Dec-17 12:28:05 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 12:28:52 PM
+Connection closed: 12-Dec-17 12:28:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:02 PM
+Connection closed: 12-Dec-17 12:29:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:13 PM
+Connection closed: 12-Dec-17 12:29:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:24 PM
+Connection closed: 12-Dec-17 12:29:24 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:31 PM
+Connection closed: 12-Dec-17 12:29:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:33 PM
+Connection closed: 12-Dec-17 12:29:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:35 PM
+Connection closed: 12-Dec-17 12:29:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:37 PM
+Connection closed: 12-Dec-17 12:29:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:38 PM
+Connection closed: 12-Dec-17 12:29:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:40 PM
+Connection closed: 12-Dec-17 12:29:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:42 PM
+Connection closed: 12-Dec-17 12:29:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:44 PM
+Connection closed: 12-Dec-17 12:29:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:29:46 PM
+
+received: 12-Dec-17 12:29:57 PM
+mqtt published  12-Dec-17 12:30:26 PM
+Initiating...
+subscribed: 12-Dec-17 12:32:47 PM
+Connection closed: 12-Dec-17 12:32:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:32:49 PM
+Connection closed: 12-Dec-17 12:32:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:32:51 PM
+
+received: 12-Dec-17 12:32:55 PM
+Initiating...
+subscribed: 12-Dec-17 12:33:31 PM
+Connection closed: 12-Dec-17 12:33:32 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:33 PM
+Connection closed: 12-Dec-17 12:33:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:35 PM
+Connection closed: 12-Dec-17 12:33:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:37 PM
+Connection closed: 12-Dec-17 12:33:38 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:39 PM
+Connection closed: 12-Dec-17 12:33:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:41 PM
+Connection closed: 12-Dec-17 12:33:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:43 PM
+Connection closed: 12-Dec-17 12:33:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:45 PM
+Connection closed: 12-Dec-17 12:33:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:48 PM
+Connection closed: 12-Dec-17 12:33:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:50 PM
+Connection closed: 12-Dec-17 12:33:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:52 PM
+Connection closed: 12-Dec-17 12:33:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:54 PM
+Connection closed: 12-Dec-17 12:33:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:33:56 PM
+Connection closed: 12-Dec-17 12:33:57 PM
+***********************************************
+
+Initiating...
+subscribed: 12-Dec-17 12:35:09 PM
+Connection closed: 12-Dec-17 12:35:10 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:11 PM
+Connection closed: 12-Dec-17 12:35:12 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:13 PM
+Connection closed: 12-Dec-17 12:35:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:16 PM
+Connection closed: 12-Dec-17 12:35:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:27 PM
+Connection closed: 12-Dec-17 12:35:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:29 PM
+Connection closed: 12-Dec-17 12:35:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:31 PM
+Connection closed: 12-Dec-17 12:35:32 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:34 PM
+Connection closed: 12-Dec-17 12:35:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:36 PM
+Connection closed: 12-Dec-17 12:35:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:38 PM
+Connection closed: 12-Dec-17 12:35:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:40 PM
+Connection closed: 12-Dec-17 12:35:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:44 PM
+Connection closed: 12-Dec-17 12:35:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:46 PM
+Connection closed: 12-Dec-17 12:35:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:48 PM
+Connection closed: 12-Dec-17 12:35:49 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:50 PM
+Connection closed: 12-Dec-17 12:35:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:52 PM
+Connection closed: 12-Dec-17 12:35:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:54 PM
+Connection closed: 12-Dec-17 12:35:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:56 PM
+Connection closed: 12-Dec-17 12:35:57 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:35:58 PM
+Connection closed: 12-Dec-17 12:35:59 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:00 PM
+Connection closed: 12-Dec-17 12:36:01 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:02 PM
+Connection closed: 12-Dec-17 12:36:03 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:04 PM
+Connection closed: 12-Dec-17 12:36:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:41 PM
+Connection closed: 12-Dec-17 12:36:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:43 PM
+Connection closed: 12-Dec-17 12:36:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:46 PM
+Connection closed: 12-Dec-17 12:36:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:48 PM
+Connection closed: 12-Dec-17 12:36:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:52 PM
+Connection closed: 12-Dec-17 12:36:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:55 PM
+Connection closed: 12-Dec-17 12:36:57 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:36:59 PM
+Connection closed: 12-Dec-17 12:37:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:02 PM
+Connection closed: 12-Dec-17 12:37:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:05 PM
+Connection closed: 12-Dec-17 12:37:06 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:08 PM
+Connection closed: 12-Dec-17 12:37:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:12 PM
+Connection closed: 12-Dec-17 12:37:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:15 PM
+Connection closed: 12-Dec-17 12:37:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:37:19 PM
+
+received: 12-Dec-17 12:37:55 PM
+Initiating...
+subscribed: 12-Dec-17 12:39:04 PM
+
+received: 12-Dec-17 12:39:10 PM
+mqtt published  12-Dec-17 12:39:33 PM
+Connection closed: 12-Dec-17 12:39:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:34 PM
+Connection closed: 12-Dec-17 12:39:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:38 PM
+Connection closed: 12-Dec-17 12:39:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:41 PM
+Connection closed: 12-Dec-17 12:39:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:44 PM
+Connection closed: 12-Dec-17 12:39:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:49 PM
+Connection closed: 12-Dec-17 12:39:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:53 PM
+Connection closed: 12-Dec-17 12:39:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:39:56 PM
+Connection closed: 12-Dec-17 12:39:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:00 PM
+Initiating...
+subscribed: 12-Dec-17 12:40:19 PM
+
+received: 12-Dec-17 12:40:21 PM
+mqtt published  12-Dec-17 12:40:23 PM
+
+received: 12-Dec-17 12:40:23 PM
+Connection closed: 12-Dec-17 12:40:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:41 PM
+Connection closed: 12-Dec-17 12:40:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:44 PM
+Connection closed: 12-Dec-17 12:40:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:47 PM
+Connection closed: 12-Dec-17 12:40:49 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:51 PM
+Connection closed: 12-Dec-17 12:40:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:54 PM
+Connection closed: 12-Dec-17 12:40:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:40:57 PM
+Connection closed: 12-Dec-17 12:41:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:02 PM
+Connection closed: 12-Dec-17 12:41:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:05 PM
+Connection closed: 12-Dec-17 12:41:07 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:09 PM
+Connection closed: 12-Dec-17 12:41:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:12 PM
+Connection closed: 12-Dec-17 12:41:15 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:16 PM
+Connection closed: 12-Dec-17 12:41:21 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:23 PM
+Connection closed: 12-Dec-17 12:41:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:28 PM
+Connection closed: 12-Dec-17 12:41:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:31 PM
+Connection closed: 12-Dec-17 12:41:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:35 PM
+Connection closed: 12-Dec-17 12:41:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:39 PM
+Connection closed: 12-Dec-17 12:41:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:43 PM
+Connection closed: 12-Dec-17 12:41:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:46 PM
+Connection closed: 12-Dec-17 12:41:49 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:50 PM
+Connection closed: 12-Dec-17 12:41:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:53 PM
+Connection closed: 12-Dec-17 12:41:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:41:57 PM
+Connection closed: 12-Dec-17 12:41:59 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:00 PM
+Connection closed: 12-Dec-17 12:42:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:05 PM
+Connection closed: 12-Dec-17 12:42:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:13 PM
+Connection closed: 12-Dec-17 12:42:15 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:16 PM
+Connection closed: 12-Dec-17 12:42:18 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:19 PM
+Connection closed: 12-Dec-17 12:42:22 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:23 PM
+Connection closed: 12-Dec-17 12:42:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:28 PM
+Connection closed: 12-Dec-17 12:42:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:32 PM
+Connection closed: 12-Dec-17 12:42:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:35 PM
+Connection closed: 12-Dec-17 12:42:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:37 PM
+Connection closed: 12-Dec-17 12:42:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:41 PM
+Initiating...
+subscribed: 12-Dec-17 12:42:48 PM
+Connection closed: 12-Dec-17 12:42:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:52 PM
+Connection closed: 12-Dec-17 12:42:56 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:42:58 PM
+Connection closed: 12-Dec-17 12:43:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:01 PM
+Connection closed: 12-Dec-17 12:43:03 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:05 PM
+Connection closed: 12-Dec-17 12:43:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:10 PM
+Connection closed: 12-Dec-17 12:43:13 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:15 PM
+Connection closed: 12-Dec-17 12:43:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:19 PM
+Connection closed: 12-Dec-17 12:43:21 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:43:22 PM
+Connection closed: 12-Dec-17 12:43:26 PM
+Initiating...
+subscribed: 12-Dec-17 12:44:27 PM
+Connection closed: 12-Dec-17 12:44:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:44:32 PM
+Connection closed: 12-Dec-17 12:44:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:44:35 PM
+Connection closed: 12-Dec-17 12:44:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:44:38 PM
+Connection closed: 12-Dec-17 12:44:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:44:42 PM
+Connection closed: 12-Dec-17 12:44:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 12:44:46 PM
+
+received: 12-Dec-17 12:44:59 PM
+System.Web.Extensions
+Invalid JSON primitive: fasle.
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializePrimitiveObject()
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeDictionary(Int32 depth)
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 74
+mqtt published  12-Dec-17 12:45:19 PM
+Initiating...
+subscribed: 12-Dec-17 2:02:00 PM
+Connection closed: 12-Dec-17 2:02:01 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:02 PM
+Connection closed: 12-Dec-17 2:02:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:04 PM
+Connection closed: 12-Dec-17 2:02:04 PM
+***********************************************
+
+Initiating...
+subscribed: 12-Dec-17 2:02:20 PM
+Connection closed: 12-Dec-17 2:02:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:21 PM
+Connection closed: 12-Dec-17 2:02:24 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:25 PM
+Connection closed: 12-Dec-17 2:02:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:27 PM
+Connection closed: 12-Dec-17 2:02:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:28 PM
+Connection closed: 12-Dec-17 2:02:29 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:02:30 PM
+Connection closed: 12-Dec-17 2:03:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:06 PM
+Connection closed: 12-Dec-17 2:03:06 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:08 PM
+Connection closed: 12-Dec-17 2:03:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:10 PM
+Connection closed: 12-Dec-17 2:03:10 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:12 PM
+Connection closed: 12-Dec-17 2:03:12 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:14 PM
+Connection closed: 12-Dec-17 2:03:15 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:16 PM
+Connection closed: 12-Dec-17 2:03:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:03:18 PM
+Connection closed: 12-Dec-17 2:03:18 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 2:04:12 PM
+Connection closed: 12-Dec-17 2:04:13 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:15 PM
+Connection closed: 12-Dec-17 2:04:15 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:17 PM
+Initiating...
+subscribed: 12-Dec-17 2:04:25 PM
+Connection closed: 12-Dec-17 2:04:26 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:27 PM
+Connection closed: 12-Dec-17 2:04:28 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:34 PM
+Connection closed: 12-Dec-17 2:04:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:35 PM
+Connection closed: 12-Dec-17 2:04:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:38 PM
+Connection closed: 12-Dec-17 2:04:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:40 PM
+Connection closed: 12-Dec-17 2:04:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:43 PM
+Connection closed: 12-Dec-17 2:04:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:44 PM
+Connection closed: 12-Dec-17 2:04:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:47 PM
+Connection closed: 12-Dec-17 2:04:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:49 PM
+Connection closed: 12-Dec-17 2:04:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:51 PM
+Connection closed: 12-Dec-17 2:04:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:53 PM
+Connection closed: 12-Dec-17 2:04:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:55 PM
+Connection closed: 12-Dec-17 2:04:56 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:04:57 PM
+Connection closed: 12-Dec-17 2:04:58 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 2:05:34 PM
+Connection closed: 12-Dec-17 2:05:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:36 PM
+Connection closed: 12-Dec-17 2:05:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:38 PM
+Connection closed: 12-Dec-17 2:05:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:41 PM
+Connection closed: 12-Dec-17 2:05:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:43 PM
+Connection closed: 12-Dec-17 2:05:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:45 PM
+Connection closed: 12-Dec-17 2:05:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:47 PM
+Connection closed: 12-Dec-17 2:05:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:49 PM
+Connection closed: 12-Dec-17 2:05:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:51 PM
+Connection closed: 12-Dec-17 2:05:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:53 PM
+Connection closed: 12-Dec-17 2:05:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:56 PM
+Connection closed: 12-Dec-17 2:05:56 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:58 PM
+Connection closed: 12-Dec-17 2:05:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:05:59 PM
+Connection closed: 12-Dec-17 2:06:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:02 PM
+Connection closed: 12-Dec-17 2:06:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:04 PM
+Connection closed: 12-Dec-17 2:06:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:06 PM
+Connection closed: 12-Dec-17 2:06:06 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:08 PM
+Connection closed: 12-Dec-17 2:06:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:10 PM
+Connection closed: 12-Dec-17 2:06:10 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:12 PM
+Connection closed: 12-Dec-17 2:06:12 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:14 PM
+Connection closed: 12-Dec-17 2:06:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:16 PM
+Connection closed: 12-Dec-17 2:06:16 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:18 PM
+Connection closed: 12-Dec-17 2:06:19 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:20 PM
+Connection closed: 12-Dec-17 2:06:21 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:22 PM
+Connection closed: 12-Dec-17 2:06:23 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:24 PM
+Connection closed: 12-Dec-17 2:06:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:26 PM
+Connection closed: 12-Dec-17 2:06:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:28 PM
+Connection closed: 12-Dec-17 2:06:29 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:30 PM
+Connection closed: 12-Dec-17 2:06:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:32 PM
+Connection closed: 12-Dec-17 2:06:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:34 PM
+Connection closed: 12-Dec-17 2:06:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:36 PM
+Connection closed: 12-Dec-17 2:06:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:38 PM
+Connection closed: 12-Dec-17 2:06:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:43 PM
+Connection closed: 12-Dec-17 2:06:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:45 PM
+Connection closed: 12-Dec-17 2:06:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:06:47 PM
+Connection closed: 12-Dec-17 2:06:48 PM
+***********************************************
+
+Initiating...
+subscribed: 12-Dec-17 2:09:20 PM
+Connection closed: 12-Dec-17 2:09:21 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:23 PM
+Connection closed: 12-Dec-17 2:09:23 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:24 PM
+Connection closed: 12-Dec-17 2:09:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:26 PM
+Connection closed: 12-Dec-17 2:09:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:29 PM
+Connection closed: 12-Dec-17 2:09:29 PM
+***********************************************
+
+Connection closed: 12-Dec-17 2:09:32 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:32 PM
+subscribed: 12-Dec-17 2:09:34 PM
+Connection closed: 12-Dec-17 2:09:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:37 PM
+Connection closed: 12-Dec-17 2:09:38 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:39 PM
+Connection closed: 12-Dec-17 2:09:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:41 PM
+Connection closed: 12-Dec-17 2:09:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:43 PM
+Connection closed: 12-Dec-17 2:09:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:45 PM
+Connection closed: 12-Dec-17 2:09:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:48 PM
+Connection closed: 12-Dec-17 2:09:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:50 PM
+Connection closed: 12-Dec-17 2:09:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:52 PM
+Connection closed: 12-Dec-17 2:09:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:54 PM
+Connection closed: 12-Dec-17 2:09:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:09:56 PM
+Connection closed: 12-Dec-17 2:09:56 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 2:10:34 PM
+Connection closed: 12-Dec-17 2:10:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:43 PM
+Connection closed: 12-Dec-17 2:10:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:46 PM
+Connection closed: 12-Dec-17 2:10:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:49 PM
+Connection closed: 12-Dec-17 2:10:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:52 PM
+Connection closed: 12-Dec-17 2:10:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:57 PM
+Connection closed: 12-Dec-17 2:10:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:10:59 PM
+Connection closed: 12-Dec-17 2:11:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:11:06 PM
+Connection closed: 12-Dec-17 2:11:06 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:11:08 PM
+Connection closed: 12-Dec-17 2:11:09 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:11:13 PM
+Initiating...
+subscribed: 12-Dec-17 2:12:55 PM
+Connection closed: 12-Dec-17 2:12:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:02 PM
+Connection closed: 12-Dec-17 2:13:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:05 PM
+Connection closed: 12-Dec-17 2:13:09 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:11 PM
+Connection closed: 12-Dec-17 2:13:12 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:13 PM
+Connection closed: 12-Dec-17 2:13:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:15 PM
+Connection closed: 12-Dec-17 2:13:16 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:18 PM
+Connection closed: 12-Dec-17 2:13:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:22 PM
+Connection closed: 12-Dec-17 2:13:23 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:24 PM
+Connection closed: 12-Dec-17 2:13:26 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:28 PM
+Connection closed: 12-Dec-17 2:13:29 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:31 PM
+Connection closed: 12-Dec-17 2:13:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:33 PM
+Connection closed: 12-Dec-17 2:13:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:36 PM
+Connection closed: 12-Dec-17 2:13:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:44 PM
+Connection closed: 12-Dec-17 2:13:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:48 PM
+Connection closed: 12-Dec-17 2:13:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:51 PM
+Connection closed: 12-Dec-17 2:13:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:54 PM
+Connection closed: 12-Dec-17 2:13:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:13:57 PM
+Connection closed: 12-Dec-17 2:13:59 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:14:01 PM
+Connection closed: 12-Dec-17 2:14:02 PM
+***********************************************
+
+Initiating...
+subscribed: 12-Dec-17 2:18:42 PM
+Connection closed: 12-Dec-17 2:18:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:46 PM
+Connection closed: 12-Dec-17 2:18:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:49 PM
+Connection closed: 12-Dec-17 2:18:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:51 PM
+Connection closed: 12-Dec-17 2:18:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:53 PM
+Connection closed: 12-Dec-17 2:18:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:56 PM
+Connection closed: 12-Dec-17 2:18:57 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:18:58 PM
+Connection closed: 12-Dec-17 2:19:00 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:01 PM
+Connection closed: 12-Dec-17 2:19:03 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:05 PM
+Connection closed: 12-Dec-17 2:19:07 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:08 PM
+Connection closed: 12-Dec-17 2:19:10 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:12 PM
+Connection closed: 12-Dec-17 2:19:13 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:14 PM
+Connection closed: 12-Dec-17 2:19:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:18 PM
+Connection closed: 12-Dec-17 2:19:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:21 PM
+Connection closed: 12-Dec-17 2:19:23 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:24 PM
+Connection closed: 12-Dec-17 2:19:26 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:28 PM
+Connection closed: 12-Dec-17 2:19:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:31 PM
+Connection closed: 12-Dec-17 2:19:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:34 PM
+Connection closed: 12-Dec-17 2:19:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:37 PM
+Connection closed: 12-Dec-17 2:19:39 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:40 PM
+Connection closed: 12-Dec-17 2:19:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:44 PM
+Connection closed: 12-Dec-17 2:19:46 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:47 PM
+Connection closed: 12-Dec-17 2:19:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:51 PM
+Connection closed: 12-Dec-17 2:19:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:56 PM
+Connection closed: 12-Dec-17 2:19:57 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:19:58 PM
+Connection closed: 12-Dec-17 2:20:05 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:07 PM
+Connection closed: 12-Dec-17 2:20:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:09 PM
+Connection closed: 12-Dec-17 2:20:12 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:13 PM
+Connection closed: 12-Dec-17 2:20:15 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:16 PM
+Connection closed: 12-Dec-17 2:20:18 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:19 PM
+Connection closed: 12-Dec-17 2:20:22 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:24 PM
+Connection closed: 12-Dec-17 2:20:25 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:27 PM
+Connection closed: 12-Dec-17 2:20:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:29 PM
+Connection closed: 12-Dec-17 2:20:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:32 PM
+Connection closed: 12-Dec-17 2:20:33 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:35 PM
+Connection closed: 12-Dec-17 2:20:36 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:38 PM
+Connection closed: 12-Dec-17 2:20:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:41 PM
+Connection closed: 12-Dec-17 2:20:44 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:45 PM
+Connection closed: 12-Dec-17 2:20:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:48 PM
+Connection closed: 12-Dec-17 2:20:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:51 PM
+Connection closed: 12-Dec-17 2:20:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:54 PM
+Connection closed: 12-Dec-17 2:20:56 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:20:57 PM
+Connection closed: 12-Dec-17 2:20:59 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:01 PM
+Connection closed: 12-Dec-17 2:21:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:04 PM
+Connection closed: 12-Dec-17 2:21:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:09 PM
+Connection closed: 12-Dec-17 2:21:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:12 PM
+Connection closed: 12-Dec-17 2:21:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:15 PM
+Connection closed: 12-Dec-17 2:21:17 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:19 PM
+Connection closed: 12-Dec-17 2:21:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:21 PM
+Connection closed: 12-Dec-17 2:21:23 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:26 PM
+Connection closed: 12-Dec-17 2:21:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:29 PM
+Connection closed: 12-Dec-17 2:21:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:32 PM
+Connection closed: 12-Dec-17 2:21:35 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:36 PM
+Connection closed: 12-Dec-17 2:21:38 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:40 PM
+Connection closed: 12-Dec-17 2:21:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:43 PM
+Connection closed: 12-Dec-17 2:21:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:47 PM
+Connection closed: 12-Dec-17 2:21:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:49 PM
+Connection closed: 12-Dec-17 2:21:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:52 PM
+Connection closed: 12-Dec-17 2:21:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:56 PM
+Connection closed: 12-Dec-17 2:21:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:21:59 PM
+Connection closed: 12-Dec-17 2:22:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:03 PM
+Connection closed: 12-Dec-17 2:22:05 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:06 PM
+Connection closed: 12-Dec-17 2:22:08 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:09 PM
+Connection closed: 12-Dec-17 2:22:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:12 PM
+Connection closed: 12-Dec-17 2:22:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:16 PM
+Connection closed: 12-Dec-17 2:22:18 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:19 PM
+Connection closed: 12-Dec-17 2:22:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:22 PM
+Connection closed: 12-Dec-17 2:22:24 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:26 PM
+Connection closed: 12-Dec-17 2:22:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:29 PM
+Connection closed: 12-Dec-17 2:22:31 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:33 PM
+Connection closed: 12-Dec-17 2:22:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:36 PM
+Connection closed: 12-Dec-17 2:22:38 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:40 PM
+Connection closed: 12-Dec-17 2:22:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:43 PM
+Connection closed: 12-Dec-17 2:22:45 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:47 PM
+Connection closed: 12-Dec-17 2:22:49 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:50 PM
+Connection closed: 12-Dec-17 2:22:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:53 PM
+Connection closed: 12-Dec-17 2:22:55 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:22:56 PM
+Connection closed: 12-Dec-17 2:22:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:00 PM
+Connection closed: 12-Dec-17 2:23:02 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:03 PM
+Connection closed: 12-Dec-17 2:23:04 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:06 PM
+Connection closed: 12-Dec-17 2:23:07 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:09 PM
+Connection closed: 12-Dec-17 2:23:11 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:12 PM
+Connection closed: 12-Dec-17 2:23:14 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:15 PM
+Connection closed: 12-Dec-17 2:23:18 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:24 PM
+Connection closed: 12-Dec-17 2:23:26 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:29 PM
+Connection closed: 12-Dec-17 2:23:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:32 PM
+Connection closed: 12-Dec-17 2:23:34 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:35 PM
+Connection closed: 12-Dec-17 2:23:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:39 PM
+Connection closed: 12-Dec-17 2:23:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:42 PM
+Connection closed: 12-Dec-17 2:23:43 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:45 PM
+Connection closed: 12-Dec-17 2:23:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:49 PM
+Connection closed: 12-Dec-17 2:23:51 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:53 PM
+Connection closed: 12-Dec-17 2:23:54 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:55 PM
+Connection closed: 12-Dec-17 2:23:58 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:23:59 PM
+Connection closed: 12-Dec-17 2:26:30 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:26:31 PM
+Connection closed: 12-Dec-17 2:26:32 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:26:33 PM
+Connection closed: 12-Dec-17 2:26:34 PM
+***********************************************
+
+Connection closed: 12-Dec-17 2:26:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:26:37 PM
+subscribed: 12-Dec-17 2:26:40 PM
+Connection closed: 12-Dec-17 2:26:41 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:26:42 PM
+Connection closed: 12-Dec-17 2:26:43 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 2:27:18 PM
+Connection closed: 12-Dec-17 2:27:18 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:20 PM
+Connection closed: 12-Dec-17 2:27:20 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:21 PM
+Connection closed: 12-Dec-17 2:27:22 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:23 PM
+Connection closed: 12-Dec-17 2:27:24 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:25 PM
+Connection closed: 12-Dec-17 2:27:26 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:27 PM
+Connection closed: 12-Dec-17 2:27:27 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:29 PM
+Connection closed: 12-Dec-17 2:27:29 PM
+***********************************************
+
+Initiating...
+subscribed: 12-Dec-17 2:27:37 PM
+Connection closed: 12-Dec-17 2:27:37 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:39 PM
+Connection closed: 12-Dec-17 2:27:40 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:42 PM
+Connection closed: 12-Dec-17 2:27:42 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:27:43 PM
+Connection closed: 12-Dec-17 2:27:44 PM
+***********************************************
+
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 12-Dec-17 2:30:46 PM
+Connection closed: 12-Dec-17 2:30:47 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:30:48 PM
+Connection closed: 12-Dec-17 2:30:48 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:30:50 PM
+Connection closed: 12-Dec-17 2:30:50 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:30:51 PM
+Connection closed: 12-Dec-17 2:30:52 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:30:53 PM
+Connection closed: 12-Dec-17 2:30:53 PM
+***********************************************
+
+subscribed: 12-Dec-17 2:30:55 PM
+Initiating...
+subscribed: 12-Dec-17 3:15:35 PM
+Connection closed: 12-Dec-17 3:15:35 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+Initiating...
+subscribed: 12-Dec-17 3:18:10 PM
+Connection closed: 12-Dec-17 3:18:10 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:12 PM
+Connection closed: 12-Dec-17 3:18:12 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:13 PM
+Connection closed: 12-Dec-17 3:18:13 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:15 PM
+Connection closed: 12-Dec-17 3:18:15 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:16 PM
+Connection closed: 12-Dec-17 3:18:16 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:17 PM
+Connection closed: 12-Dec-17 3:18:17 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:19 PM
+Connection closed: 12-Dec-17 3:18:19 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 3:18:20 PM
+Initiating...
+subscribed: 12-Dec-17 3:19:09 PM
+
+received: 12-Dec-17 3:19:11 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_Data.getTable(String device) in d:\vega\AiGrow\AiGrow.Data\DL_Data.cs:line 18
+   at AiGrow.Business.BL_Data.getTable(String device) in d:\vega\AiGrow\AiGrow.Business\BL_Data.cs:line 14
+   at AiGrow.DeviceServer.DatabaseUpdate.getTable(String device) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 390
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 152
+mqtt publish exception12-Dec-17 3:19:12 PM
+Initiating...
+subscribed: 12-Dec-17 3:20:03 PM
+
+received: 12-Dec-17 3:20:09 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_Data.getTable(String device) in d:\vega\AiGrow\AiGrow.Data\DL_Data.cs:line 18
+   at AiGrow.Business.BL_Data.getTable(String device) in d:\vega\AiGrow\AiGrow.Business\BL_Data.cs:line 14
+   at AiGrow.DeviceServer.DatabaseUpdate.getTable(String device) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 390
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 152
+mqtt published  12-Dec-17 3:20:11 PM
+
+received: 12-Dec-17 3:20:11 PM
+
+received: 12-Dec-17 3:20:38 PM
+mqtt published  12-Dec-17 3:20:39 PM
+
+received: 12-Dec-17 3:20:39 PM
+mqtt published  12-Dec-17 3:20:41 PM
+
+received: 12-Dec-17 3:20:41 PM
+mqtt published  12-Dec-17 3:20:42 PM
+
+received: 12-Dec-17 3:20:42 PM
+mqtt published  12-Dec-17 3:20:44 PM
+
+received: 12-Dec-17 3:20:44 PM
+mqtt published  12-Dec-17 3:20:45 PM
+
+received: 12-Dec-17 3:20:45 PM
+mqtt published  12-Dec-17 3:20:46 PM
+
+received: 12-Dec-17 3:20:46 PM
+mqtt published  12-Dec-17 3:20:48 PM
+
+received: 12-Dec-17 3:20:48 PM
+mqtt published  12-Dec-17 3:20:49 PM
+
+received: 12-Dec-17 3:20:49 PM
+mqtt published  12-Dec-17 3:20:51 PM
+
+received: 12-Dec-17 3:20:51 PM
+mqtt published  12-Dec-17 3:20:52 PM
+
+received: 12-Dec-17 3:20:52 PM
+
+received: 12-Dec-17 3:20:52 PM
+mqtt published  12-Dec-17 3:20:53 PM
+
+received: 12-Dec-17 3:20:53 PM
+mqtt published  12-Dec-17 3:20:55 PM
+
+received: 12-Dec-17 3:20:55 PM
+mqtt published  12-Dec-17 3:20:56 PM
+
+received: 12-Dec-17 3:20:56 PM
+
+received: 12-Dec-17 3:20:56 PM
+mqtt published  12-Dec-17 3:20:58 PM
+
+received: 12-Dec-17 3:20:58 PM
+mqtt published  12-Dec-17 3:20:59 PM
+
+received: 12-Dec-17 3:20:59 PM
+mqtt published  12-Dec-17 3:21:00 PM
+
+received: 12-Dec-17 3:21:00 PM
+mqtt published  12-Dec-17 3:21:02 PM
+
+received: 12-Dec-17 3:21:02 PM
+
+received: 12-Dec-17 3:21:02 PM
+mqtt published  12-Dec-17 3:21:03 PM
+
+received: 12-Dec-17 3:21:03 PM
+mqtt published  12-Dec-17 3:21:04 PM
+
+received: 12-Dec-17 3:21:04 PM
+mqtt published  12-Dec-17 3:21:06 PM
+
+received: 12-Dec-17 3:21:06 PM
+mqtt published  12-Dec-17 3:21:07 PM
+
+received: 12-Dec-17 3:21:07 PM
+mqtt published  12-Dec-17 3:21:09 PM
+
+received: 12-Dec-17 3:21:09 PM
+mqtt published  12-Dec-17 3:21:10 PM
+
+received: 12-Dec-17 3:21:10 PM
+mqtt published  12-Dec-17 3:21:11 PM
+
+received: 12-Dec-17 3:21:11 PM
+mqtt published  12-Dec-17 3:21:13 PM
+
+received: 12-Dec-17 3:21:13 PM
+mqtt published  12-Dec-17 3:21:14 PM
+
+received: 12-Dec-17 3:21:14 PM
+mqtt published  12-Dec-17 3:21:15 PM
+
+received: 12-Dec-17 3:21:15 PM
+
+received: 12-Dec-17 3:21:15 PM
+mqtt published  12-Dec-17 3:21:17 PM
+
+received: 12-Dec-17 3:21:17 PM
+mqtt published  12-Dec-17 3:21:18 PM
+
+received: 12-Dec-17 3:21:18 PM
+mqtt published  12-Dec-17 3:21:20 PM
+
+received: 12-Dec-17 3:21:20 PM
+mqtt published  12-Dec-17 3:21:24 PM
+
+received: 12-Dec-17 3:21:24 PM
+
+received: 12-Dec-17 3:21:24 PM
+mqtt published  12-Dec-17 3:21:26 PM
+
+received: 12-Dec-17 3:21:26 PM
+mqtt published  12-Dec-17 3:21:27 PM
+
+received: 12-Dec-17 3:21:27 PM
+mqtt published  12-Dec-17 3:21:28 PM
+
+received: 12-Dec-17 3:21:28 PM
+mqtt published  12-Dec-17 3:21:30 PM
+
+received: 12-Dec-17 3:21:30 PM
+mqtt published  12-Dec-17 3:21:32 PM
+
+received: 12-Dec-17 3:21:32 PM
+mqtt publish exception12-Dec-17 3:22:04 PM
+M2Mqtt.Net
+Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(Byte[] msgBytes, Int32 timeout) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1095
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(MqttMsgBase msg, Int32 timeout) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1120
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(MqttMsgBase msg) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1106
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 570
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 481
+   at AiGrow.DeviceServer.MQTTHandler.Publish(String Topic, String content) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 442
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 94
+mqtt published  12-Dec-17 3:22:05 PM
+
+received: 12-Dec-17 3:22:05 PM
+mqtt published  12-Dec-17 3:22:06 PM
+
+received: 12-Dec-17 3:22:06 PM
+mqtt published  12-Dec-17 3:22:08 PM
+
+received: 12-Dec-17 3:22:08 PM
+
+received: 12-Dec-17 3:22:08 PM
+mqtt published  12-Dec-17 3:22:09 PM
+
+received: 12-Dec-17 3:22:09 PM
+mqtt published  12-Dec-17 3:22:11 PM
+
+received: 12-Dec-17 3:22:11 PM
+mqtt published  12-Dec-17 3:22:12 PM
+
+received: 12-Dec-17 3:22:12 PM
+mqtt published  12-Dec-17 3:22:13 PM
+
+received: 12-Dec-17 3:22:13 PM
+mqtt published  12-Dec-17 3:22:16 PM
+
+received: 12-Dec-17 3:22:16 PM
+mqtt published  12-Dec-17 3:22:17 PM
+
+received: 12-Dec-17 3:22:17 PM
+
+received: 12-Dec-17 3:22:17 PM
+mqtt published  12-Dec-17 3:22:18 PM
+
+received: 12-Dec-17 3:22:18 PM
+mqtt published  12-Dec-17 3:22:20 PM
+
+received: 12-Dec-17 3:22:20 PM
+mqtt published  12-Dec-17 3:22:21 PM
+
+received: 12-Dec-17 3:22:21 PM
+mqtt published  12-Dec-17 3:22:24 PM
+
+received: 12-Dec-17 3:22:24 PM
+mqtt published  12-Dec-17 3:22:25 PM
+
+received: 12-Dec-17 3:22:25 PM
+mqtt published  12-Dec-17 3:22:26 PM
+
+received: 12-Dec-17 3:22:26 PM
+mqtt published  12-Dec-17 3:22:28 PM
+
+received: 12-Dec-17 3:22:28 PM
+
+received: 12-Dec-17 3:22:28 PM
+mqtt published  12-Dec-17 3:22:30 PM
+
+received: 12-Dec-17 3:22:30 PM
+mqtt published  12-Dec-17 3:22:31 PM
+
+received: 12-Dec-17 3:22:31 PM
+mqtt published  12-Dec-17 3:22:33 PM
+
+received: 12-Dec-17 3:22:33 PM
+mqtt publish exception12-Dec-17 3:23:04 PM
+M2Mqtt.Net
+Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(Byte[] msgBytes, Int32 timeout) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1095
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(MqttMsgBase msg, Int32 timeout) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1120
+   at uPLibrary.Networking.M2Mqtt.MqttClient.SendReceive(MqttMsgBase msg) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 1106
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 570
+   at uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId) in C:\_code\paho.mqtt.m2mqtt\M2Mqtt\MqttClient.cs:line 481
+   at AiGrow.DeviceServer.MQTTHandler.Publish(String Topic, String content) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 442
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 94
+mqtt published  12-Dec-17 3:23:05 PM
+
+received: 12-Dec-17 3:23:05 PM
+mqtt published  12-Dec-17 3:23:07 PM
+
+received: 12-Dec-17 3:23:07 PM
+mqtt published  12-Dec-17 3:23:08 PM
+
+received: 12-Dec-17 3:23:08 PM
+mqtt published  12-Dec-17 3:23:10 PM
+
+received: 12-Dec-17 3:23:10 PM
+
+received: 12-Dec-17 3:23:10 PM
+mqtt published  12-Dec-17 3:23:11 PM
+
+received: 12-Dec-17 3:23:11 PM
+mqtt published  12-Dec-17 3:23:12 PM
+
+received: 12-Dec-17 3:23:12 PM
+mqtt published  12-Dec-17 3:23:14 PM
+
+received: 12-Dec-17 3:23:14 PM
+mqtt published  12-Dec-17 3:23:15 PM
+
+received: 12-Dec-17 3:23:15 PM
+mqtt published  12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+
+received: 12-Dec-17 3:23:17 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:18 PM
+
+received: 12-Dec-17 3:23:18 PM
+
+received: 12-Dec-17 3:23:18 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:20 PM
+
+received: 12-Dec-17 3:23:20 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:21 PM
+
+received: 12-Dec-17 3:23:21 PM
+
+received: 12-Dec-17 3:23:21 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:23 PM
+
+received: 12-Dec-17 3:23:23 PM
+
+received: 12-Dec-17 3:23:23 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:24 PM
+
+received: 12-Dec-17 3:23:24 PM
+
+received: 12-Dec-17 3:23:24 PM
+
+received: 12-Dec-17 3:23:24 PM
+
+received: 12-Dec-17 3:23:24 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:26 PM
+
+received: 12-Dec-17 3:23:26 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:28 PM
+
+received: 12-Dec-17 3:23:28 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:29 PM
+
+received: 12-Dec-17 3:23:29 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:31 PM
+
+received: 12-Dec-17 3:23:31 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:32 PM
+
+received: 12-Dec-17 3:23:32 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 3:23:34 PM
+
+received: 12-Dec-17 3:23:34 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt publish exception12-Dec-17 3:24:05 PM
+Initiating...
+subscribed: 12-Dec-17 4:07:00 PM
+Connection closed: 12-Dec-17 4:07:01 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 4:07:02 PM
+Connection closed: 12-Dec-17 4:07:03 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 4:07:04 PM
+Connection closed: 12-Dec-17 4:07:05 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 4:07:06 PM
+Connection closed: 12-Dec-17 4:07:07 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+subscribed: 12-Dec-17 4:07:08 PM
+
+received: 12-Dec-17 4:07:41 PM
+mqtt publish exception12-Dec-17 4:07:42 PM
+mqtt published  12-Dec-17 4:07:42 PM
+
+received: 12-Dec-17 4:07:42 PM
+
+received: 12-Dec-17 4:08:09 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 4:08:11 PM
+
+received: 12-Dec-17 4:09:07 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 4:09:08 PM
+
+received: 12-Dec-17 4:09:15 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 4:09:18 PM
+
+received: 12-Dec-17 4:09:41 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 4:09:42 PM
+Initiating...
+subscribed: 12-Dec-17 4:10:31 PM
+
+received: 12-Dec-17 4:10:33 PM
+MySql.Data
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in d:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Data\DL_BayRackDevice.cs:line 30
+   at AiGrow.Business.BL_BayRackDevice.doesDeviceExist(String device) in d:\vega\AiGrow\AiGrow.Business\BL_BayRackDevice.cs:line 19
+   at AiGrow.DeviceServer.DatabaseUpdate.registerBayRackDevice(BayRackDeviceRequest rackDevice) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\DatabaseUpdate.cs:line 149
+   at AiGrow.DeviceServer.MQTTHandler.ClientMqttMsgPublishReceived(Object sender, MqttMsgPublishEventArgs e) in d:\vega\AiGrow\AiGrow.DeviceServer\Utilities\MQTTHandler.cs:line 358
+mqtt published  12-Dec-17 4:10:35 PM
+
+received: 12-Dec-17 4:10:35 PM
+Initiating...
+Initiating...
+subscribed: 12-Dec-17 4:29:44 PM
+Connection closed: 12-Dec-17 4:29:45 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+Initiating...
+subscribed: 12-Dec-17 4:30:35 PM
+Connection closed: 12-Dec-17 4:30:36 PM
+***********************************************
+ uPLibrary.Networking.M2Mqtt.MqttClient
+Initiating...
+subscribed: 12-Dec-17 4:31:35 PM
+Connection closed: 12-Dec-17 4:31:36 PM
+***********************************************
+ 
+subscribed: 12-Dec-17 4:31:37 PM
+Connection closed: 12-Dec-17 4:31:40 PM
+***********************************************
+ 
+subscribed: 12-Dec-17 4:31:41 PM
+Connection closed: 12-Dec-17 4:31:42 PM
+***********************************************
+ 
+subscribed: 12-Dec-17 4:31:43 PM
+Connection closed: 12-Dec-17 4:31:44 PM
+***********************************************
+ 
+subscribed: 12-Dec-17 4:31:46 PM
+Initiating...
+subscribed: 13-Dec-17 9:45:04 AM
+Connection closed: 13-Dec-17 9:45:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:06 AM
+Connection closed: 13-Dec-17 9:45:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:08 AM
+Connection closed: 13-Dec-17 9:45:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:11 AM
+Connection closed: 13-Dec-17 9:45:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:13 AM
+
+received: 13-Dec-17 9:45:33 AM
+mqtt published  13-Dec-17 9:45:34 AM
+
+received: 13-Dec-17 9:45:34 AM
+Connection closed: 13-Dec-17 9:45:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:49 AM
+Connection closed: 13-Dec-17 9:45:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:51 AM
+Connection closed: 13-Dec-17 9:45:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:53 AM
+Connection closed: 13-Dec-17 9:45:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:55 AM
+Connection closed: 13-Dec-17 9:45:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:57 AM
+Connection closed: 13-Dec-17 9:45:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:45:59 AM
+Connection closed: 13-Dec-17 9:45:59 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:46:01 AM
+Connection closed: 13-Dec-17 9:46:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:46:03 AM
+Connection closed: 13-Dec-17 9:46:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:46:05 AM
+Connection closed: 13-Dec-17 9:46:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:46:07 AM
+Connection closed: 13-Dec-17 9:46:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:46:09 AM
+Connection closed: 13-Dec-17 9:46:10 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 9:53:51 AM
+Connection closed: 13-Dec-17 9:53:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:53:55 AM
+Connection closed: 13-Dec-17 9:53:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:03 AM
+Connection closed: 13-Dec-17 9:54:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:06 AM
+Connection closed: 13-Dec-17 9:54:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:09 AM
+Connection closed: 13-Dec-17 9:54:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:12 AM
+Connection closed: 13-Dec-17 9:54:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:18 AM
+Connection closed: 13-Dec-17 9:54:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:22 AM
+Connection closed: 13-Dec-17 9:54:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:33 AM
+Connection closed: 13-Dec-17 9:54:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:54:50 AM
+Connection closed: 13-Dec-17 9:54:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:55:04 AM
+Connection closed: 13-Dec-17 9:55:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:55:06 AM
+Connection closed: 13-Dec-17 9:55:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:55:08 AM
+Connection closed: 13-Dec-17 9:55:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:55:10 AM
+
+received: 13-Dec-17 9:55:15 AM
+mqtt published  13-Dec-17 9:55:44 AM
+Connection closed: 13-Dec-17 9:55:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:55:47 AM
+Connection closed: 13-Dec-17 9:55:48 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 9:55:59 AM
+Connection closed: 13-Dec-17 9:56:00 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:04 AM
+Connection closed: 13-Dec-17 9:56:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:09 AM
+Connection closed: 13-Dec-17 9:56:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:13 AM
+Connection closed: 13-Dec-17 9:56:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:17 AM
+Connection closed: 13-Dec-17 9:56:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:20 AM
+Connection closed: 13-Dec-17 9:56:21 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:22 AM
+Connection closed: 13-Dec-17 9:56:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:24 AM
+Connection closed: 13-Dec-17 9:56:25 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 9:56:33 AM
+Connection closed: 13-Dec-17 9:56:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:35 AM
+Connection closed: 13-Dec-17 9:56:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:37 AM
+Connection closed: 13-Dec-17 9:56:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:39 AM
+Connection closed: 13-Dec-17 9:56:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:41 AM
+Connection closed: 13-Dec-17 9:56:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:44 AM
+Connection closed: 13-Dec-17 9:56:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:46 AM
+Connection closed: 13-Dec-17 9:56:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:49 AM
+Connection closed: 13-Dec-17 9:56:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:51 AM
+Connection closed: 13-Dec-17 9:56:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:53 AM
+Connection closed: 13-Dec-17 9:56:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:55 AM
+Connection closed: 13-Dec-17 9:56:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:56:57 AM
+Connection closed: 13-Dec-17 9:56:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:00 AM
+Connection closed: 13-Dec-17 9:57:00 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:03 AM
+Connection closed: 13-Dec-17 9:57:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:05 AM
+Connection closed: 13-Dec-17 9:57:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:08 AM
+Connection closed: 13-Dec-17 9:57:08 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 9:57:44 AM
+Connection closed: 13-Dec-17 9:57:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:46 AM
+Connection closed: 13-Dec-17 9:57:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:49 AM
+Connection closed: 13-Dec-17 9:57:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:51 AM
+Connection closed: 13-Dec-17 9:57:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:53 AM
+Connection closed: 13-Dec-17 9:57:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:56 AM
+Connection closed: 13-Dec-17 9:57:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:57:58 AM
+Connection closed: 13-Dec-17 9:57:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:00 AM
+Connection closed: 13-Dec-17 9:58:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:03 AM
+Connection closed: 13-Dec-17 9:58:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:05 AM
+Connection closed: 13-Dec-17 9:58:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:07 AM
+Connection closed: 13-Dec-17 9:58:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:09 AM
+Connection closed: 13-Dec-17 9:58:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:11 AM
+Connection closed: 13-Dec-17 9:58:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:14 AM
+Connection closed: 13-Dec-17 9:58:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:16 AM
+Connection closed: 13-Dec-17 9:58:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:18 AM
+Connection closed: 13-Dec-17 9:58:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:21 AM
+Connection closed: 13-Dec-17 9:58:21 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:23 AM
+Connection closed: 13-Dec-17 9:58:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:25 AM
+Connection closed: 13-Dec-17 9:58:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:27 AM
+Connection closed: 13-Dec-17 9:58:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:29 AM
+Connection closed: 13-Dec-17 9:58:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:32 AM
+Connection closed: 13-Dec-17 9:58:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:34 AM
+Connection closed: 13-Dec-17 9:58:35 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:37 AM
+Connection closed: 13-Dec-17 9:58:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:40 AM
+Connection closed: 13-Dec-17 9:58:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:42 AM
+Connection closed: 13-Dec-17 9:58:43 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:45 AM
+Connection closed: 13-Dec-17 9:58:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:47 AM
+Connection closed: 13-Dec-17 9:58:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:49 AM
+Connection closed: 13-Dec-17 9:58:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:52 AM
+Connection closed: 13-Dec-17 9:58:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:54 AM
+Connection closed: 13-Dec-17 9:58:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:58:57 AM
+Connection closed: 13-Dec-17 9:58:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:00 AM
+Connection closed: 13-Dec-17 9:59:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:03 AM
+Connection closed: 13-Dec-17 9:59:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:07 AM
+Connection closed: 13-Dec-17 9:59:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:10 AM
+Connection closed: 13-Dec-17 9:59:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:12 AM
+Connection closed: 13-Dec-17 9:59:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:14 AM
+Connection closed: 13-Dec-17 9:59:15 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:17 AM
+Connection closed: 13-Dec-17 9:59:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:19 AM
+Connection closed: 13-Dec-17 9:59:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:21 AM
+Connection closed: 13-Dec-17 9:59:22 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:24 AM
+Connection closed: 13-Dec-17 9:59:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:26 AM
+Connection closed: 13-Dec-17 9:59:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:28 AM
+Connection closed: 13-Dec-17 9:59:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:30 AM
+Connection closed: 13-Dec-17 9:59:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:32 AM
+Connection closed: 13-Dec-17 9:59:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:34 AM
+Connection closed: 13-Dec-17 9:59:35 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:36 AM
+Connection closed: 13-Dec-17 9:59:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:38 AM
+Connection closed: 13-Dec-17 9:59:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 9:59:40 AM
+
+received: 13-Dec-17 10:00:11 AM
+mqtt published  13-Dec-17 10:00:32 AM
+Initiating...
+subscribed: 13-Dec-17 10:03:23 AM
+Connection closed: 13-Dec-17 10:03:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:03:26 AM
+Connection closed: 13-Dec-17 10:03:27 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:03:28 AM
+Connection closed: 13-Dec-17 10:03:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:03:31 AM
+Connection closed: 13-Dec-17 10:03:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:03:33 AM
+
+received: 13-Dec-17 10:03:57 AM
+mqtt published  13-Dec-17 10:05:21 AM
+Initiating...
+subscribed: 13-Dec-17 10:05:56 AM
+Connection closed: 13-Dec-17 10:05:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:03 AM
+Connection closed: 13-Dec-17 10:06:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:09 AM
+Connection closed: 13-Dec-17 10:06:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:13 AM
+Connection closed: 13-Dec-17 10:06:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:17 AM
+Connection closed: 13-Dec-17 10:06:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:23 AM
+Connection closed: 13-Dec-17 10:06:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:27 AM
+Connection closed: 13-Dec-17 10:06:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:32 AM
+Connection closed: 13-Dec-17 10:06:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:36 AM
+Connection closed: 13-Dec-17 10:06:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:41 AM
+Connection closed: 13-Dec-17 10:06:43 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:06:45 AM
+Connection closed: 13-Dec-17 10:06:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:00 AM
+Connection closed: 13-Dec-17 10:07:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:02 AM
+Connection closed: 13-Dec-17 10:07:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:11 AM
+Connection closed: 13-Dec-17 10:07:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:25 AM
+Connection closed: 13-Dec-17 10:07:28 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:07:40 AM
+Connection closed: 13-Dec-17 10:07:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:48 AM
+Connection closed: 13-Dec-17 10:07:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:53 AM
+Connection closed: 13-Dec-17 10:07:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:07:57 AM
+Connection closed: 13-Dec-17 10:08:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:08:12 AM
+Connection closed: 13-Dec-17 10:08:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:08:23 AM
+Connection closed: 13-Dec-17 10:08:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:08:25 AM
+Connection closed: 13-Dec-17 10:08:27 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:08:28 AM
+Connection closed: 13-Dec-17 10:08:31 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 10:10:10 AM
+Connection closed: 13-Dec-17 10:10:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:10:13 AM
+
+received: 13-Dec-17 10:10:21 AM
+Initiating...
+subscribed: 13-Dec-17 10:10:43 AM
+Connection closed: 13-Dec-17 10:10:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:10:45 AM
+Connection closed: 13-Dec-17 10:10:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:10:49 AM
+Connection closed: 13-Dec-17 10:10:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:10:52 AM
+Connection closed: 13-Dec-17 10:10:52 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:11:00 AM
+Connection closed: 13-Dec-17 10:11:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:11:03 AM
+
+received: 13-Dec-17 10:11:06 AM
+mqtt published  13-Dec-17 10:12:13 AM
+Initiating...
+subscribed: 13-Dec-17 10:13:10 AM
+Connection closed: 13-Dec-17 10:13:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:13:14 AM
+Connection closed: 13-Dec-17 10:13:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:13:18 AM
+
+received: 13-Dec-17 10:13:21 AM
+Initiating...
+subscribed: 13-Dec-17 10:15:44 AM
+Connection closed: 13-Dec-17 10:15:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:15:48 AM
+Connection closed: 13-Dec-17 10:15:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:15:51 AM
+Connection closed: 13-Dec-17 10:15:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:15:53 AM
+Connection closed: 13-Dec-17 10:15:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:15:56 AM
+Connection closed: 13-Dec-17 10:15:59 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:00 AM
+Connection closed: 13-Dec-17 10:16:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:04 AM
+Connection closed: 13-Dec-17 10:16:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:07 AM
+
+received: 13-Dec-17 10:16:11 AM
+mqtt published  13-Dec-17 10:16:17 AM
+Connection closed: 13-Dec-17 10:16:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:19 AM
+Connection closed: 13-Dec-17 10:16:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:21 AM
+Connection closed: 13-Dec-17 10:16:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:16:24 AM
+Connection closed: 13-Dec-17 10:16:27 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:16:58 AM
+Connection closed: 13-Dec-17 10:17:00 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:01 AM
+Connection closed: 13-Dec-17 10:17:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:04 AM
+Connection closed: 13-Dec-17 10:17:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:07 AM
+Initiating...
+subscribed: 13-Dec-17 10:17:17 AM
+
+received: 13-Dec-17 10:17:21 AM
+mqtt published  13-Dec-17 10:17:25 AM
+Connection closed: 13-Dec-17 10:17:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:27 AM
+Connection closed: 13-Dec-17 10:17:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:29 AM
+Connection closed: 13-Dec-17 10:17:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:32 AM
+Connection closed: 13-Dec-17 10:17:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:37 AM
+Connection closed: 13-Dec-17 10:17:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:42 AM
+Connection closed: 13-Dec-17 10:17:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:45 AM
+Connection closed: 13-Dec-17 10:17:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:49 AM
+Connection closed: 13-Dec-17 10:17:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:52 AM
+Connection closed: 13-Dec-17 10:17:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:17:56 AM
+Initiating...
+subscribed: 13-Dec-17 10:19:02 AM
+Connection closed: 13-Dec-17 10:19:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:06 AM
+Connection closed: 13-Dec-17 10:19:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:10 AM
+
+received: 13-Dec-17 10:19:15 AM
+mqtt published  13-Dec-17 10:19:30 AM
+Connection closed: 13-Dec-17 10:19:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:32 AM
+Connection closed: 13-Dec-17 10:19:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:35 AM
+Connection closed: 13-Dec-17 10:19:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:38 AM
+Connection closed: 13-Dec-17 10:19:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:41 AM
+Connection closed: 13-Dec-17 10:19:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:45 AM
+Connection closed: 13-Dec-17 10:19:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:48 AM
+Connection closed: 13-Dec-17 10:19:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:52 AM
+Connection closed: 13-Dec-17 10:19:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:19:57 AM
+Connection closed: 13-Dec-17 10:19:59 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:01 AM
+Connection closed: 13-Dec-17 10:20:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:04 AM
+Connection closed: 13-Dec-17 10:20:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:08 AM
+Connection closed: 13-Dec-17 10:20:09 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:20:19 AM
+Connection closed: 13-Dec-17 10:20:21 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:22 AM
+Connection closed: 13-Dec-17 10:20:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:26 AM
+Connection closed: 13-Dec-17 10:20:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:29 AM
+
+received: 13-Dec-17 10:20:31 AM
+mqtt published  13-Dec-17 10:20:33 AM
+Connection closed: 13-Dec-17 10:20:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:34 AM
+Connection closed: 13-Dec-17 10:20:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:37 AM
+Connection closed: 13-Dec-17 10:20:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:41 AM
+
+received: 13-Dec-17 10:20:41 AM
+mqtt published  13-Dec-17 10:20:43 AM
+
+received: 13-Dec-17 10:20:43 AM
+mqtt published  13-Dec-17 10:20:45 AM
+Connection closed: 13-Dec-17 10:20:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:20:46 AM
+
+received: 13-Dec-17 10:21:13 AM
+mqtt published  13-Dec-17 10:23:13 AM
+Initiating...
+subscribed: 13-Dec-17 10:23:36 AM
+
+received: 13-Dec-17 10:23:42 AM
+Initiating...
+subscribed: 13-Dec-17 10:26:29 AM
+
+received: 13-Dec-17 10:26:34 AM
+mqtt published  13-Dec-17 10:26:49 AM
+Initiating...
+subscribed: 13-Dec-17 10:27:23 AM
+Connection closed: 13-Dec-17 10:27:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:27:25 AM
+
+received: 13-Dec-17 10:27:32 AM
+mqtt published  13-Dec-17 10:27:34 AM
+Connection closed: 13-Dec-17 10:27:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:27:35 AM
+Connection closed: 13-Dec-17 10:27:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:27:40 AM
+Connection closed: 13-Dec-17 10:27:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:27:44 AM
+Connection closed: 13-Dec-17 10:27:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:27:49 AM
+Connection closed: 13-Dec-17 10:27:51 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 10:28:28 AM
+Connection closed: 13-Dec-17 10:28:31 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:28:40 AM
+Connection closed: 13-Dec-17 10:28:43 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:28:44 AM
+Connection closed: 13-Dec-17 10:28:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:28:48 AM
+Connection closed: 13-Dec-17 10:28:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:28:53 AM
+Connection closed: 13-Dec-17 10:28:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:28:56 AM
+Connection closed: 13-Dec-17 10:28:59 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:00 AM
+Connection closed: 13-Dec-17 10:29:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:03 AM
+Connection closed: 13-Dec-17 10:29:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:06 AM
+Connection closed: 13-Dec-17 10:29:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:10 AM
+Connection closed: 13-Dec-17 10:29:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:13 AM
+Connection closed: 13-Dec-17 10:29:15 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:17 AM
+Connection closed: 13-Dec-17 10:29:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:20 AM
+Connection closed: 13-Dec-17 10:29:22 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:24 AM
+Connection closed: 13-Dec-17 10:29:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:27 AM
+Connection closed: 13-Dec-17 10:29:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:32 AM
+Connection closed: 13-Dec-17 10:29:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:36 AM
+Connection closed: 13-Dec-17 10:29:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:39 AM
+Connection closed: 13-Dec-17 10:29:43 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:45 AM
+Connection closed: 13-Dec-17 10:29:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:49 AM
+Connection closed: 13-Dec-17 10:29:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:52 AM
+Connection closed: 13-Dec-17 10:29:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:29:59 AM
+Connection closed: 13-Dec-17 10:30:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:04 AM
+Connection closed: 13-Dec-17 10:30:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:07 AM
+Connection closed: 13-Dec-17 10:30:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:13 AM
+Connection closed: 13-Dec-17 10:30:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:18 AM
+Connection closed: 13-Dec-17 10:30:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:22 AM
+Connection closed: 13-Dec-17 10:30:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:25 AM
+Connection closed: 13-Dec-17 10:30:27 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:29 AM
+Connection closed: 13-Dec-17 10:30:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:30:32 AM
+Connection closed: 13-Dec-17 10:30:35 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 10:31:11 AM
+Connection closed: 13-Dec-17 10:31:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:17 AM
+Connection closed: 13-Dec-17 10:31:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:21 AM
+Connection closed: 13-Dec-17 10:31:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:24 AM
+Connection closed: 13-Dec-17 10:31:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:30 AM
+Connection closed: 13-Dec-17 10:31:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:35 AM
+Connection closed: 13-Dec-17 10:31:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:40 AM
+Connection closed: 13-Dec-17 10:31:41 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:43 AM
+Connection closed: 13-Dec-17 10:31:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:31:49 AM
+Connection closed: 13-Dec-17 10:32:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:31 AM
+Connection closed: 13-Dec-17 10:32:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:34 AM
+Connection closed: 13-Dec-17 10:32:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:39 AM
+Connection closed: 13-Dec-17 10:32:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:43 AM
+Connection closed: 13-Dec-17 10:32:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:47 AM
+Connection closed: 13-Dec-17 10:32:50 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:51 AM
+Connection closed: 13-Dec-17 10:32:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:32:56 AM
+Connection closed: 13-Dec-17 10:32:59 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:00 AM
+Connection closed: 13-Dec-17 10:33:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:04 AM
+Connection closed: 13-Dec-17 10:33:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:09 AM
+Connection closed: 13-Dec-17 10:33:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:13 AM
+Connection closed: 13-Dec-17 10:33:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:17 AM
+Connection closed: 13-Dec-17 10:33:21 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:22 AM
+Connection closed: 13-Dec-17 10:33:27 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:28 AM
+Connection closed: 13-Dec-17 10:33:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:33 AM
+Connection closed: 13-Dec-17 10:33:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:33:39 AM
+Connection closed: 13-Dec-17 10:34:21 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:22 AM
+Connection closed: 13-Dec-17 10:34:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:27 AM
+Connection closed: 13-Dec-17 10:34:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:32 AM
+Connection closed: 13-Dec-17 10:34:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:39 AM
+Connection closed: 13-Dec-17 10:34:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:44 AM
+Connection closed: 13-Dec-17 10:34:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:49 AM
+Connection closed: 13-Dec-17 10:34:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:54 AM
+Connection closed: 13-Dec-17 10:34:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:34:59 AM
+
+received: 13-Dec-17 10:35:01 AM
+mqtt published  13-Dec-17 10:35:03 AM
+Connection closed: 13-Dec-17 10:35:03 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 10:35:39 AM
+Connection closed: 13-Dec-17 10:35:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:35:44 AM
+Connection closed: 13-Dec-17 10:35:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:35:49 AM
+
+received: 13-Dec-17 10:35:50 AM
+mqtt published  13-Dec-17 10:35:51 AM
+
+received: 13-Dec-17 10:35:52 AM
+Connection closed: 13-Dec-17 10:35:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:35:54 AM
+Connection closed: 13-Dec-17 10:35:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:35:59 AM
+Connection closed: 13-Dec-17 10:36:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:36:04 AM
+Connection closed: 13-Dec-17 10:36:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:36:09 AM
+Connection closed: 13-Dec-17 10:36:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:36:14 AM
+
+received: 13-Dec-17 10:36:18 AM
+mqtt published  13-Dec-17 10:36:19 AM
+
+received: 13-Dec-17 10:36:20 AM
+
+received: 13-Dec-17 10:36:46 AM
+mqtt published  13-Dec-17 10:36:48 AM
+
+received: 13-Dec-17 10:36:49 AM
+Connection closed: 13-Dec-17 10:36:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:36:59 AM
+Connection closed: 13-Dec-17 10:37:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:04 AM
+Connection closed: 13-Dec-17 10:37:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:10 AM
+Connection closed: 13-Dec-17 10:37:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:16 AM
+Connection closed: 13-Dec-17 10:37:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:21 AM
+Connection closed: 13-Dec-17 10:37:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:26 AM
+Connection closed: 13-Dec-17 10:37:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:31 AM
+Connection closed: 13-Dec-17 10:37:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:37 AM
+Connection closed: 13-Dec-17 10:37:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:43 AM
+Connection closed: 13-Dec-17 10:37:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:48 AM
+Connection closed: 13-Dec-17 10:37:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:52 AM
+Connection closed: 13-Dec-17 10:37:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:37:59 AM
+Connection closed: 13-Dec-17 10:38:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:04 AM
+Connection closed: 13-Dec-17 10:38:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:09 AM
+Connection closed: 13-Dec-17 10:38:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:15 AM
+Connection closed: 13-Dec-17 10:38:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:21 AM
+Connection closed: 13-Dec-17 10:38:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:26 AM
+Connection closed: 13-Dec-17 10:38:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:30 AM
+Connection closed: 13-Dec-17 10:38:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:36 AM
+Connection closed: 13-Dec-17 10:38:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:42 AM
+Connection closed: 13-Dec-17 10:38:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:47 AM
+Connection closed: 13-Dec-17 10:38:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:38:53 AM
+Connection closed: 13-Dec-17 10:38:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:01 AM
+Connection closed: 13-Dec-17 10:39:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:08 AM
+Connection closed: 13-Dec-17 10:39:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:14 AM
+Connection closed: 13-Dec-17 10:39:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:19 AM
+Connection closed: 13-Dec-17 10:39:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:25 AM
+Connection closed: 13-Dec-17 10:39:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:30 AM
+Connection closed: 13-Dec-17 10:39:35 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:37 AM
+Connection closed: 13-Dec-17 10:39:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:41 AM
+Connection closed: 13-Dec-17 10:39:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:46 AM
+Connection closed: 13-Dec-17 10:39:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:39:52 AM
+Connection closed: 13-Dec-17 10:39:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:00 AM
+Connection closed: 13-Dec-17 10:40:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:05 AM
+Connection closed: 13-Dec-17 10:40:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:13 AM
+Connection closed: 13-Dec-17 10:40:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:20 AM
+Connection closed: 13-Dec-17 10:40:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:28 AM
+Connection closed: 13-Dec-17 10:40:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:40:34 AM
+Initiating...
+subscribed: 13-Dec-17 10:41:25 AM
+Connection closed: 13-Dec-17 10:41:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:41:32 AM
+Connection closed: 13-Dec-17 10:41:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:41:38 AM
+Connection closed: 13-Dec-17 10:41:45 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:41:47 AM
+
+received: 13-Dec-17 10:41:48 AM
+mqtt published  13-Dec-17 10:41:51 AM
+
+received: 13-Dec-17 10:41:51 AM
+Connection closed: 13-Dec-17 10:41:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:41:55 AM
+Connection closed: 13-Dec-17 10:42:00 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:42:04 AM
+Connection closed: 13-Dec-17 10:42:07 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:42:09 AM
+Connection closed: 13-Dec-17 10:42:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:42:14 AM
+Connection closed: 13-Dec-17 10:42:21 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:43:03 AM
+
+received: 13-Dec-17 10:43:04 AM
+mqtt published  13-Dec-17 10:43:06 AM
+
+received: 13-Dec-17 10:43:06 AM
+Connection closed: 13-Dec-17 10:43:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:09 AM
+Connection closed: 13-Dec-17 10:43:15 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:16 AM
+Connection closed: 13-Dec-17 10:43:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:24 AM
+Connection closed: 13-Dec-17 10:43:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:29 AM
+Connection closed: 13-Dec-17 10:43:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:38 AM
+Connection closed: 13-Dec-17 10:43:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:44 AM
+Connection closed: 13-Dec-17 10:43:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:51 AM
+Connection closed: 13-Dec-17 10:43:57 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:43:58 AM
+Connection closed: 13-Dec-17 10:44:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:44:04 AM
+Connection closed: 13-Dec-17 10:44:10 AM
+***********************************************
+ 
+Initiating...
+subscribed: 13-Dec-17 10:44:20 AM
+
+received: 13-Dec-17 10:44:23 AM
+Initiating...
+subscribed: 13-Dec-17 10:44:50 AM
+Connection closed: 13-Dec-17 10:44:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:44:56 AM
+Connection closed: 13-Dec-17 10:45:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:45:04 AM
+Connection closed: 13-Dec-17 10:45:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:45:11 AM
+Connection closed: 13-Dec-17 10:45:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:45:16 AM
+Connection closed: 13-Dec-17 10:46:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:46:04 AM
+Connection closed: 13-Dec-17 10:46:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:46:11 AM
+Connection closed: 13-Dec-17 10:46:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:46:25 AM
+Connection closed: 13-Dec-17 10:46:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:46:32 AM
+Connection closed: 13-Dec-17 10:46:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:46:39 AM
+Connection closed: 13-Dec-17 10:46:45 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 10:47:22 AM
+Connection closed: 13-Dec-17 10:47:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:47:29 AM
+Connection closed: 13-Dec-17 10:47:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:47:42 AM
+Connection closed: 13-Dec-17 10:47:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:47:49 AM
+Connection closed: 13-Dec-17 10:47:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:47:56 AM
+Connection closed: 13-Dec-17 10:48:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:05 AM
+Connection closed: 13-Dec-17 10:48:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:13 AM
+Connection closed: 13-Dec-17 10:48:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:21 AM
+Connection closed: 13-Dec-17 10:48:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:28 AM
+Connection closed: 13-Dec-17 10:48:35 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:37 AM
+Connection closed: 13-Dec-17 10:48:43 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:44 AM
+Connection closed: 13-Dec-17 10:48:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:50 AM
+Connection closed: 13-Dec-17 10:48:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:48:57 AM
+Connection closed: 13-Dec-17 10:49:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:05 AM
+Connection closed: 13-Dec-17 10:49:13 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:14 AM
+Connection closed: 13-Dec-17 10:49:20 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:21 AM
+Connection closed: 13-Dec-17 10:49:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:31 AM
+Connection closed: 13-Dec-17 10:49:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:39 AM
+Connection closed: 13-Dec-17 10:49:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:47 AM
+Connection closed: 13-Dec-17 10:49:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:49:54 AM
+Connection closed: 13-Dec-17 10:50:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:50:02 AM
+
+received: 13-Dec-17 10:50:06 AM
+Initiating...
+subscribed: 13-Dec-17 10:51:19 AM
+
+received: 13-Dec-17 10:51:24 AM
+mqtt published  13-Dec-17 10:51:35 AM
+Connection closed: 13-Dec-17 10:51:35 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:51:36 AM
+Connection closed: 13-Dec-17 10:51:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:51:42 AM
+Connection closed: 13-Dec-17 10:51:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:51:47 AM
+Connection closed: 13-Dec-17 10:51:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:51:56 AM
+Connection closed: 13-Dec-17 10:52:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:04 AM
+Connection closed: 13-Dec-17 10:52:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:11 AM
+Connection closed: 13-Dec-17 10:52:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:18 AM
+Connection closed: 13-Dec-17 10:52:26 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:28 AM
+Connection closed: 13-Dec-17 10:52:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:34 AM
+Connection closed: 13-Dec-17 10:52:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:52:41 AM
+Initiating...
+subscribed: 13-Dec-17 10:52:56 AM
+
+received: 13-Dec-17 10:52:58 AM
+mqtt published  13-Dec-17 10:53:01 AM
+
+received: 13-Dec-17 10:53:01 AM
+Connection closed: 13-Dec-17 10:53:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:06 AM
+Connection closed: 13-Dec-17 10:53:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:13 AM
+Connection closed: 13-Dec-17 10:53:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:21 AM
+Connection closed: 13-Dec-17 10:53:28 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:30 AM
+Connection closed: 13-Dec-17 10:53:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:35 AM
+
+received: 13-Dec-17 10:53:36 AM
+mqtt published  13-Dec-17 10:53:38 AM
+
+received: 13-Dec-17 10:53:38 AM
+Connection closed: 13-Dec-17 10:53:41 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:42 AM
+Connection closed: 13-Dec-17 10:53:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:50 AM
+Connection closed: 13-Dec-17 10:53:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:53:58 AM
+Connection closed: 13-Dec-17 10:54:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:06 AM
+Connection closed: 13-Dec-17 10:54:14 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:16 AM
+Connection closed: 13-Dec-17 10:54:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:24 AM
+Connection closed: 13-Dec-17 10:54:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:33 AM
+Connection closed: 13-Dec-17 10:54:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:41 AM
+Connection closed: 13-Dec-17 10:54:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:48 AM
+Connection closed: 13-Dec-17 10:54:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:54:56 AM
+Connection closed: 13-Dec-17 10:55:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:05 AM
+
+received: 13-Dec-17 10:55:10 AM
+mqtt published  13-Dec-17 10:55:11 AM
+Connection closed: 13-Dec-17 10:55:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:13 AM
+Connection closed: 13-Dec-17 10:55:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:19 AM
+Connection closed: 13-Dec-17 10:55:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:27 AM
+Connection closed: 13-Dec-17 10:55:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:36 AM
+Connection closed: 13-Dec-17 10:55:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:43 AM
+
+received: 13-Dec-17 10:55:46 AM
+mqtt published  13-Dec-17 10:55:47 AM
+
+received: 13-Dec-17 10:55:48 AM
+Connection closed: 13-Dec-17 10:55:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:55:50 AM
+Connection closed: 13-Dec-17 10:55:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:00 AM
+Connection closed: 13-Dec-17 10:56:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:07 AM
+Connection closed: 13-Dec-17 10:56:15 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:16 AM
+Connection closed: 13-Dec-17 10:56:23 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:24 AM
+Connection closed: 13-Dec-17 10:56:30 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:32 AM
+Connection closed: 13-Dec-17 10:56:37 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:39 AM
+Connection closed: 13-Dec-17 10:56:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:48 AM
+Connection closed: 13-Dec-17 10:56:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:56:55 AM
+Connection closed: 13-Dec-17 10:57:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:03 AM
+Connection closed: 13-Dec-17 10:57:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:11 AM
+Connection closed: 13-Dec-17 10:57:16 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:18 AM
+Connection closed: 13-Dec-17 10:57:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:26 AM
+Connection closed: 13-Dec-17 10:57:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:33 AM
+Connection closed: 13-Dec-17 10:57:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:41 AM
+Connection closed: 13-Dec-17 10:57:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:49 AM
+Connection closed: 13-Dec-17 10:57:55 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:57:56 AM
+Connection closed: 13-Dec-17 10:58:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:58:03 AM
+Connection closed: 13-Dec-17 10:58:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:58:13 AM
+Connection closed: 13-Dec-17 10:58:19 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:58:25 AM
+Connection closed: 13-Dec-17 10:58:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:58:50 AM
+Connection closed: 13-Dec-17 10:58:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:58:58 AM
+Connection closed: 13-Dec-17 10:59:02 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:03 AM
+Connection closed: 13-Dec-17 10:59:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:11 AM
+Connection closed: 13-Dec-17 10:59:18 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:20 AM
+Connection closed: 13-Dec-17 10:59:24 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:25 AM
+Connection closed: 13-Dec-17 10:59:31 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:33 AM
+Connection closed: 13-Dec-17 10:59:39 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:40 AM
+Connection closed: 13-Dec-17 10:59:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:46 AM
+Connection closed: 13-Dec-17 10:59:52 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 10:59:53 AM
+Connection closed: 13-Dec-17 11:00:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:03 AM
+Connection closed: 13-Dec-17 11:00:09 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:11 AM
+Connection closed: 13-Dec-17 11:00:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:19 AM
+Connection closed: 13-Dec-17 11:00:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:27 AM
+Connection closed: 13-Dec-17 11:00:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:34 AM
+Connection closed: 13-Dec-17 11:00:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:42 AM
+Connection closed: 13-Dec-17 11:00:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:49 AM
+Connection closed: 13-Dec-17 11:00:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:00:55 AM
+Connection closed: 13-Dec-17 11:01:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:03 AM
+Connection closed: 13-Dec-17 11:01:11 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:12 AM
+Connection closed: 13-Dec-17 11:01:17 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:18 AM
+Connection closed: 13-Dec-17 11:01:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:27 AM
+Connection closed: 13-Dec-17 11:01:33 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:34 AM
+Connection closed: 13-Dec-17 11:01:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:40 AM
+Connection closed: 13-Dec-17 11:01:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:47 AM
+Connection closed: 13-Dec-17 11:01:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:01:55 AM
+Connection closed: 13-Dec-17 11:02:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:02:02 AM
+Initiating...
+subscribed: 13-Dec-17 11:30:19 AM
+Initiating...
+subscribed: 13-Dec-17 11:31:58 AM
+Connection closed: 13-Dec-17 11:33:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:42 AM
+Connection closed: 13-Dec-17 11:33:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:44 AM
+Connection closed: 13-Dec-17 11:33:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:45 AM
+Connection closed: 13-Dec-17 11:33:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:47 AM
+Connection closed: 13-Dec-17 11:33:48 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:49 AM
+Connection closed: 13-Dec-17 11:33:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:51 AM
+Connection closed: 13-Dec-17 11:33:51 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:52 AM
+Connection closed: 13-Dec-17 11:33:53 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:54 AM
+Connection closed: 13-Dec-17 11:33:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:56 AM
+Connection closed: 13-Dec-17 11:33:56 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:57 AM
+Connection closed: 13-Dec-17 11:33:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:33:59 AM
+Connection closed: 13-Dec-17 11:34:00 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:01 AM
+Connection closed: 13-Dec-17 11:34:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:03 AM
+Connection closed: 13-Dec-17 11:34:03 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:04 AM
+Connection closed: 13-Dec-17 11:34:05 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:06 AM
+Connection closed: 13-Dec-17 11:34:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:08 AM
+Connection closed: 13-Dec-17 11:34:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:09 AM
+Connection closed: 13-Dec-17 11:34:10 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:12 AM
+Connection closed: 13-Dec-17 11:34:47 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:34:48 AM
+Connection closed: 13-Dec-17 11:34:49 AM
+***********************************************
+ 
+ERROR: Exception of type 'uPLibrary.Networking.M2Mqtt.Exceptions.MqttCommunicationException' was thrown.
+Initiating...
+subscribed: 13-Dec-17 11:35:25 AM
+Connection closed: 13-Dec-17 11:35:25 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:26 AM
+Connection closed: 13-Dec-17 11:35:27 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:29 AM
+Connection closed: 13-Dec-17 11:35:29 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:31 AM
+Connection closed: 13-Dec-17 11:35:32 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:33 AM
+Connection closed: 13-Dec-17 11:35:34 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:35 AM
+Connection closed: 13-Dec-17 11:35:36 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:37 AM
+Connection closed: 13-Dec-17 11:35:38 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:39 AM
+Connection closed: 13-Dec-17 11:35:40 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:42 AM
+Connection closed: 13-Dec-17 11:35:42 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:43 AM
+Connection closed: 13-Dec-17 11:35:44 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:45 AM
+Connection closed: 13-Dec-17 11:35:46 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:49 AM
+Connection closed: 13-Dec-17 11:35:49 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:53 AM
+Connection closed: 13-Dec-17 11:35:54 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:35:58 AM
+Connection closed: 13-Dec-17 11:35:58 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:00 AM
+Connection closed: 13-Dec-17 11:36:01 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:03 AM
+Connection closed: 13-Dec-17 11:36:04 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:05 AM
+Connection closed: 13-Dec-17 11:36:06 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:08 AM
+Connection closed: 13-Dec-17 11:36:08 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:11 AM
+Connection closed: 13-Dec-17 11:36:12 AM
+***********************************************
+ 
+subscribed: 13-Dec-17 11:36:13 AM
+Connection closed: 13-Dec-17 11:36:14 AM
+***********************************************
+ 
+Connection closed: 13-Dec-17 11:36:17 AM
+subscribed: 13-Dec-17 11:36:17 AM
