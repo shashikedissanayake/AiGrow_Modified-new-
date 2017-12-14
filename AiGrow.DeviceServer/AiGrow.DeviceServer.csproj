@@ -141,6 +141,8 @@
     </Compile>
     <Compile Include="Mqtt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Responses\GreenhouseListResponse.cs" />
+    <Compile Include="Responses\GreenhouseResponse.cs" />
     <Compile Include="Responses\LocationListResponse.cs" />
     <Compile Include="Responses\LocationResponse.cs" />
     <Compile Include="SensorController.asmx.cs">

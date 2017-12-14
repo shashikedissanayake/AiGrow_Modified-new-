@@ -12,15 +12,16 @@ namespace AiGrow.Data
     {
         public bool insert(Model.ML_BayRackDevice device)
         {
-            var para = new MySqlParameter[6];
+            var para = new MySqlParameter[7];
             para[0] = new MySqlParameter("@device_unique_id", device.device_unique_id);
             para[2] = new MySqlParameter("@device_type", device.device_type);
             para[3] = new MySqlParameter("@io_type", device.io_type);
             para[4] = new MySqlParameter("@rack_line_id", device.rack_id);
             para[5] = new MySqlParameter("@status", device.status);
             para[1] = new MySqlParameter("@units", device.default_unit);
+            para[6] = new MySqlParameter("@name", device.rack_device_name);
 
-            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO rack_device (rack_device_unique_id, device_type, io_type, rack_id, default_unit, status) VALUES (@device_unique_id, @device_type, @io_type, @rack_line_id, @units, @status);", para) != -1;
+            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO rack_device (rack_device_unique_id, device_type, io_type, rack_id, default_unit, status, rack_device_name) VALUES (@device_unique_id, @device_type, @io_type, @rack_line_id, @units, @status, @name);", para) != -1;
         }
         public bool doesDeviceExist(string device)
         {

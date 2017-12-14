@@ -30,8 +30,17 @@ namespace AiGrow.DeviceServer
         public const string passwordLengthInvalid = "The password length does not match the requirements.";
         public const string locationInsertedSuccessfully = "Location inserted successfully.";
         public const string bayInsertedSuccessfully = "Bay inserted successfully.";
+        public const string bayLineInsertedSuccessfully = "Bay Line inserted successfully.";
+        public const string bayRackInsertedSuccessfully = "Bay Rack inserted successfully.";
+        public const string bayRackLevelInsertedSuccessfully = "Bay Rack Level inserted successfully.";
+        public const string bayRackLevelLineInsertedSuccessfully = "Bay Rack Level Line inserted successfully.";
         public const string greenhouseInsertedSuccessfully = "Greenhouse inserted successfully.";
         public const string greenhouseDeviceInsertedSuccessfully = "Greenhouse Device inserted successfully.";
+        public const string bayDeviceInsertedSuccessfully = "Bay Device inserted successfully.";
+        public const string bayLineDeviceInsertedSuccessfully = "Bay Line Device inserted successfully.";
+        public const string bayRackDeviceInsertedSuccessfully = "Bay Rack Device inserted successfully.";
+        public const string bayRackLevelDeviceInsertedSuccessfully = "Bay Rack Level Device inserted successfully.";
+        public const string bayRackLevelLineDeviceInsertedSuccessfully = "Bay Rack Level Line Device inserted successfully.";
         public const string locationDeletedSuccessfully = "Location deleted successfully.";
         public const string invalidRequest = "Invalid request.";
         public const string invalidEmail = "You have entered an invalid email. Please re-check!";
@@ -121,7 +130,7 @@ namespace AiGrow.DeviceServer
 
         #region Data Table Constants
 
-        public const string MQTT_topic = "/aigrow";
+        public const string MQTT_topic = "/aigrow_common";
         public const string data = "dataEntry";
         public const string greenhouse = "registerGreenhouse";
         public const string greenhouseDevice = "registerGreenhouseDevice";

@@ -12,13 +12,14 @@ namespace AiGrow.Data
     {
         public bool insert(Model.ML_Greenhouse greenhouse)
         {
-            var para = new MySqlParameter[4];
+            var para = new MySqlParameter[5];
             para[0] = new MySqlParameter("@greenhouse_name", greenhouse.greenhouse_name);
             para[1] = new MySqlParameter("@user_id", greenhouse.owner_user_id);
             para[2] = new MySqlParameter("@location_id", greenhouse.location_id);
             para[3] = new MySqlParameter("@unique_id", greenhouse.greenhouse_unique_id);
+            para[4] = new MySqlParameter("@pic_url", greenhouse.pic_url);
 
-            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO greenhouse ( greenhouse_name ,owner_user_id ,location_id , greenhouse_unique_id, created_date_time, last_updated_date ) VALUES ( @greenhouse_name ,@user_id ,@location_id ,@unique_id, NOW(), NOW() )", para) != -1;
+            return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "INSERT INTO greenhouse ( greenhouse_name ,owner_user_id ,location_id , greenhouse_unique_id, created_date_time, last_updated_date, pic_url) VALUES ( @greenhouse_name ,@user_id ,@location_id ,@unique_id, NOW(), NOW(), @pic_url)", para) != -1;
            
         }
         public bool doesGreenhouseExist(string greenhouse)
@@ -55,6 +56,12 @@ namespace AiGrow.Data
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_unique_id AS unique_id, greenhouse_id AS id FROM greenhouse");
         }
 
-        
+        public DataTable getAllGreenhouses(string user_id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@user_id", user_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT g.greenhouse_id, g.greenhouse_unique_id, g.greenhouse_name, g.created_date_time, g.last_updated_date, g.location_id, g.pic_url, l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude FROM (greenhouse g INNER JOIN location l ON g.location_id = l.location_id) WHERE g.owner_user_id = @user_id AND g.deleted = 0", para);
+        }
     }
 }

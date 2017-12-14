@@ -65,5 +65,9 @@ namespace AiGrow.Business
         {
             return new AiGrow.Data.DL_Greenhouse().select();
         }
+        public System.Data.DataTable getAllGreenhouses(string user_id)
+        {
+            return new AiGrow.Data.DL_Greenhouse().getAllGreenhouses(user_id);
+        }
     }
 }
