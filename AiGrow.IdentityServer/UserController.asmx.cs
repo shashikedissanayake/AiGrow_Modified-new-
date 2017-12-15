@@ -652,7 +652,7 @@ namespace AiGrow.IdentityServer
                         mobile = mobile,
                         organization_name = organizationName,
                         password = password.IsEmpty() ? null : password,
-                        role_id = new AiGrow.Business.BL_User().getRoleID(UniversalProperties.AIGROW_CUSTOMER).Rows[0][0].ToString().ToInt(),
+                      //  role_id = new AiGrow.Business.BL_User().getRoleID(UniversalProperties.AIGROW_CUSTOMER).Rows[0][0].ToString().ToInt(),
                         salt = password.IsEmpty() ? null : userSalt,
                         telephone = telephone,
                         title = title,

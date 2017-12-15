@@ -15,5 +15,5 @@ function shake() {
 slideUpIn();
 slideLeftIn();
 $("button").on("click", function () {
-  shake();
+  
 });

@@ -6864,6 +6864,8 @@
     <Content Include="img\background.jpg" />
     <Content Include="img\greenhouse_img1.jpg" />
     <Content Include="img\greenhouse_img2.jpg" />
+    <Content Include="img\greenhouse_img3.jpg" />
+    <Content Include="img\greenhouse_img4.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="js\index.js" />
     <Content Include="js\sha1.js" />

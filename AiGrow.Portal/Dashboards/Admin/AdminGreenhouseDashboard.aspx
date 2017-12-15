@@ -16,7 +16,7 @@
 
                 <div class="info-box-content">
                     <span class="info-box-text">Temperature</span>
-                    <span class="info-box-number">37<sup>0</sup>C</span>
+                    <span class="info-box-number">29<sup>0</sup>C</span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -48,7 +48,7 @@
 
                 <div class="info-box-content">
                     <span class="info-box-text">CO<sub>2</sub></span>
-                    <span class="info-box-number">76<small>%</small></span>
+                    <span class="info-box-number">30<small>%</small></span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -57,7 +57,7 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-yellow"><i class="ionicons ion-ios-partlysunny-outline"></i></span>
+                <span class="info-box-icon bg-yellow"><i class="ionicons ion-ios-partlysunny"></i></span>
 
                 <div class="info-box-content">
                     <span class="info-box-text">Light Intensttivity</span>
