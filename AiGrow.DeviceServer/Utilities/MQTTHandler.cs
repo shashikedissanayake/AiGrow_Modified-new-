@@ -18,7 +18,7 @@ namespace AiGrow.DeviceServer
         //called in global.asax
         public void Initiate()
         {
-            ApplicationUtilities.writeMsg("Initiating...");
+            ApplicationUtilities.writeMsg("Initiating..." + DateTime.Now.ToString());
             Subscribe();
         }
         public void Subscribe()
@@ -67,6 +67,7 @@ namespace AiGrow.DeviceServer
         {
             ApplicationUtilities.writeMsg("Connection closed: " + DateTime.Now.ToString());
             ApplicationUtilities.writeMsg("***********************************************\n ");
+            Thread.Sleep(60000);
             //((MqttClient)sender).Disconnect();
             Subscribe();
         }

@@ -15,6 +15,6 @@ namespace AiGrow.Model
         public string status { get; set; }
         public int device_id { get; set; }
         public int rack_id { get; set; }
-
+        public string rack_device_name { get; set; }
     }
 }

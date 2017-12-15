@@ -40,5 +40,12 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteNonQuery(DBConnection.connectionString, CommandType.Text, "UPDATE `location` SET location_name =  COALESCE(@location, location_name), location_address = COALESCE(@location_address, location_address), longitude = COALESCE(@longitude, longitude), latitude = COALESCE(@latitude, latitude), location_unique_id = COALESCE(@unique_id, location_unique_id)  where location_unique_id = @unique_id", para);
         }
+        public DataTable getAllLocations(string user_id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@user_id", user_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude FROM location l INNER JOIN greenhouse g ON l.location_id = g.location_id INNER JOIN USER u ON g.owner_user_id = u.id_user WHERE u.id_user = @user_id AND l.deleted = 0", para);
+        }
     }
 }
