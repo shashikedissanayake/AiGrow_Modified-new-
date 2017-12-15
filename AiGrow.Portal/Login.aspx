@@ -5,11 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>AiGrow login page</title>
     <link rel="shortcut icon" href="img/logo.png" />
     <link rel="stylesheet" href="css/style.css">
@@ -20,59 +20,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Comfortaa:400,700'>
-  
-    <link rel="stylesheet" href="Dashboards/bower_components/font-awesome/css/font-awesome.min.css"
+
+    <link rel="stylesheet" href="Dashboards/bower_components/font-awesome/css/font-awesome.min.css" />
 
 </head>
 <body>
     <div class="container">
 
-        
-         <% 
-             //If "error" is returned the "alert-danger" div is displayed.
-             //If "message" is returned the "alert-success" div is displayed.
-             //Each value is validated against the SHA1 encryption value returned in the "token" variable. 
-             String value = Request.QueryString["message"];
-             String valueError = Request.QueryString["error"];
-             String token = Request.QueryString["token"];
 
-             String message_enc = Request.QueryString["message_enc"];
-             if (message_enc != null)
-             {
-                 String t = AiGrow.Encryption.createSHA1(message_enc);
+        <% 
+            //If "error" is returned the "alert-danger" div is displayed.
+            //If "message" is returned the "alert-success" div is displayed.
+            //Each value is validated against the SHA1 encryption value returned in the "token" variable. 
+            String value = Request.QueryString["message"];
+            String valueError = Request.QueryString["error"];
+            String token = Request.QueryString["token"];
 
-             }
+            String message_enc = Request.QueryString["message_enc"];
+            if (message_enc != null)
+            {
+                String t = AiGrow.Encryption.createSHA1(message_enc);
 
-             if (value != null && token == AiGrow.Encryption.createSHA1(value))
-             { 
+            }
+
+            if (value != null && token == AiGrow.Encryption.createSHA1(value))
+            { 
             %>
-            <div class="alert alert-dismissable alert-success">
-                <button type="button" class="close" data-dismiss="alert">x</button>
-                <strong>Message: </strong><% Response.Write(value); %>
-            </div>
-            <% }
-                else if (valueError != null && token == AiGrow.Encryption.createSHA1(valueError))
-                {              
+        <div class="alert alert-dismissable alert-success">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Message: </strong><% Response.Write(value); %>
+        </div>
+        <% }
+            else if (valueError != null && token == AiGrow.Encryption.createSHA1(valueError))
+            {              
             %>
-            <div class="alert alert-dismissable alert-danger">
-                <button type="button" class="close" style="background-color: Transparent;" data-dismiss="alert">x</button>
-                <strong>Error: </strong><% Response.Write(valueError); %>
-            </div>
-            <% }
-                else if (message_enc != null && token.Trim() == AiGrow.Encryption.createSHA1(System.Net.WebUtility.UrlEncode(message_enc.Trim())))
-                { 
+        <div class="alert alert-dismissable alert-danger">
+            <button type="button" class="close" style="background-color: Transparent;" data-dismiss="alert">x</button>
+            <strong>Error: </strong><% Response.Write(valueError); %>
+        </div>
+        <% }
+            else if (message_enc != null && token.Trim() == AiGrow.Encryption.createSHA1(System.Net.WebUtility.UrlEncode(message_enc.Trim())))
+            { 
             %>
-            <div class="alert alert-dismissable alert-danger">
-                <button type="button" class="close" data-dismiss="alert">x</button>
-                <strong>Error: </strong><% Response.Write(AiGrow.Encryption.Base64Decode((message_enc))); %>
-            </div>
-            <% } %>
-
+        <div class="alert alert-dismissable alert-danger">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Error: </strong><% Response.Write(AiGrow.Encryption.Base64Decode((message_enc))); %>
+        </div>
+        <% } %>
 
         <div id="login" class="login">
             <!-- form submission--->
             <form class="form-horizontal" role="form" method="post" id="LoginForm" runat="server">
-                
+
                 <div class="login-icon-field">
                     <center><img src="../img/Aigrow_Logo.png" height="160px" width="160px" class="login-icon" /></center>
                 </div>
@@ -102,27 +101,30 @@
                         </label>
                         <asp:TextBox ID="password" ForeColor="White" TextMode="Password" runat="server" MaxLength="100" placeholder="password"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="valPass" runat="server" ControlToValidate="password" ValidationGroup="valGroup" Display="Dynamic" ErrorMessage="*"></asp:RequiredFieldValidator>
-                        
-                        
+
+
                     </div>
                     <div class="forgot">
-                    
-                            <p class="login__signup"><i class="fa fa-lock"></i>&nbsp;<a href="ForgotPassword.aspx">Forgot password? </a></p>
-                        </div>
+
+                        <p class="login__signup"><i class="fa fa-lock"></i>&nbsp;<a href="ForgotPassword.aspx">Forgot password? </a></p>
+                    </div>
                     <div class="call-to-action">
-                      
+
                         <center>
                             <button id="loginButton" type="button" runat="server" onserverclick="signinClick" validationgroup="valGroup">Log In</button>
                         </center>
                         <p align="center">Don't have an account? <a href="signUp.aspx">Sign Up</a></p>
                     </div>
                 </div>
+            </form>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js'></script>
+            <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js'></script>
+            <script src="js/index.js"></script>
         </div>
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js'></script>
-        <script src='https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js'></script>
-        <script src="js/index.js"></script>
-        </form>
-            <!--    -->
+
+
+
+        <!--    -->
 </body>
 </html>

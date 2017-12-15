@@ -42,7 +42,7 @@ namespace AiGrow.Data
 
         public DataTable select()
         {
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT gh.greenhouse_id, gh.greenhouse_unique_id, gh.greenhouse_name ,u.username AS owner,l.location_name,l.location_address,gh.created_date_time AS created_date,gh.last_updated_date FROM greenhouse gh INNER JOIN user u ON gh.owner_user_id = u.id_user INNER JOIN location l ON gh.location_id = l.location_id");
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT gh.greenhouse_id, gh.greenhouse_unique_id, gh.greenhouse_name ,u.username AS owner,l.location_name,l.location_address,gh.created_date_time AS created_date,gh.last_updated_date, gh.pic_url FROM greenhouse gh INNER JOIN user u ON gh.owner_user_id = u.id_user INNER JOIN location l ON gh.location_id = l.location_id WHERE gh.deleted=0");
         }
 
         public DataSet selectComponentsByGreenHouseID(string greenhouseID)

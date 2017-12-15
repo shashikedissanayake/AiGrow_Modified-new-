@@ -68,7 +68,7 @@ namespace AiGrow.IdentityServer
         public const string CHG_ADMIN = "CHG_ADMIN";
         public const string CHG_NETWORK = "CHG_NETWORK";
         public const string CHG_OWNER = "CHG_OWNER";
-        public const string AIGROW_CUSTOMER = "AIGROW_CUSTOMER";
+        public const string AIGROW_CUSTOMER = "CUSTOMER";
         public const string ACTIVE_USER = "ACTIVE_USER";
         public const string INACTIVE_USER = "INACTIVE_USER";
         public const string ONLINE = "ONLINE";
