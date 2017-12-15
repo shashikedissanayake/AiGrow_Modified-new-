@@ -1,0 +1,20 @@
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+   at System.Net.HttpWebRequest.GetResponse()
+   at AiGrow.RequestHandler.PostData(String url, String postData) in d:\vega\AiGrow\AiGrow.Portal\Utilities\RequestHandler.cs:line 167
+   at AiGrow.RequestHandler.Post() in d:\vega\AiGrow\AiGrow.Portal\Utilities\RequestHandler.cs:line 113
+   at AiGrow.MyUser.validateUserIS(String username, String password) in d:\vega\AiGrow\AiGrow.Portal\classes\MyUser.cs:line 253
+   at AiGrow.Portal.Login.signinClick(Object sender, EventArgs e) in d:\vega\AiGrow\AiGrow.Portal\Login.aspx.cs:line 33
+The remote server returned an error: (500) Internal Server Error.
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+   at System.Net.HttpWebRequest.GetResponse()
+   at AiGrow.RequestHandler.PostData(String url, String postData) in d:\vega\AiGrow\AiGrow.Portal\Utilities\RequestHandler.cs:line 167
+   at AiGrow.RequestHandler.Post() in d:\vega\AiGrow\AiGrow.Portal\Utilities\RequestHandler.cs:line 113
+   at AiGrow.MyUser.validateUserIS(String username, String password) in d:\vega\AiGrow\AiGrow.Portal\classes\MyUser.cs:line 253
+   at AiGrow.Portal.Login.signinClick(Object sender, EventArgs e) in d:\vega\AiGrow\AiGrow.Portal\Login.aspx.cs:line 33
+The underlying connection was closed: An unexpected error occurred on a receive.
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON

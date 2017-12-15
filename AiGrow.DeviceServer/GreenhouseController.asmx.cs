@@ -543,7 +543,7 @@ namespace AiGrow.DeviceServer
         {
             token = token.Trim();
 
-            if (new BL_User().validateToken(token) == 1)
+            if (new BL_User().validateTokenByUserID(user_id, token) == 1)
             {
                 LocationResponse response = new LocationResponse();
                 try
@@ -574,7 +574,7 @@ namespace AiGrow.DeviceServer
                 }
                 catch
                 {
-                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationResponse()
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
                     {
                         success = false,
                         errorCode = UniversalProperties.EC_UnhandledError,
@@ -586,7 +586,7 @@ namespace AiGrow.DeviceServer
             }
             else
             {
-                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationResponse()
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
                 {
                     success = false,
                     errorMessage = UniversalProperties.invalidRequest,
@@ -601,7 +601,7 @@ namespace AiGrow.DeviceServer
         {
             token = token.Trim();
 
-            if (new BL_User().validateToken(token) == 1)
+            if (new BL_User().validateTokenByUserID(user_id, token) == 1)
             {
                 //LocationResponse response = new LocationResponse();
                 try
@@ -638,7 +638,7 @@ namespace AiGrow.DeviceServer
                 }
                 catch
                 {
-                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseResponse()
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseListResponse()
                     {
                         success = false,
                         errorCode = UniversalProperties.EC_UnhandledError,
@@ -650,7 +650,64 @@ namespace AiGrow.DeviceServer
             }
             else
             {
-                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseResponse()
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseListResponse()
+                {
+                    success = false,
+                    errorMessage = UniversalProperties.invalidRequest,
+                    errorCode = UniversalProperties.EC_InvalidRequest,
+                }));
+            }
+
+        }
+
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public void GetLatestGreenhouseDeviceDataByGreenhouseID(string user_id, string greenhouse_id, string token)
+        {
+            token = token.Trim();
+
+            if (new BL_User().validateTokenByUserID(user_id, token) == 1 && new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id))
+            {
+                DataResponse response = new DataResponse();
+                try
+                {
+                    DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestData(greenhouse_id);
+
+                    List<DataResponse> dataList = new List<DataResponse>();
+
+                    foreach (DataRow item in latestData.Rows)
+                    {
+                        dataList.Add(new DataResponse()
+                        {
+                            collected_time = item["collected_time"].ToString(),
+                            data = item["data"].ToString(),
+                            data_unit = item["data_unit"].ToString(),
+                            device_unique_id = item["device_unique_id"].ToString()
+                        });
+                    }
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                    {
+                        success = true,
+                        errorMessage = null,
+                        listOfData = dataList
+                    }));
+                    return;
+                }
+                catch
+                {
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                    {
+                        success = false,
+                        errorCode = UniversalProperties.EC_UnhandledError,
+                        errorMessage = UniversalProperties.unknownError
+                    }));
+                }
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
+
+            }
+            else
+            {
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
                 {
                     success = false,
                     errorMessage = UniversalProperties.invalidRequest,

@@ -23,6 +23,10 @@ namespace AiGrow.Business
             return new DL_User().validateToken(loginToken);
 
         }
+        public int validateTokenByUserID(string userID, string loginToken)
+        {
+            return new DL_User().validateTokenByUserID(userID, loginToken);
+        }
         public System.Data.DataTable getUserSalt(AiGrow.Model.ML_User user)
         {
             return new DL_User().getUserSalt(user);

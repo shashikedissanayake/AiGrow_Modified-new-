@@ -17,7 +17,10 @@ namespace AiGrow.Business
         {
             return new DL_Greenhouse().doesGreenhouseExist(greenhouse);
         }
-
+        public bool doesGreenhouseIDExist(string greenhouse, string user_id)
+        {
+            return new DL_Greenhouse().doesGreenhouseIDExist(greenhouse, user_id);
+        }
 
         public System.Data.DataTable selectAllGreenhouses()
         {
