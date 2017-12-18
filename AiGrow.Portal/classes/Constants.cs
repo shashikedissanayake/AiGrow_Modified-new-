@@ -158,8 +158,10 @@ namespace AiGrow
 
         //Identity Server Links
         public static string IS_PORT = AppFunction.ReadSetting("IdentityServerPort");
+        public static string DS_PORT = AppFunction.ReadSetting("DeviceServerPort");
 
         public static string HOST_URL_IDENTITY_SERVER = string.Format("http://{0}:{1}/", HttpContext.Current.Request.Url.Host, IS_PORT);
+        public static string HOST_URL_DEVICE_SERVER = string.Format("http://{0}:{1}/", HttpContext.Current.Request.Url.Host, DS_PORT);
 
         public static string CHECK_LOGIN_POST = HOST_URL_IDENTITY_SERVER + "LoginController.asmx/CheckLoginPOST";
         public static string CHECK_LOGIN_POST_JSON = HOST_URL_IDENTITY_SERVER + "LoginController.asmx/CheckLoginPOSTJSON";
@@ -179,6 +181,7 @@ namespace AiGrow
         public static string VALIDATE_EMAIL_DUPLICATE = HOST_URL_IDENTITY_SERVER + "PortalService.asmx/IsDuplicateEmail";
         public static string ACTIVATE_USER = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ActivateUser";
         public static string RESEND_ACTIVATION_EMAIL = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ResendActivationEmail";
+        public static string GETGREENHOUSELOCATIONS = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetGreenhouseLocationsByUserID";
 
         //IS Constants
         public const string CREDENTIALS = "CREDENTIALS";
