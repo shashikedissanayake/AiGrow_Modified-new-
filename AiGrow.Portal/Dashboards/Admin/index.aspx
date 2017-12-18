@@ -31,6 +31,8 @@
             height: 100%;
         }
     </style>
+
+
     <div>
         <div class="row">
             <% System.Data.DataTable greenhouses_dt = new AiGrow.Business.BL_Greenhouse().select();
@@ -43,9 +45,9 @@
                 <div class="box box-widget widget-user">
                     <div class="widget-user-header bg-white" id="widge" style="background: url('<% Response.Write(" "+row["pic_url"]); %>'); background-size: 100% 100%; height: 400px; width: inherit;">
                         <div class="text">
-                            <h3 class="widget-user-username"><% Response.Write(" "+row["greenhouse_unique_id"]); %></h3>
-                            <i class="ionicons ion-ios-contact-outline"><% Response.Write(" "+row["owner"]); %></i><br />
-                            <i class="fa fa-map-marker"><% Response.Write(" "+row["location_address"]); %></i>
+                            <h3 class="widget-user-username"><% Response.Write(" " + row["greenhouse_unique_id"]); %></h3>
+                            <i class="ionicons ion-ios-contact-outline"><% Response.Write(" " + row["owner"]); %></i><br />
+                            <i class="fa fa-map-marker"><% Response.Write(" " + row["location_address"]); %></i>
                             <br />
                         </div>
 

@@ -19,5 +19,10 @@ namespace AiGrow.Portal.Dashboards.Admin
                
             }
         }
+
+        protected void dataBind() { 
+        
+            
+        }
     }
 }
