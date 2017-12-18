@@ -30,6 +30,15 @@ namespace AiGrow.Data
             int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_unique_id = @greenhouse_id", para).Rows.Count;
             return count >= 1;
         }
+        public bool doesGreenhouseIDExist(string greenhouse, string user_id)
+        {
+            var para = new MySqlParameter[2];
+            para[0] = new MySqlParameter("@greenhouse_id", greenhouse);
+            para[1] = new MySqlParameter("@user_id", user_id);
+
+            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_id = @greenhouse_id AND owner_user_id = @user_id", para).Rows.Count;
+            return count >= 1;
+        }
 
         public DataTable select()
         {

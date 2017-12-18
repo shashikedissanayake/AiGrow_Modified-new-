@@ -39,6 +39,15 @@ namespace AiGrow.Data
             para[0] = new MySqlParameter("@loginToken", loginToken);
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT * FROM login l WHERE l.login_token=@loginToken", para).Rows.Count;
         }
+        public int validateTokenByUserID(string userID, string loginToken)
+        {
+            var para = new MySqlParameter[2];
+
+            para[0] = new MySqlParameter("@loginToken", loginToken);
+            para[1] = new MySqlParameter("@userID", userID.Trim());
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT * FROM login l WHERE l.login_token=@loginToken AND `id_user` = @userID", para).Rows.Count;
+        }
         public DataTable getUserSalt(AiGrow.Model.ML_User user)
         {
             var para = new MySqlParameter[1];

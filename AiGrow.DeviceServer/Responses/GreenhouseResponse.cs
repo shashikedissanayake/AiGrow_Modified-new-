@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AiGrow.DeviceServer
 {
-    public class GreenhouseResponse : BaseResponse
+    public class GreenhouseResponse 
     {
         public string greenhouse_unique_id { get; set; }
         public string greenhouse_name { get; set; }

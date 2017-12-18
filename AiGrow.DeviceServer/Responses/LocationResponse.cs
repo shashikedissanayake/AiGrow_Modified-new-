@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AiGrow.DeviceServer
 {
-    public class LocationResponse : BaseResponse
+    public class LocationResponse 
     {
         public string location_unique_id { get; set; }
         public string location_name { get; set; }

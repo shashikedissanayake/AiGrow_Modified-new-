@@ -8250,3 +8250,55 @@ Initiating...14-Dec-17 5:01:54 PM
 subscribed: 14-Dec-17 5:01:55 PM
 Initiating...14-Dec-17 5:03:40 PM
 subscribed: 14-Dec-17 5:03:41 PM
+Initiating...15-Dec-17 9:58:55 AM
+subscribed: 15-Dec-17 9:58:57 AM
+Initiating...15-Dec-17 1:36:53 PM
+subscribed: 15-Dec-17 1:36:55 PM
+Initiating...15-Dec-17 1:37:24 PM
+subscribed: 15-Dec-17 1:37:26 PM
+Connection closed: 15-Dec-17 1:37:56 PM
+***********************************************
+ 
+subscribed: 15-Dec-17 1:38:57 PM
+Initiating...15-Dec-17 1:40:38 PM
+subscribed: 15-Dec-17 1:40:40 PM
+Connection closed: 15-Dec-17 1:41:41 PM
+***********************************************
+ 
+subscribed: 15-Dec-17 1:42:42 PM
+Initiating...15-Dec-17 1:43:16 PM
+subscribed: 15-Dec-17 1:43:18 PM
+Initiating...15-Dec-17 2:13:57 PM
+subscribed: 15-Dec-17 2:13:59 PM
+Connection closed: 15-Dec-17 2:14:59 PM
+***********************************************
+ 
+subscribed: 15-Dec-17 2:16:01 PM
+Initiating...15-Dec-17 2:17:51 PM
+Initiating...15-Dec-17 2:19:51 PM
+subscribed: 15-Dec-17 2:19:53 PM
+Initiating...15-Dec-17 2:21:03 PM
+subscribed: 15-Dec-17 2:21:04 PM
+Initiating...15-Dec-17 2:22:06 PM
+subscribed: 15-Dec-17 2:22:07 PM
+Initiating...15-Dec-17 2:23:23 PM
+subscribed: 15-Dec-17 2:23:24 PM
+Initiating...15-Dec-17 2:25:11 PM
+subscribed: 15-Dec-17 2:25:13 PM
+Initiating...15-Dec-17 2:26:13 PM
+subscribed: 15-Dec-17 2:26:15 PM
+Connection closed: 15-Dec-17 2:27:15 PM
+***********************************************
+ 
+Initiating...15-Dec-17 2:28:41 PM
+subscribed: 15-Dec-17 2:28:43 PM
+Initiating...15-Dec-17 2:29:52 PM
+subscribed: 15-Dec-17 2:29:56 PM
+Initiating...15-Dec-17 2:52:56 PM
+subscribed: 15-Dec-17 2:52:57 PM
+Initiating...15-Dec-17 2:53:44 PM
+subscribed: 15-Dec-17 2:53:46 PM
+Connection closed: 15-Dec-17 2:53:58 PM
+***********************************************
+ 
+subscribed: 15-Dec-17 2:55:05 PM
