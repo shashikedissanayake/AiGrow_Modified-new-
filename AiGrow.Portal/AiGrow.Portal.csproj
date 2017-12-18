@@ -251,7 +251,6 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\error-css.css" />
     <Content Include="css\style.css" />
-    <Content Include="Dashboards\Admin\AdminAddDevice.aspx" />
     <Content Include="Dashboards\Admin\AdminDataVisualizer.aspx" />
     <Content Include="Dashboards\Admin\AdminEditGreenHouse.aspx" />
     <Content Include="Dashboards\Admin\AdminEditProfile.aspx" />
@@ -7539,13 +7538,6 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboards\Admin\AdminAddDevice.aspx.cs">
-      <DependentUpon>AdminAddDevice.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Dashboards\Admin\AdminAddDevice.aspx.designer.cs">
-      <DependentUpon>AdminAddDevice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dashboards\Admin\AdminDataVisualizer.aspx.cs">
       <DependentUpon>AdminDataVisualizer.aspx</DependentUpon>
