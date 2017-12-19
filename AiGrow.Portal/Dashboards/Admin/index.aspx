@@ -9,7 +9,7 @@
         .text {
             font-style: oblique;
             font-weight: bold;
-            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
             color: rgba(0, 0, 0, 0.90);
             position: absolute;
             bottom: 100%;
@@ -31,7 +31,98 @@
             height: 100%;
         }
     </style>
+
+
     <div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title"></h3>
+
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="jumbotron">
+                                    <center><img src="../../img/logo.png" style="height:150px;width:inherit;" />
+                                             <!--class="img-circle"-->
+                                          <h3>Hello...</h3>
+                                          <p>Welcome to AiGrow.<br /> This is the Administration Dashboard...</p></center>
+                                </div>
+                            </div>
+                            <!-- /.col -->
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- ./box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <div class="col-md-8">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Greenhouse Locations</h3>
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="chart" id="map" style="height: 400px; width: 100%;">
+                                </div>
+                                <script>
+                                    function placeMarker(map, location,message) {
+                                        var marker = new google.maps.Marker({
+                                            position: location,
+                                            map: map
+                                        });
+                                        var infowindow = new google.maps.InfoWindow({
+                                            content: message
+                                        });
+                                        infowindow.open(map,marker);
+                                    }
+
+                                    function myMap() {
+                                        var mapCanvas = document.getElementById("map");
+                                        var myCenter = new google.maps.LatLng(7.2822256,80.5436109);
+                                        var mapOptions = { center: myCenter, zoom: 7 };
+                                        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                                         <% AiGrow.Portal.LocationListResponse locations = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseLocationsById(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken());
+                                            foreach (AiGrow.Portal.LocationResponse lr in locations.listOfLocations)
+                                            { %>
+                                        var location = new google.maps.LatLng(<%Response.Write(lr.latitude);%>, <%Response.Write(lr.longitude);%>);
+                                        placeMarker(map, location,'<%Response.Write(lr.location_unique_id);%>');
+                                        <%}  %> 
+                                    }   
+                                </script>
+                                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6gFGJOvN4_C9Q4ovUtreYDVvCVZzcmB4&callback=myMap"></script>
+                                <!-- /.chart-responsive -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- ./box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+        </div>
+        <!-- /.map-->
         <div class="row">
             <% System.Data.DataTable greenhouses_dt = new AiGrow.Business.BL_Greenhouse().select();
                foreach (System.Data.DataRow row in greenhouses_dt.Rows)
@@ -43,9 +134,9 @@
                 <div class="box box-widget widget-user">
                     <div class="widget-user-header bg-white" id="widge" style="background: url('<% Response.Write(" "+row["pic_url"]); %>'); background-size: 100% 100%; height: 400px; width: inherit;">
                         <div class="text">
-                            <h3 class="widget-user-username"><% Response.Write(" "+row["greenhouse_unique_id"]); %></h3>
-                            <i class="ionicons ion-ios-contact-outline"><% Response.Write(" "+row["owner"]); %></i><br />
-                            <i class="fa fa-map-marker"><% Response.Write(" "+row["location_address"]); %></i>
+                            <h3 class="widget-user-username"><% Response.Write(" " + row["greenhouse_unique_id"]); %></h3>
+                            <i class="ionicons ion-ios-contact-outline"><% Response.Write(" " + row["owner"]); %></i><br />
+                            <i class="fa fa-map-marker"><% Response.Write(" " + row["location_address"]); %></i>
                             <br />
                         </div>
 

@@ -14,6 +14,7 @@ namespace AiGrow.Portal.Dashboards.Admin
         {
             Master.FindControl("errorDiv").Visible = false;
             Master.FindControl("successDiv").Visible = false;
+            string greenhouseID = HttpContext.Current.Request.QueryString["greenhouse_id"];
             //get_visualize_dataset();
             StringBuilder strScript = new StringBuilder();
             strScript.Append(@"
@@ -22,9 +23,13 @@ window.onload = function () {
 
 var chart = new CanvasJS.Chart('chart', {
 	animationEnabled: true,
-	axisY :{
+	axisY2 :{
 		includeZero: false,
-		prefix: '$'
+		suffix:'℃'
+	},
+    axisY :{
+		includeZero: false,
+		suffix: '%'
 	},
 	toolTip: {
 		shared: true
@@ -35,84 +40,63 @@ var chart = new CanvasJS.Chart('chart', {
 	data: [{
 		type: 'splineArea',
 		showInLegend: true,
-		name: 'Salaries',
-		yValueFormatString: '$#,##0',
+		name: 'Humidity',
+		yValueFormatString: '##.00',
 		xValueFormatString: 'MMM YYYY',
 		dataPoints: [
-			{ x: new Date(2016, 2), y: 30000 },
-			{ x: new Date(2016, 3), y: 35000 },
-			{ x: new Date(2016, 4), y: 30000 },
-			{ x: new Date(2016, 5), y: 30400 },
-			{ x: new Date(2016, 6), y: 20900 },
-			{ x: new Date(2016, 7), y: 31000 },
-			{ x: new Date(2016, 8), y: 30200 },
-			{ x: new Date(2016, 9), y: 30000 },
-			{ x: new Date(2016, 10), y: 33000 },
-			{ x: new Date(2016, 11), y: 38000 },
-			{ x: new Date(2017, 0),  y: 38900 },
-			{ x: new Date(2017, 1),  y: 39000 }
+			{ x: new Date(2016, 2), y: 91 },
+			{ x: new Date(2016, 3), y: 95 },
+			{ x: new Date(2016, 4), y: 90 },
+			{ x: new Date(2016, 5), y: 90.4 },
+			{ x: new Date(2016, 6), y: 90.9 },
+			{ x: new Date(2016, 7), y: 91 },
+			{ x: new Date(2016, 8), y: 90.2 },
+			{ x: new Date(2016, 9), y: 90 },
+			{ x: new Date(2016, 10), y: 93 },
+			{ x: new Date(2016, 11), y: 98 },
+			{ x: new Date(2017, 0),  y: 98.9 },
+			{ x: new Date(2017, 1),  y: 99 }
 		]
- 	},
-	{
+ 	},{
 		type: 'splineArea', 
 		showInLegend: true,
-		name: 'Office Cost',
-		yValueFormatString: '$#,##0',
+		name: 'Temperature',
+        axisYType: 'secondary',
+		yValueFormatString: '###<sup>o</sup>c',     
 		dataPoints: [
-			{ x: new Date(2016, 2), y: 20100 },
-			{ x: new Date(2016, 3), y: 16000 },
-			{ x: new Date(2016, 4), y: 14000 },
-			{ x: new Date(2016, 5), y: 18000 },
-			{ x: new Date(2016, 6), y: 18000 },
-			{ x: new Date(2016, 7), y: 21000 },
-			{ x: new Date(2016, 8), y: 22000 },
-			{ x: new Date(2016, 9), y: 25000 },
-			{ x: new Date(2016, 10), y: 23000 },
-			{ x: new Date(2016, 11), y: 25000 },
-			{ x: new Date(2017, 0), y: 26000 },
-			{ x: new Date(2017, 1), y: 25000 }
+			{ x: new Date(2016, 2), y: 25 },
+			{ x: new Date(2016, 3), y: 27 },
+			{ x: new Date(2016, 4), y: 34 },
+			{ x: new Date(2016, 5), y: 30 },
+			{ x: new Date(2016, 6), y: 28 },
+			{ x: new Date(2016, 7), y: 30 },
+			{ x: new Date(2016, 8), y: 28 },
+			{ x: new Date(2016, 9), y: 27 },
+			{ x: new Date(2016, 10), y: 28.1 },
+			{ x: new Date(2016, 11), y: 29 },
+			{ x: new Date(2017, 0), y: 29.5 },
+			{ x: new Date(2017, 1), y: 30 }
 		]
- 	},
-	{
+ 	},{
 		type: 'splineArea', 
 		showInLegend: true,
-		name: 'Entertainment',
-		yValueFormatString: '$#,##0',     
+		name: 'CO2',
+		yValueFormatString: '##.00',
 		dataPoints: [
-			{ x: new Date(2016, 2), y: 10100 },
-			{ x: new Date(2016, 3), y: 6000 },
-			{ x: new Date(2016, 4), y: 3400 },
-			{ x: new Date(2016, 5), y: 4000 },
-			{ x: new Date(2016, 6), y: 9000 },
-			{ x: new Date(2016, 7), y: 3900 },
-			{ x: new Date(2016, 8), y: 4200 },
-			{ x: new Date(2016, 9), y: 5000 },
-			{ x: new Date(2016, 10), y: 14300 },
-			{ x: new Date(2016, 11), y: 12300 },
-			{ x: new Date(2017, 0), y: 8300 },
-			{ x: new Date(2017, 1), y: 6300 }
+			{ x: new Date(2016, 2), y: 20.1 },
+			{ x: new Date(2016, 3), y: 16 },
+			{ x: new Date(2016, 4), y: 14 },
+			{ x: new Date(2016, 5), y: 18 },
+			{ x: new Date(2016, 6), y: 18 },
+			{ x: new Date(2016, 7), y: 21 },
+			{ x: new Date(2016, 8), y: 22},
+			{ x: new Date(2016, 9), y: 25 },
+			{ x: new Date(2016, 10), y: 23 },
+			{ x: new Date(2016, 11), y: 25 },
+			{ x: new Date(2017, 0), y: 26 },
+			{ x: new Date(2017, 1), y: 25 }
 		]
- 	},
-	{
-		type: 'splineArea', 
-		showInLegend: true,
-		yValueFormatString: '$#,##0',      
-		name: 'Maintenance',
-		dataPoints: [
-			{ x: new Date(2016, 2), y: 1700 },
-			{ x: new Date(2016, 3), y: 2600 },
-			{ x: new Date(2016, 4), y: 1000 },
-			{ x: new Date(2016, 5), y: 1400 },
-			{ x: new Date(2016, 6), y: 900 },
-			{ x: new Date(2016, 7), y: 1000 },
-			{ x: new Date(2016, 8), y: 1200 },
-			{ x: new Date(2016, 9), y: 5000 },
-			{ x: new Date(2016, 10), y: 1300 },
-			{ x: new Date(2016, 11), y: 2300 },
-			{ x: new Date(2017, 0), y: 2800 },
-			{ x: new Date(2017, 1), y: 1300 }
-		]
-	}]
+ 	}]
 });
 chart.render();
 
