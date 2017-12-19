@@ -9,7 +9,7 @@
         .text {
             font-style: oblique;
             font-weight: bold;
-            font-size: medium;
+            font-size: larger;
             color: rgba(0, 0, 0, 0.90);
             position: absolute;
             bottom: 100%;
@@ -139,37 +139,36 @@
                             <i class="fa fa-map-marker"><% Response.Write(" " + row["location_address"]); %></i>
                             <br />
                         </div>
-
                     </div>
                     <div class="box-footer">
                         <div class="row">
+                            <%  
+                                                           string[] boxDetails = { "<i class=\"ionicons ion-thermometer fa-3x\"></i> <br /> <span class=\"description-text\">Temperature</span><h5 class=\"description-header\">", "<i class=\"glyphicon glyphicon-tint fa-3x\"></i> <br /> <span class=\"description-text\">Humidity</span><h5 class=\"description-header\">", "<i class=\"glyphicon glyphicon-cloud fa-3x\"></i> <br /> <span class=\"description-text\">CO<sub>2</sub></span><h5 class=\"description-header\">" };
+
+                                                           AiGrow.Portal.DataListResponse dataList = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseDeviceLeastData(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken(), row["greenhouse_id"].ToString());
+
+                                                           foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
+                                                           {%>
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <i class="ionicons ion-thermometer fa-3x"></i>
-                                    <br />
-                                    <span class="description-text">Temperature</span>
-                                    <h5 class="description-header">29<sup>o</sup>c</h5>
+                                    <%switch (data.device_unique_id)
+                                      {
+                                          case "TS_001":
+                                              Response.Write(boxDetails[0] + data.data + "<sup>o</sup>c</h5>");
+                                              break;
+                                          case "LI_001":
+                                              Response.Write(boxDetails[1] + data.data + "<sup>o</sup>c</h5>");
+                                              break;
+                                          case "PH_001":
+                                              Response.Write(boxDetails[2] + data.data + "<sup>o</sup>c</h5>");
+                                              break;
+                                          
+                                      }%>
+                                    
                                 </div>
                                 <!-- /.description-block -->
                             </div>
-                            <div class="col-sm-4 border-right">
-                                <div class="description-block">
-                                    <i class="glyphicon glyphicon-tint fa-3x"></i>
-                                    <br />
-                                    <span class="description-text">Humidity</span>
-                                    <h5 class="description-header">96<small>%</small></h5>
-                                </div>
-                                <!-- /.description-block -->
-                            </div>
-                            <div class="col-sm-4 border-right">
-                                <div class="description-block">
-                                    <i class="glyphicon glyphicon-cloud fa-3x"></i>
-                                    <br />
-                                    <span class="description-text">CO<sub>2</sub></span>
-                                    <h5 class="description-header">30<small>%</small></h5>
-                                </div>
-                                <!-- /.description-block -->
-                            </div>
+                            <% }  %>
                         </div>
                     </div>
                     <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">

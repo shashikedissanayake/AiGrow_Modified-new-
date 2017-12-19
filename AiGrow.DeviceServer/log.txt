@@ -10139,3 +10139,608 @@ Connection closed: 12/18/2017 4:13:33 PM
 ***********************************************
  
 subscribed: 12/18/2017 4:14:34 PM
+Initiating...12/18/2017 4:15:47 PM
+subscribed: 12/18/2017 4:15:49 PM
+Connection closed: 12/18/2017 4:16:49 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:17:51 PM
+Connection closed: 12/18/2017 4:18:51 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:19:52 PM
+Connection closed: 12/18/2017 4:20:53 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:21:55 PM
+Connection closed: 12/18/2017 4:22:22 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:23:24 PM
+Connection closed: 12/18/2017 4:24:24 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:25:26 PM
+Connection closed: 12/18/2017 4:26:26 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:27:29 PM
+Connection closed: 12/18/2017 4:29:29 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:30:32 PM
+Connection closed: 12/18/2017 4:31:32 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:32:34 PM
+Connection closed: 12/18/2017 4:33:34 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:34:36 PM
+Connection closed: 12/18/2017 4:35:36 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:36:38 PM
+Connection closed: 12/18/2017 4:37:38 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:38:40 PM
+Connection closed: 12/18/2017 4:39:40 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:40:42 PM
+Connection closed: 12/18/2017 4:41:42 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:42:47 PM
+Connection closed: 12/18/2017 4:43:23 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:44:25 PM
+Connection closed: 12/18/2017 4:45:25 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:46:27 PM
+Connection closed: 12/18/2017 4:47:27 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:48:29 PM
+Connection closed: 12/18/2017 4:49:30 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:50:31 PM
+Connection closed: 12/18/2017 4:51:32 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:52:33 PM
+Connection closed: 12/18/2017 4:53:33 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:54:35 PM
+Connection closed: 12/18/2017 4:55:35 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:56:37 PM
+Connection closed: 12/18/2017 4:57:37 PM
+***********************************************
+ 
+subscribed: 12/18/2017 4:58:38 PM
+Connection closed: 12/18/2017 4:59:39 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:00:41 PM
+Connection closed: 12/18/2017 5:01:41 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:02:42 PM
+Connection closed: 12/18/2017 5:03:43 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:04:45 PM
+Connection closed: 12/18/2017 5:05:45 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:06:46 PM
+Connection closed: 12/18/2017 5:07:47 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:08:48 PM
+Connection closed: 12/18/2017 5:09:49 PM
+***********************************************
+ 
+subscribed: 12/18/2017 5:10:50 PM
+Connection closed: 12/18/2017 5:11:50 PM
+***********************************************
+ 
+Initiating...12/19/2017 9:29:53 AM
+subscribed: 12/19/2017 9:29:56 AM
+Connection closed: 12/19/2017 9:30:56 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:31:58 AM
+Connection closed: 12/19/2017 9:32:27 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:33:28 AM
+Connection closed: 12/19/2017 9:34:29 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:35:30 AM
+Connection closed: 12/19/2017 9:36:31 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:37:32 AM
+Connection closed: 12/19/2017 9:38:32 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:39:34 AM
+Connection closed: 12/19/2017 9:40:34 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:41:36 AM
+Connection closed: 12/19/2017 9:42:36 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:43:38 AM
+Connection closed: 12/19/2017 9:44:38 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:45:39 AM
+Connection closed: 12/19/2017 9:46:40 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:47:41 AM
+Connection closed: 12/19/2017 9:48:42 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:49:43 AM
+Connection closed: 12/19/2017 9:50:44 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:51:45 AM
+Connection closed: 12/19/2017 9:52:45 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:53:47 AM
+Connection closed: 12/19/2017 9:54:48 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:55:49 AM
+Connection closed: 12/19/2017 9:56:51 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:57:55 AM
+Connection closed: 12/19/2017 9:58:55 AM
+***********************************************
+ 
+subscribed: 12/19/2017 9:59:57 AM
+Connection closed: 12/19/2017 10:00:58 AM
+***********************************************
+ 
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:02:22 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:02:46 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:03:10 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:03:34 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:03:58 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:04:22 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:04:46 AM
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:05:10 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:01 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:04 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:07 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:10 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:13 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:16 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:19 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:22 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:25 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:28 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:09:31 AM
+subscribed: 12/19/2017 10:09:33 AM
+Connection closed: 12/19/2017 10:11:33 AM
+***********************************************
+ 
+ERROR: No such host is known
+Initiating...12/19/2017 10:12:48 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:12:51 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:12:54 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:12:57 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:00 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:03 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:07 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:10 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:13 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:16 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:19 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:22 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:25 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:28 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:31 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:34 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:37 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:40 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:43 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:46 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:49 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:52 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:13:55 AM
+subscribed: 12/19/2017 10:13:57 AM
+
+received: 12/19/2017 10:14:06 AM
+Connection closed: 12/19/2017 10:15:05 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:16:16 AM
+Connection closed: 12/19/2017 10:16:36 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:17:37 AM
+Connection closed: 12/19/2017 10:17:54 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:19:08 AM
+Connection closed: 12/19/2017 10:19:41 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:20:43 AM
+Connection closed: 12/19/2017 10:21:10 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:22:11 AM
+Connection closed: 12/19/2017 10:23:12 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:24:13 AM
+Connection closed: 12/19/2017 10:26:13 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:27:16 AM
+Connection closed: 12/19/2017 10:27:47 AM
+***********************************************
+ 
+ERROR: Exception connecting to the broker
+Initiating...12/19/2017 10:29:07 AM
+ERROR: No such host is known
+Initiating...12/19/2017 10:29:10 AM
+subscribed: 12/19/2017 10:29:12 AM
+Connection closed: 12/19/2017 10:30:14 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:31:29 AM
+Connection closed: 12/19/2017 10:33:29 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:34:31 AM
+Connection closed: 12/19/2017 10:35:31 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:36:33 AM
+Connection closed: 12/19/2017 10:37:33 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:38:35 AM
+Connection closed: 12/19/2017 10:39:35 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:40:37 AM
+Connection closed: 12/19/2017 10:40:59 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:42:00 AM
+Connection closed: 12/19/2017 10:42:47 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:43:50 AM
+Connection closed: 12/19/2017 10:44:07 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:45:10 AM
+Connection closed: 12/19/2017 10:45:59 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:47:00 AM
+Connection closed: 12/19/2017 10:48:01 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:49:02 AM
+Connection closed: 12/19/2017 10:50:03 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:51:04 AM
+Connection closed: 12/19/2017 10:52:04 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:53:06 AM
+Connection closed: 12/19/2017 10:54:06 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:55:07 AM
+Connection closed: 12/19/2017 10:56:08 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:57:09 AM
+Connection closed: 12/19/2017 10:58:09 AM
+***********************************************
+ 
+subscribed: 12/19/2017 10:59:11 AM
+Connection closed: 12/19/2017 11:00:15 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:01:16 AM
+Connection closed: 12/19/2017 11:02:17 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:03:18 AM
+Connection closed: 12/19/2017 11:04:19 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:05:20 AM
+Connection closed: 12/19/2017 11:06:20 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:07:22 AM
+
+received: 12/19/2017 11:07:32 AM
+mqtt published  12/19/2017 11:07:34 AM
+
+received: 12/19/2017 11:07:35 AM
+
+received: 12/19/2017 11:08:12 AM
+mqtt published  12/19/2017 11:08:13 AM
+
+received: 12/19/2017 11:08:13 AM
+Connection closed: 12/19/2017 11:08:22 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:09:24 AM
+
+received: 12/19/2017 11:09:31 AM
+mqtt published  12/19/2017 11:09:32 AM
+
+received: 12/19/2017 11:09:32 AM
+Connection closed: 12/19/2017 11:09:34 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:10:36 AM
+Connection closed: 12/19/2017 11:11:36 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:12:37 AM
+Connection closed: 12/19/2017 11:13:38 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:14:39 AM
+Connection closed: 12/19/2017 11:15:40 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:16:41 AM
+Connection closed: 12/19/2017 11:17:41 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:18:43 AM
+Connection closed: 12/19/2017 11:20:43 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:21:44 AM
+
+received: 12/19/2017 11:22:30 AM
+mqtt published  12/19/2017 11:22:32 AM
+
+received: 12/19/2017 11:22:32 AM
+Connection closed: 12/19/2017 11:22:44 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:23:46 AM
+
+received: 12/19/2017 11:24:04 AM
+mqtt published  12/19/2017 11:24:06 AM
+
+received: 12/19/2017 11:24:06 AM
+Connection closed: 12/19/2017 11:24:46 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:25:48 AM
+
+received: 12/19/2017 11:26:06 AM
+mqtt published  12/19/2017 11:26:07 AM
+
+received: 12/19/2017 11:26:07 AM
+Connection closed: 12/19/2017 11:26:48 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:27:49 AM
+Connection closed: 12/19/2017 11:28:50 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:29:51 AM
+Connection closed: 12/19/2017 11:30:36 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:31:37 AM
+Connection closed: 12/19/2017 11:32:37 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:33:39 AM
+Connection closed: 12/19/2017 11:34:39 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:35:41 AM
+Connection closed: 12/19/2017 11:36:41 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:37:42 AM
+Connection closed: 12/19/2017 11:38:43 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:39:44 AM
+Connection closed: 12/19/2017 11:40:44 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:41:49 AM
+
+received: 12/19/2017 11:42:26 AM
+mqtt published  12/19/2017 11:42:28 AM
+
+received: 12/19/2017 11:42:28 AM
+Connection closed: 12/19/2017 11:42:49 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:43:50 AM
+
+received: 12/19/2017 11:44:14 AM
+mqtt published  12/19/2017 11:44:15 AM
+
+received: 12/19/2017 11:44:16 AM
+
+received: 12/19/2017 11:44:36 AM
+mqtt published  12/19/2017 11:44:38 AM
+
+received: 12/19/2017 11:44:38 AM
+Connection closed: 12/19/2017 11:44:50 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:46:01 AM
+Connection closed: 12/19/2017 11:46:12 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:47:14 AM
+
+received: 12/19/2017 11:47:35 AM
+mqtt published  12/19/2017 11:47:36 AM
+
+received: 12/19/2017 11:47:36 AM
+
+received: 12/19/2017 11:48:12 AM
+mqtt published  12/19/2017 11:48:13 AM
+
+received: 12/19/2017 11:48:14 AM
+Connection closed: 12/19/2017 11:48:16 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:49:17 AM
+
+received: 12/19/2017 11:49:45 AM
+mqtt published  12/19/2017 11:49:46 AM
+
+received: 12/19/2017 11:49:47 AM
+
+received: 12/19/2017 11:50:12 AM
+mqtt published  12/19/2017 11:50:14 AM
+
+received: 12/19/2017 11:50:14 AM
+Connection closed: 12/19/2017 11:50:18 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:51:20 AM
+Connection closed: 12/19/2017 11:53:20 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:54:21 AM
+Connection closed: 12/19/2017 11:55:22 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:56:23 AM
+Connection closed: 12/19/2017 11:57:24 AM
+***********************************************
+ 
+subscribed: 12/19/2017 11:58:26 AM
+Connection closed: 12/19/2017 12:00:26 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:01:28 PM
+Connection closed: 12/19/2017 12:02:28 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:03:30 PM
+Connection closed: 12/19/2017 12:04:30 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:05:35 PM
+Connection closed: 12/19/2017 12:07:35 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:08:40 PM
+Connection closed: 12/19/2017 12:09:35 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:10:38 PM
+Connection closed: 12/19/2017 12:10:43 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:11:47 PM
+Connection closed: 12/19/2017 12:12:47 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:13:50 PM
+Connection closed: 12/19/2017 12:14:51 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:15:53 PM
+Connection closed: 12/19/2017 12:16:53 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:17:57 PM
+Connection closed: 12/19/2017 12:18:57 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:19:59 PM
+Connection closed: 12/19/2017 12:20:59 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:22:01 PM
+Connection closed: 12/19/2017 12:22:03 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:23:05 PM
+Connection closed: 12/19/2017 12:24:04 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:25:09 PM
+Connection closed: 12/19/2017 12:25:10 PM
+***********************************************
+ 
+subscribed: 12/19/2017 12:26:13 PM
+Connection closed: 12/19/2017 12:28:13 PM
+***********************************************
+ 

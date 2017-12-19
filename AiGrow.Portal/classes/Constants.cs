@@ -182,6 +182,7 @@ namespace AiGrow
         public static string ACTIVATE_USER = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ActivateUser";
         public static string RESEND_ACTIVATION_EMAIL = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ResendActivationEmail";
         public static string GETGREENHOUSELOCATIONS = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetGreenhouseLocationsByUserID";
+        public static string GETGREENHOUSELEASTDEVICEDATA = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID";
 
         //IS Constants
         public const string CREDENTIALS = "CREDENTIALS";
