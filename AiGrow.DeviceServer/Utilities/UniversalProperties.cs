@@ -130,7 +130,7 @@ namespace AiGrow.DeviceServer
 
         #region Data Table Constants
 
-        public const string MQTT_topic = "/aigrow_common";
+        public const string MQTT_topic = "/aigrow";
         public const string data = "dataEntry";
         public const string greenhouse = "registerGreenhouse";
         public const string greenhouseDevice = "registerGreenhouseDevice";
