@@ -13,5 +13,6 @@ namespace AiGrow.DeviceServer
         public string longitude { get; set; }
         public string latitude { get; set; }
         public string location_id { get; set; }
+        public string greenhouse_name { get; set; }
     }
 }

@@ -536,7 +536,65 @@ namespace AiGrow.DeviceServer
         }
 
         #endregion
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public void GetAllGreenhouseLocations(string user_id, string token)
+        {
+            token = token.Trim();
 
+            if ((new BL_User().validateTokenByUserID(user_id, token) == 1) && (new BL_User().checkForAdmin(user_id)==1))
+            {
+                LocationResponse response = new LocationResponse();
+                try
+                {
+                    DataTable allLocations = new Business.BL_Location().getAllLocationsForAdmin(user_id);
+
+                    List<LocationResponse> locationList = new List<LocationResponse>();
+
+                    foreach (DataRow item in allLocations.Rows)
+                    {
+                        locationList.Add(new LocationResponse()
+                        {
+                            location_address = item["location_address"].ToString(),
+                            latitude = item["latitude"].ToString(),
+                            longitude = item["longitude"].ToString(),
+                            location_name = item["location_name"].ToString(),
+                            location_unique_id = item["location_unique_id"].ToString(),
+                            location_id = item["location_id"].ToString(),
+                            greenhouse_name = item["greenhouse_name"].ToString()
+                        });
+                    }
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
+                    {
+                        success = true,
+                        errorMessage = null,
+                        listOfLocations = locationList
+                    }));
+                    return;
+                }
+                catch
+                {
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
+                    {
+                        success = false,
+                        errorCode = UniversalProperties.EC_UnhandledError,
+                        errorMessage = UniversalProperties.unknownError
+                    }));
+                }
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
+
+            }
+            else
+            {
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
+                {
+                    success = false,
+                    errorMessage = UniversalProperties.invalidRequest,
+                    errorCode = UniversalProperties.EC_InvalidRequest,
+                }));
+            }
+
+        }
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
         public void GetGreenhouseLocationsByUserID(string user_id, string token)
@@ -562,6 +620,7 @@ namespace AiGrow.DeviceServer
                             location_name = item["location_name"].ToString(),
                             location_unique_id = item["location_unique_id"].ToString(),
                             location_id = item["location_id"].ToString(),
+                            greenhouse_name = item["greenhouse_name"].ToString()
                         });
                     }
                     HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new LocationListResponse()
@@ -682,7 +741,8 @@ namespace AiGrow.DeviceServer
                             collected_time = item["collected_time"].ToString(),
                             data = item["data"].ToString(),
                             data_unit = item["data_unit"].ToString(),
-                            device_unique_id = item["device_unique_id"].ToString()
+                            device_unique_id = item["device_unique_id"].ToString(),
+                            device_type = item["device_type"].ToString()
                         });
                     }
                     HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()

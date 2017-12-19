@@ -45,7 +45,14 @@ namespace AiGrow.Data
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@user_id", user_id);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude FROM location l INNER JOIN greenhouse g ON l.location_id = g.location_id INNER JOIN USER u ON g.owner_user_id = u.id_user WHERE u.id_user = @user_id AND l.deleted = 0", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude, g.greenhouse_name FROM location l INNER JOIN greenhouse g ON l.location_id = g.location_id INNER JOIN USER u ON g.owner_user_id = u.id_user WHERE u.id_user = @user_id AND l.deleted = 0", para);
+        }
+        public DataTable getAllLocationsForAdmin(string user_id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@user_id", user_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude, g.greenhouse_name FROM location l INNER JOIN greenhouse g ON l.location_id = g.location_id AND l.deleted = 0", para);
         }
     }
 }
