@@ -156,7 +156,7 @@
 
 
                                         <%
-                   if (!dataList.Equals(null))
+                   if (!dataList.listOfData.Count.Equals(0))
                    {
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
@@ -186,7 +186,7 @@
                                     <h5 class="description-header">
 
                                         <%
-                   if (!dataList.Equals(null))
+                   if (!dataList.listOfData.Count.Equals(0))
                    {
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
@@ -214,7 +214,7 @@
                                     <span class="description-text">CO<sub>2</sub></span>
                                     <h5 class="description-header">
                                         <%
-                   if (!dataList.Equals(null))
+                   if (!dataList.listOfData.Count.Equals(0))
                    {
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
