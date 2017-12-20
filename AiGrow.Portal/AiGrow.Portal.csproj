@@ -7523,6 +7523,8 @@
     <Compile Include="classes\ChargeCustomer.cs" />
     <Compile Include="classes\Constants.cs" />
     <Compile Include="classes\DBConnection.cs" />
+    <Compile Include="classes\deviceServer\DataListResponse.cs" />
+    <Compile Include="classes\deviceServer\DataResponse.cs" />
     <Compile Include="classes\deviceServer\LocationListResponse.cs" />
     <Compile Include="classes\deviceServer\LocationResponse.cs" />
     <Compile Include="classes\GreenhouseServices.cs" />
