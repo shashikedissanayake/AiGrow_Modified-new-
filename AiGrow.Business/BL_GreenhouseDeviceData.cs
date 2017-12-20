@@ -21,12 +21,13 @@ namespace AiGrow.Business
         {
             return new DL_GreenhouseDeviceData().selectDataSet(device,from,to);
         }
-        public DataTable getLatestData(string user_id)
+        public DataTable getLatestData(string greenhouse_id)
         {
-            var para = new MySqlParameter[1];
-            para[0] = new MySqlParameter("@user_id", user_id);
-
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT * FROM latest_greenhouse_device_data lgdd WHERE lgdd.device_unique_id IN (SELECT gd.greenhouse_device_unique_id FROM greenhouse g INNER JOIN greenhouse_device gd ON g.greenhouse_id = gd.greenhouse_id WHERE g.greenhouse_id = @user_id)", para);
+            return new DL_GreenhouseDeviceData().getLatestData(greenhouse_id);
+        }
+        public DataTable getLatestDataForAdmin(string greenhouse_id)
+        {
+            return new DL_GreenhouseDeviceData().getLatestDataForAdmin(greenhouse_id);
         }
     }
 }

@@ -30,14 +30,21 @@ namespace AiGrow.Data
             int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_unique_id = @greenhouse_id", para).Rows.Count;
             return count >= 1;
         }
-        public bool doesGreenhouseIDExist(string greenhouse, string user_id)
+        public bool doesGreenhouseIDExist(string greenhouse, string user_id, string role)
         {
             var para = new MySqlParameter[2];
             para[0] = new MySqlParameter("@greenhouse_id", greenhouse);
             para[1] = new MySqlParameter("@user_id", user_id);
 
-            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_id = @greenhouse_id AND owner_user_id = @user_id", para).Rows.Count;
-            return count >= 1;
+            if (role == "1")
+            {
+                int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_id = @greenhouse_id", para).Rows.Count;
+                return count >= 1;
+            }
+            else {
+                int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM `greenhouse` WHERE greenhouse_id = @greenhouse_id AND owner_user_id = @user_id", para).Rows.Count;
+                return count >= 1;
+            }
         }
 
         public DataTable select()
@@ -71,6 +78,13 @@ namespace AiGrow.Data
             para[0] = new MySqlParameter("@user_id", user_id);
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT g.greenhouse_id, g.greenhouse_unique_id, g.greenhouse_name, g.created_date_time, g.last_updated_date, g.location_id, g.pic_url, l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude FROM (greenhouse g INNER JOIN location l ON g.location_id = l.location_id) WHERE g.owner_user_id = @user_id AND g.deleted = 0", para);
+        }
+        public DataTable getAllGreenhousesForAdmin(string user_id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@user_id", user_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT g.greenhouse_id, g.greenhouse_unique_id, g.greenhouse_name, g.created_date_time, g.last_updated_date, g.location_id, g.pic_url, l.location_id, l.location_unique_id, l.location_name, l.location_address, l.longitude, l.latitude FROM (greenhouse g INNER JOIN location l ON g.location_id = l.location_id) WHERE g.deleted = 0", para);
         }
     }
 }

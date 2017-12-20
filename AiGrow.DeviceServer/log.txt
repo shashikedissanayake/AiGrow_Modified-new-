@@ -8365,3 +8365,540 @@ subscribed: 19-Dec-17 12:24:07 PM
 Connection closed: 19-Dec-17 12:25:06 PM
 ***********************************************
  
+Initiating...19-Dec-17 12:37:57 PM
+subscribed: 19-Dec-17 12:37:59 PM
+Connection closed: 19-Dec-17 12:38:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:40:01 PM
+Connection closed: 19-Dec-17 12:40:08 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:41:10 PM
+Connection closed: 19-Dec-17 12:41:13 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:42:14 PM
+Connection closed: 19-Dec-17 12:43:12 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:44:13 PM
+Connection closed: 19-Dec-17 12:44:16 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:45:18 PM
+Connection closed: 19-Dec-17 12:46:15 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:47:17 PM
+Connection closed: 19-Dec-17 12:47:20 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:48:22 PM
+Connection closed: 19-Dec-17 12:49:18 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:50:20 PM
+Connection closed: 19-Dec-17 12:50:24 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:51:25 PM
+Connection closed: 19-Dec-17 12:52:22 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:53:23 PM
+Connection closed: 19-Dec-17 12:53:27 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:54:29 PM
+Connection closed: 19-Dec-17 12:55:25 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:56:27 PM
+Connection closed: 19-Dec-17 12:56:31 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:57:32 PM
+Connection closed: 19-Dec-17 12:58:29 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 12:59:30 PM
+Connection closed: 19-Dec-17 12:59:34 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:00:35 PM
+Connection closed: 19-Dec-17 1:01:32 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:02:34 PM
+Connection closed: 19-Dec-17 1:02:37 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:03:39 PM
+Connection closed: 19-Dec-17 1:04:35 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:05:37 PM
+Connection closed: 19-Dec-17 1:05:41 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:06:42 PM
+Connection closed: 19-Dec-17 1:07:39 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:08:40 PM
+Connection closed: 19-Dec-17 1:08:41 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:09:43 PM
+Connection closed: 19-Dec-17 1:10:42 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:11:44 PM
+Connection closed: 19-Dec-17 1:11:45 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:12:46 PM
+Connection closed: 19-Dec-17 1:13:45 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:14:47 PM
+Connection closed: 19-Dec-17 1:14:48 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:15:49 PM
+Connection closed: 19-Dec-17 1:16:49 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:17:51 PM
+Connection closed: 19-Dec-17 1:18:51 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:19:53 PM
+Connection closed: 19-Dec-17 1:20:53 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:21:55 PM
+Connection closed: 19-Dec-17 1:22:55 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:23:57 PM
+Connection closed: 19-Dec-17 1:24:57 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:25:59 PM
+Connection closed: 19-Dec-17 1:26:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:28:01 PM
+Connection closed: 19-Dec-17 1:28:41 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:29:43 PM
+Connection closed: 19-Dec-17 1:30:43 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:31:45 PM
+Connection closed: 19-Dec-17 1:32:45 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:33:47 PM
+Connection closed: 19-Dec-17 1:34:47 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:35:49 PM
+Connection closed: 19-Dec-17 1:36:49 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:37:51 PM
+Connection closed: 19-Dec-17 1:38:51 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:39:53 PM
+Connection closed: 19-Dec-17 1:40:53 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:41:55 PM
+Connection closed: 19-Dec-17 1:42:55 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:43:57 PM
+Connection closed: 19-Dec-17 1:44:57 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:45:59 PM
+Connection closed: 19-Dec-17 1:46:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:48:01 PM
+Connection closed: 19-Dec-17 1:49:01 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:50:03 PM
+Connection closed: 19-Dec-17 1:51:03 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:52:04 PM
+Connection closed: 19-Dec-17 1:53:05 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:54:06 PM
+Connection closed: 19-Dec-17 1:55:07 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 1:56:08 PM
+Connection closed: 19-Dec-17 1:57:09 PM
+***********************************************
+ 
+Initiating...19-Dec-17 2:00:28 PM
+subscribed: 19-Dec-17 2:00:29 PM
+Initiating...19-Dec-17 2:27:10 PM
+subscribed: 19-Dec-17 2:27:12 PM
+Connection closed: 19-Dec-17 2:27:55 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 2:28:56 PM
+Initiating...19-Dec-17 2:30:15 PM
+subscribed: 19-Dec-17 2:30:17 PM
+Initiating...19-Dec-17 3:01:45 PM
+subscribed: 19-Dec-17 3:01:47 PM
+Connection closed: 19-Dec-17 3:01:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:03:01 PM
+Initiating...19-Dec-17 3:12:42 PM
+subscribed: 19-Dec-17 3:12:44 PM
+Initiating...19-Dec-17 3:12:51 PM
+subscribed: 19-Dec-17 3:12:53 PM
+Connection closed: 19-Dec-17 3:13:13 PM
+***********************************************
+ 
+Initiating...19-Dec-17 3:16:18 PM
+subscribed: 19-Dec-17 3:16:20 PM
+Connection closed: 19-Dec-17 3:16:47 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:17:49 PM
+Connection closed: 19-Dec-17 3:18:22 PM
+***********************************************
+ 
+Initiating...19-Dec-17 3:18:33 PM
+subscribed: 19-Dec-17 3:18:35 PM
+Connection closed: 19-Dec-17 3:18:49 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:19:52 PM
+Initiating...19-Dec-17 3:26:55 PM
+subscribed: 19-Dec-17 3:26:57 PM
+Connection closed: 19-Dec-17 3:27:57 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:28:59 PM
+Connection closed: 19-Dec-17 3:29:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:31:01 PM
+Connection closed: 19-Dec-17 3:32:01 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:33:03 PM
+Connection closed: 19-Dec-17 3:34:03 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:35:05 PM
+Connection closed: 19-Dec-17 3:36:05 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:37:07 PM
+Connection closed: 19-Dec-17 3:38:07 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:39:09 PM
+Connection closed: 19-Dec-17 3:40:09 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:41:11 PM
+Connection closed: 19-Dec-17 3:42:11 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:43:13 PM
+Connection closed: 19-Dec-17 3:44:14 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:45:15 PM
+Connection closed: 19-Dec-17 3:46:16 PM
+***********************************************
+ 
+Initiating...19-Dec-17 3:55:02 PM
+subscribed: 19-Dec-17 3:55:04 PM
+Connection closed: 19-Dec-17 3:55:52 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:56:54 PM
+Connection closed: 19-Dec-17 3:57:09 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:58:11 PM
+Connection closed: 19-Dec-17 3:58:56 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 3:59:57 PM
+Connection closed: 19-Dec-17 4:00:13 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:01:14 PM
+Connection closed: 19-Dec-17 4:01:59 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:03:01 PM
+Connection closed: 19-Dec-17 4:03:16 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:04:18 PM
+Connection closed: 19-Dec-17 4:05:03 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:06:05 PM
+Connection closed: 19-Dec-17 4:06:20 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:07:21 PM
+Connection closed: 19-Dec-17 4:08:07 PM
+***********************************************
+ 
+Initiating...19-Dec-17 4:09:15 PM
+subscribed: 19-Dec-17 4:09:17 PM
+Connection closed: 19-Dec-17 4:09:24 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:10:25 PM
+Connection closed: 19-Dec-17 4:11:20 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:12:22 PM
+Connection closed: 19-Dec-17 4:12:27 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:13:29 PM
+Connection closed: 19-Dec-17 4:14:24 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:15:25 PM
+Connection closed: 19-Dec-17 4:15:31 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:16:32 PM
+Connection closed: 19-Dec-17 4:16:54 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:17:55 PM
+Connection closed: 19-Dec-17 4:18:34 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:19:36 PM
+Connection closed: 19-Dec-17 4:19:57 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:20:59 PM
+Connection closed: 19-Dec-17 4:21:38 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:22:39 PM
+Connection closed: 19-Dec-17 4:23:00 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:24:02 PM
+Connection closed: 19-Dec-17 4:24:41 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:25:42 PM
+Connection closed: 19-Dec-17 4:26:04 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:27:05 PM
+Connection closed: 19-Dec-17 4:27:44 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:28:46 PM
+Connection closed: 19-Dec-17 4:29:07 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:30:09 PM
+Connection closed: 19-Dec-17 4:30:48 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:31:49 PM
+Connection closed: 19-Dec-17 4:32:10 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:33:12 PM
+Connection closed: 19-Dec-17 4:33:51 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:34:52 PM
+Connection closed: 19-Dec-17 4:35:14 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:36:15 PM
+Connection closed: 19-Dec-17 4:36:54 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:37:56 PM
+Connection closed: 19-Dec-17 4:38:56 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:40:01 PM
+Connection closed: 19-Dec-17 4:40:58 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:42:00 PM
+Connection closed: 19-Dec-17 4:42:04 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:43:05 PM
+Connection closed: 19-Dec-17 4:44:02 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:45:03 PM
+Connection closed: 19-Dec-17 4:45:07 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:46:09 PM
+Connection closed: 19-Dec-17 4:47:05 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:48:07 PM
+Connection closed: 19-Dec-17 4:48:10 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:49:12 PM
+Connection closed: 19-Dec-17 4:50:09 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:51:10 PM
+Connection closed: 19-Dec-17 4:51:14 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:52:15 PM
+Connection closed: 19-Dec-17 4:53:12 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:54:14 PM
+Connection closed: 19-Dec-17 4:54:17 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:55:19 PM
+Connection closed: 19-Dec-17 4:57:19 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:58:20 PM
+Connection closed: 19-Dec-17 4:58:26 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 4:59:38 PM
+Connection closed: 19-Dec-17 4:59:58 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:00:59 PM
+Connection closed: 19-Dec-17 5:01:39 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:02:41 PM
+Connection closed: 19-Dec-17 5:03:01 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:04:02 PM
+Connection closed: 19-Dec-17 5:04:43 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:05:47 PM
+Connection closed: 19-Dec-17 5:06:04 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:07:06 PM
+Connection closed: 19-Dec-17 5:07:49 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:08:51 PM
+Connection closed: 19-Dec-17 5:09:08 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:10:26 PM
+Connection closed: 19-Dec-17 5:10:52 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:12:11 PM
+Connection closed: 19-Dec-17 5:12:28 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:13:29 PM
+Connection closed: 19-Dec-17 5:14:13 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:15:14 PM
+Connection closed: 19-Dec-17 5:15:31 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:16:32 PM
+Connection closed: 19-Dec-17 5:17:16 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:18:20 PM
+Connection closed: 19-Dec-17 5:18:34 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:19:36 PM
+Connection closed: 19-Dec-17 5:19:58 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:21:00 PM
+Connection closed: 19-Dec-17 5:21:23 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:22:24 PM
+Connection closed: 19-Dec-17 5:23:02 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:24:04 PM
+Connection closed: 19-Dec-17 5:24:28 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:25:30 PM
+Connection closed: 19-Dec-17 5:26:06 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:27:07 PM
+Connection closed: 19-Dec-17 5:27:31 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:28:33 PM
+Connection closed: 19-Dec-17 5:29:09 PM
+***********************************************
+ 
+subscribed: 19-Dec-17 5:30:11 PM
+Connection closed: 19-Dec-17 5:30:35 PM
+***********************************************
+ 
+Initiating...20-Dec-17 9:57:23 AM
+subscribed: 20-Dec-17 9:57:25 AM
+Connection closed: 20-Dec-17 9:58:05 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 9:59:07 AM
+Connection closed: 20-Dec-17 9:59:27 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:00:29 AM
+Connection closed: 20-Dec-17 10:01:08 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:02:10 AM
+Connection closed: 20-Dec-17 10:02:31 AM
+***********************************************
+ 
+Initiating...20-Dec-17 10:13:03 AM
+subscribed: 20-Dec-17 10:13:05 AM
+Connection closed: 20-Dec-17 10:13:23 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:14:25 AM

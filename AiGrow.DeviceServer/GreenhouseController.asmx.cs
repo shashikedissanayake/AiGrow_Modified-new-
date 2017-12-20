@@ -542,7 +542,7 @@ namespace AiGrow.DeviceServer
         {
             token = token.Trim();
 
-            if ((new BL_User().validateTokenByUserID(user_id, token) == 1) && (new BL_User().checkForAdmin(user_id)==1))
+            if ((new BL_User().validateTokenByUserID(user_id, token) == 1) && (new BL_User().checkForAdmin(user_id) == "1"))
             {
                 LocationResponse response = new LocationResponse();
                 try
@@ -665,35 +665,70 @@ namespace AiGrow.DeviceServer
                 //LocationResponse response = new LocationResponse();
                 try
                 {
-                    DataTable allGreenhouses = new Business.BL_Greenhouse().getAllGreenhouses(user_id);
-
-                    List<GreenhouseResponse> greenhouseList = new List<GreenhouseResponse>();
-
-                    foreach (DataRow item in allGreenhouses.Rows)
+                    if (new BL_User().checkForAdmin(user_id) == "1")
                     {
-                        greenhouseList.Add(new GreenhouseResponse()
+                        DataTable allGreenhouses = new Business.BL_Greenhouse().getAllGreenhousesForAdmin(user_id);
+
+                        List<GreenhouseResponse> greenhouseList = new List<GreenhouseResponse>();
+
+                        foreach (DataRow item in allGreenhouses.Rows)
                         {
-                            location_address = item["location_address"].ToString(),
-                            latitude = item["latitude"].ToString(),
-                            longitude = item["longitude"].ToString(),
-                            location_name = item["location_name"].ToString(),
-                            location_unique_id = item["location_unique_id"].ToString(),
-                            location_id = item["location_id"].ToString(),
-                            created_date_time = item["created_date_time"].ToString(),
-                            greenhouse_id = item["greenhouse_id"].ToString(),
-                            greenhouse_name = item["greenhouse_name"].ToString(),
-                            greenhouse_unique_id = item["greenhouse_unique_id"].ToString(),
-                            last_updated_date = item["last_updated_date"].ToString(),
-                            pic_url = item["pic_url"].ToString()
-                        });
+                            greenhouseList.Add(new GreenhouseResponse()
+                            {
+                                location_address = item["location_address"].ToString(),
+                                latitude = item["latitude"].ToString(),
+                                longitude = item["longitude"].ToString(),
+                                location_name = item["location_name"].ToString(),
+                                location_unique_id = item["location_unique_id"].ToString(),
+                                location_id = item["location_id"].ToString(),
+                                created_date_time = item["created_date_time"].ToString(),
+                                greenhouse_id = item["greenhouse_id"].ToString(),
+                                greenhouse_name = item["greenhouse_name"].ToString(),
+                                greenhouse_unique_id = item["greenhouse_unique_id"].ToString(),
+                                last_updated_date = item["last_updated_date"].ToString(),
+                                pic_url = item["pic_url"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseListResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfGreenhouses = greenhouseList
+                        }));
+                        return;
                     }
-                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseListResponse()
+                    else
                     {
-                        success = true,
-                        errorMessage = null,
-                        listOfGreenhouses = greenhouseList
-                    }));
-                    return;
+                        DataTable allGreenhouses = new Business.BL_Greenhouse().getAllGreenhouses(user_id);
+
+                        List<GreenhouseResponse> greenhouseList = new List<GreenhouseResponse>();
+
+                        foreach (DataRow item in allGreenhouses.Rows)
+                        {
+                            greenhouseList.Add(new GreenhouseResponse()
+                            {
+                                location_address = item["location_address"].ToString(),
+                                latitude = item["latitude"].ToString(),
+                                longitude = item["longitude"].ToString(),
+                                location_name = item["location_name"].ToString(),
+                                location_unique_id = item["location_unique_id"].ToString(),
+                                location_id = item["location_id"].ToString(),
+                                created_date_time = item["created_date_time"].ToString(),
+                                greenhouse_id = item["greenhouse_id"].ToString(),
+                                greenhouse_name = item["greenhouse_name"].ToString(),
+                                greenhouse_unique_id = item["greenhouse_unique_id"].ToString(),
+                                last_updated_date = item["last_updated_date"].ToString(),
+                                pic_url = item["pic_url"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GreenhouseListResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfGreenhouses = greenhouseList
+                        }));
+                        return;
+                    }
                 }
                 catch
                 {
@@ -724,34 +759,65 @@ namespace AiGrow.DeviceServer
         public void GetLatestGreenhouseDeviceDataByGreenhouseID(string user_id, string greenhouse_id, string token)
         {
             token = token.Trim();
+            string role = new BL_User().getUserRoleID(user_id);
 
-            if (new BL_User().validateTokenByUserID(user_id, token) == 1 && new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id))
+            if (new BL_User().validateTokenByUserID(user_id, token) == 1 && new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id, role))
             {
                 DataResponse response = new DataResponse();
                 try
                 {
-                    DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestData(greenhouse_id);
-
-                    List<DataResponse> dataList = new List<DataResponse>();
-
-                    foreach (DataRow item in latestData.Rows)
+                    if (new BL_User().checkForAdmin(user_id) == "1")
                     {
-                        dataList.Add(new DataResponse()
+
+                        DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestDataForAdmin(greenhouse_id);
+
+                        List<DataResponse> dataList = new List<DataResponse>();
+
+                        foreach (DataRow item in latestData.Rows)
                         {
-                            collected_time = item["collected_time"].ToString(),
-                            data = item["data"].ToString(),
-                            data_unit = item["data_unit"].ToString(),
-                            device_unique_id = item["device_unique_id"].ToString(),
-                            device_type = item["device_type"].ToString()
-                        });
+                            dataList.Add(new DataResponse()
+                            {
+                                collected_time = item["collected_time"].ToString(),
+                                data = item["data"].ToString(),
+                                data_unit = item["data_unit"].ToString(),
+                                device_unique_id = item["device_unique_id"].ToString(),
+                                device_type = item["device_type"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfData = dataList
+                        }));
+                        return;
                     }
-                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                    else
                     {
-                        success = true,
-                        errorMessage = null,
-                        listOfData = dataList
-                    }));
-                    return;
+
+                        DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestData(greenhouse_id);
+
+                        List<DataResponse> dataList = new List<DataResponse>();
+
+                        foreach (DataRow item in latestData.Rows)
+                        {
+                            dataList.Add(new DataResponse()
+                            {
+                                collected_time = item["collected_time"].ToString(),
+                                data = item["data"].ToString(),
+                                data_unit = item["data_unit"].ToString(),
+                                device_unique_id = item["device_unique_id"].ToString(),
+                                device_type = item["device_type"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfData = dataList
+                        }));
+                        return;
+                    }
                 }
                 catch
                 {
@@ -763,7 +829,6 @@ namespace AiGrow.DeviceServer
                     }));
                 }
                 HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
-
             }
             else
             {
