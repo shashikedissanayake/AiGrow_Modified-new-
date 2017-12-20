@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminDashboardMaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="AiGrow.Portal.Dashboards.Admin.index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
     <style>
         #widge {
             position: relative;
@@ -106,7 +107,7 @@
                                             foreach (AiGrow.Portal.LocationResponse lr in locations.listOfLocations)
                                             { %>
                                         var location = new google.maps.LatLng(<%Response.Write(lr.latitude);%>, <%Response.Write(lr.longitude);%>);
-                                        placeMarker(map, location,'<%Response.Write(lr.location_unique_id);%>');
+                                        placeMarker(map, location,'<%Response.Write(lr.greenhouse_name);%>');
                                         <%}  %> 
                                     }   
                                 </script>
@@ -141,48 +142,86 @@
                         </div>
                     </div>
                     <div class="box-footer">
+
                         <div class="row">
-                            <%  
-                                                           string[] boxDetails = { "<i class=\"ionicons ion-thermometer fa-3x\"></i> <br /> <span class=\"description-text\">Temperature</span><h5 class=\"description-header\">", "<i class=\"glyphicon glyphicon-tint fa-3x\"></i> <br /> <span class=\"description-text\">Humidity</span><h5 class=\"description-header\">", "<i class=\"glyphicon glyphicon-cloud fa-3x\"></i> <br /> <span class=\"description-text\">CO<sub>2</sub></span><h5 class=\"description-header\">" };
-
-                                                           AiGrow.Portal.DataListResponse dataList = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseDeviceLeastData(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken(), row["greenhouse_id"].ToString());
-
-                                                           foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
-                                                           {%>
+                            <%
+                   AiGrow.Portal.DataListResponse dataList = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseDeviceLeastData(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken(), row["greenhouse_id"].ToString());
+                                 %>
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <%switch (data.device_unique_id)
-                                      {
-                                          case "TS_001":
-                                              Response.Write(boxDetails[0] + data.data + "<sup>o</sup>c</h5>");
-                                              break;
-                                          case "LI_001":
-                                              Response.Write(boxDetails[1] + data.data + "<sup>o</sup>c</h5>");
-                                              break;
-                                          case "PH_001":
-                                              Response.Write(boxDetails[2] + data.data + "<sup>o</sup>c</h5>");
-                                              break;
-                                          
-                                      }%>
-                                    
+                                    <i class="ionicons ion-thermometer fa-3x"></i>
+                                    <br />
+                                    <span class="description-text">Temperature</span>
+                                    <h5 class="description-header">
+                                       
+                                        
+                                     <%
+                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
+                       if (data.device_type.Equals("TEMPERATURE_SENSOR"))
+                       {
+                           Response.Write( data.data + "<sup>o</sup>c");
+                       }
+                                    }
+                                             %>
+                                        </h5>
                                 </div>
                                 <!-- /.description-block -->
                             </div>
-                            <% }  %>
-                        </div>
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <i class="glyphicon glyphicon-tint fa-3x"></i>
+                                    <br />
+                                    <span class="description-text">Humidity</span>
+                                    <h5 class="description-header">
+                                        
+                                     <%
+                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
+                       if (data.device_type.Equals("HUMIDITY_SENSOR"))
+                       {
+                           Response.Write( data.data + "<small>%</small>");
+                       }
+                                    }
+                                             %>
+                                        </h5>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <i class="glyphicon glyphicon-cloud fa-3x"></i>
+                                    <br />
+                                    <span class="description-text">CO<sub>2</sub></span>
+                                    <h5 class="description-header">
+                                    <%
+                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
+                       if (data.device_type.Equals("CO2_SENSOR"))
+                       {
+                           Response.Write( data.data + "<small>%</small>");
+                       }
+                                    }
+                                             %>
+                                        </h5>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
                     </div>
-                    <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">
-                        <i class="ionicons ion-ios-speedometer-outline"></i>Dashboard
-                    </a>
                 </div>
-                <!-- /.widget-user -->
+                <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">
+                    <i class="ionicons ion-ios-speedometer-outline"></i>Dashboard
+                </a>
             </div>
-            <!--/.column-->
-
-            <% } %>
+            <!-- /.widget-user -->
         </div>
-        <!-- /.row -->
+        <!--/.column-->
+
+        <% } %>
     </div>
+    <!-- /.row -->
+
+    </div>
+
+
+
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphBreadcrumbs" runat="server">
 </asp:Content>

@@ -26,7 +26,7 @@ namespace AiGrow.Business
             var para = new MySqlParameter[1];
             para[0] = new MySqlParameter("@user_id", user_id);
 
-            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT * FROM latest_greenhouse_device_data lgdd WHERE lgdd.device_unique_id IN (SELECT gd.greenhouse_device_unique_id FROM greenhouse g INNER JOIN greenhouse_device gd ON g.greenhouse_id = gd.greenhouse_id WHERE g.greenhouse_id = @user_id)", para);
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT lgdd.device_unique_id, lgdd.data, lgdd.data_unit, lgdd.collected_time, dt.device_type, dt.description,dt.device_type_id FROM latest_greenhouse_device_data lgdd RIGHT OUTER JOIN device_type dt ON lgdd.device_type = dt.device_type WHERE lgdd.greenhouse_id = @user_id OR lgdd.device_unique_id IS NULL", para);
         }
     }
 }
