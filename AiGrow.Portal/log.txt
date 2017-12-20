@@ -323,3 +323,40 @@ http://localhost:12000/GreenhouseController.asmx/GetGreenhouseLocationsByUserID
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:12000/GreenhouseController.asmx/GetGreenhouseLocationsByUserID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at AiGrow.Data.MySQLHelper.ExecuteDataTable(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in e:\vega\AiGrow\AiGrow.Data\Utilities\MySQLHelper.cs:line 757
+   at AiGrow.Data.DL_User.selectByUserName(ML_User user) in e:\vega\AiGrow\AiGrow.Data\DL_User.cs:line 25
+   at AiGrow.Business.BL_User.selectByUserName(ML_User user) in e:\vega\AiGrow\AiGrow.Business\BL_User.cs:line 26
+   at AiGrow.Portal.Login.signinClick(Object sender, EventArgs e) in e:\vega\AiGrow\AiGrow.Portal\Login.aspx.cs:line 37
+Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES)
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:12000/GreenhouseController.asmx/GetAllGreenhouseLocations
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:12000/GreenhouseController.asmx/GetAllGreenhouseLocations
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetAllGreenhouseLocations
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID

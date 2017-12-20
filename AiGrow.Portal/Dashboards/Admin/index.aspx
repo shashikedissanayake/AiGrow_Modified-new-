@@ -156,15 +156,24 @@
 
 
                                         <%
+                   bool printed = false;
                    if (!dataList.listOfData.Count.Equals(0))
                    {
+                       
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
+                           printed = false;
                            if (data.device_type.Equals("TEMPERATURE_SENSOR"))
                            {
                                Response.Write(data.data + "<sup>o</sup>c");
+                               printed = true;
                                break;
                            }
+                       }
+
+                       if (!printed)
+                       {
+                           Response.Write("-");  
                        }
 
                    }
@@ -190,11 +199,18 @@
                    {
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
+                           printed = false;
                            if (data.device_type.Equals("HUMIDITY_SENSOR"))
                            {
                                Response.Write(data.data + "<small>%</small>");
+                               printed = true;
                                break;
                            }
+                       }
+
+                       if (!printed)
+                       {
+                           Response.Write("-"); 
                        }
 
                    }
@@ -218,11 +234,18 @@
                    {
                        foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
+                           printed = false;
                            if (data.device_type.Equals("CO2_SENSOR"))
                            {
                                Response.Write(data.data + "<small>%</small>");
+                               printed = true;
                                break;
                            }
+                       }
+
+                       if (!printed)
+                       {
+                           Response.Write("-");
                        }
 
                    }

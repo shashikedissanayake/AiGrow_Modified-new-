@@ -181,7 +181,7 @@ namespace AiGrow
         public static string VALIDATE_EMAIL_DUPLICATE = HOST_URL_IDENTITY_SERVER + "PortalService.asmx/IsDuplicateEmail";
         public static string ACTIVATE_USER = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ActivateUser";
         public static string RESEND_ACTIVATION_EMAIL = HOST_URL_IDENTITY_SERVER + "UserController.asmx/ResendActivationEmail";
-        public static string GETGREENHOUSELOCATIONS = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetGreenhouseLocationsByUserID";
+        public static string GETGREENHOUSELOCATIONS = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetAllGreenhouseLocations";
         public static string GETGREENHOUSELEASTDEVICEDATA = HOST_URL_DEVICE_SERVER + "GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID";
 
         //IS Constants
