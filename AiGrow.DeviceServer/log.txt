@@ -11281,3 +11281,39 @@ Connection closed: 20-Dec-17 10:13:23 AM
 ***********************************************
  
 subscribed: 20-Dec-17 10:14:25 AM
+Initiating...20-Dec-17 10:24:25 AM
+subscribed: 20-Dec-17 10:24:27 AM
+Connection closed: 20-Dec-17 10:24:34 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:25:35 AM
+Connection closed: 20-Dec-17 10:26:28 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:27:30 AM
+Connection closed: 20-Dec-17 10:27:37 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:28:39 AM
+Connection closed: 20-Dec-17 10:29:32 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:30:33 AM
+Connection closed: 20-Dec-17 10:30:41 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:31:42 AM
+Connection closed: 20-Dec-17 10:32:36 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:33:37 AM
+Connection closed: 20-Dec-17 10:33:44 AM
+***********************************************
+ 
+subscribed: 20-Dec-17 10:34:46 AM
+Initiating...20-Dec-17 1:57:30 PM
+subscribed: 20-Dec-17 1:57:32 PM
+Connection closed: 20-Dec-17 1:57:35 PM
+***********************************************
+ 
+subscribed: 20-Dec-17 1:58:37 PM
