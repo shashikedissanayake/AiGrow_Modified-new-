@@ -146,24 +146,35 @@
                         <div class="row">
                             <%
                    AiGrow.Portal.DataListResponse dataList = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseDeviceLeastData(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken(), row["greenhouse_id"].ToString());
-                                 %>
+                            %>
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
                                     <i class="ionicons ion-thermometer fa-3x"></i>
                                     <br />
                                     <span class="description-text">Temperature</span>
                                     <h5 class="description-header">
-                                       
-                                        
-                                     <%
-                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
-                       if (data.device_type.Equals("TEMPERATURE_SENSOR"))
+
+
+                                        <%
+                   if (!dataList.Equals(null))
+                   {
+                       foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
-                           Response.Write( data.data + "<sup>o</sup>c");
+                           if (data.device_type.Equals("TEMPERATURE_SENSOR"))
+                           {
+                               Response.Write(data.data + "<sup>o</sup>c");
+                               break;
+                           }
                        }
-                                    }
-                                             %>
-                                        </h5>
+
+                   }
+                   else
+                   {
+                       Response.Write("-");
+                   }
+                   
+                                        %>
+                                    </h5>
                                 </div>
                                 <!-- /.description-block -->
                             </div>
@@ -173,16 +184,26 @@
                                     <br />
                                     <span class="description-text">Humidity</span>
                                     <h5 class="description-header">
-                                        
-                                     <%
-                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
-                       if (data.device_type.Equals("HUMIDITY_SENSOR"))
+
+                                        <%
+                   if (!dataList.Equals(null))
+                   {
+                       foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
-                           Response.Write( data.data + "<small>%</small>");
+                           if (data.device_type.Equals("HUMIDITY_SENSOR"))
+                           {
+                               Response.Write(data.data + "<small>%</small>");
+                               break;
+                           }
                        }
-                                    }
-                                             %>
-                                        </h5>
+
+                   }
+                   else
+                   {
+                       Response.Write("-");
+                   }
+                                        %>
+                                    </h5>
                                 </div>
                                 <!-- /.description-block -->
                             </div>
@@ -192,31 +213,41 @@
                                     <br />
                                     <span class="description-text">CO<sub>2</sub></span>
                                     <h5 class="description-header">
-                                    <%
-                   foreach (AiGrow.Portal.DataResponse data in dataList.listOfData) {
-                       if (data.device_type.Equals("CO2_SENSOR"))
+                                        <%
+                   if (!dataList.Equals(null))
+                   {
+                       foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
                        {
-                           Response.Write( data.data + "<small>%</small>");
+                           if (data.device_type.Equals("CO2_SENSOR"))
+                           {
+                               Response.Write(data.data + "<small>%</small>");
+                               break;
+                           }
                        }
-                                    }
-                                             %>
-                                        </h5>
+
+                   }
+                   else
+                   {
+                       Response.Write("-");
+                   }
+                                        %>
+                                    </h5>
                                 </div>
                                 <!-- /.description-block -->
                             </div>
+                        </div>
                     </div>
+                    <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">
+                        <i class="ionicons ion-ios-speedometer-outline"></i>Dashboard
+                    </a>
                 </div>
-                <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">
-                    <i class="ionicons ion-ios-speedometer-outline"></i>Dashboard
-                </a>
+                <!-- /.widget-user -->
             </div>
-            <!-- /.widget-user -->
-        </div>
-        <!--/.column-->
+            <!--/.column-->
 
-        <% } %>
-    </div>
-    <!-- /.row -->
+            <% } %>
+        </div>
+        <!-- /.row -->
 
     </div>
 
