@@ -10,12 +10,15 @@ namespace AiGrow.Business
         }
         public string getUserRole(AiGrow.Model.ML_User user)
         {
-            return new DL_User().getUserRole(user.username);
-            
+            return new DL_User().getUserRole(user.username);   
         }
-        public int checkForAdmin(string user_id)
+        public string getUserRoleID(string user_id)
         {
-            return new DL_User().checkForAdmin(user_id);
+            return new DL_User().getUserRoleID(user_id);
+        }
+        public string checkForAdmin(string user_id)
+        {
+            return new DL_User().getUserRoleID(user_id);
 
         }
         public System.Data.DataTable selectByUserName(AiGrow.Model.ML_User user)

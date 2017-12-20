@@ -30,5 +30,18 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT gdd.collected_time, gdd.data FROM greenhouse_device_data gdd WHERE gdd.device_unique_id = @device_id AND (gdd.collected_time BETWEEN @fromDate AND @toDate)", para);
         }
+        public DataTable getLatestData(string greenhouse_id) {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@greenhouse_id", greenhouse_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT lgdd.device_unique_id, lgdd.data, lgdd.data_unit, lgdd.collected_time, dt.device_type, dt.description,dt.device_type_id FROM latest_greenhouse_device_data lgdd RIGHT OUTER JOIN device_type dt ON lgdd.device_type = dt.device_type WHERE lgdd.greenhouse_id = @greenhouse_id OR lgdd.device_unique_id IS NULL", para);
+        }
+        public DataTable getLatestDataForAdmin(string greenhouse_id)
+        {
+            var para = new MySqlParameter[1];
+            para[0] = new MySqlParameter("@greenhouse_id", greenhouse_id);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT lgdd.device_unique_id, lgdd.data, lgdd.data_unit, lgdd.collected_time, dt.device_type, dt.description,dt.device_type_id FROM latest_greenhouse_device_data lgdd RIGHT OUTER JOIN device_type dt ON lgdd.device_type = dt.device_type WHERE lgdd.greenhouse_id = @greenhouse_id OR lgdd.device_unique_id IS NULL", para);
+        }
     }
 }

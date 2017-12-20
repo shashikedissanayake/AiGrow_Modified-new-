@@ -17,9 +17,9 @@ namespace AiGrow.Business
         {
             return new DL_Greenhouse().doesGreenhouseExist(greenhouse);
         }
-        public bool doesGreenhouseIDExist(string greenhouse, string user_id)
+        public bool doesGreenhouseIDExist(string greenhouse, string user_id, string role)
         {
-            return new DL_Greenhouse().doesGreenhouseIDExist(greenhouse, user_id);
+            return new DL_Greenhouse().doesGreenhouseIDExist(greenhouse, user_id, role);
         }
 
         public System.Data.DataTable selectAllGreenhouses()
@@ -71,6 +71,10 @@ namespace AiGrow.Business
         public System.Data.DataTable getAllGreenhouses(string user_id)
         {
             return new AiGrow.Data.DL_Greenhouse().getAllGreenhouses(user_id);
+        }
+        public System.Data.DataTable getAllGreenhousesForAdmin(string user_id)
+        {
+            return new AiGrow.Data.DL_Greenhouse().getAllGreenhousesForAdmin(user_id);
         }
     }
 }
