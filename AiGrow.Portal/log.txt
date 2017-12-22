@@ -542,3 +542,14 @@ http://localhost:12000/GreenhouseController.asmx/GetAllGreenhouseLocations
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
 http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:10000/LoginController.asmx/CheckLoginPOSTJSON
+http://localhost:12000/GreenhouseController.asmx/GetAllGreenhouseLocations
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
+http://localhost:12000/GreenhouseController.asmx/GetLatestGreenhouseDeviceDataByGreenhouseID
