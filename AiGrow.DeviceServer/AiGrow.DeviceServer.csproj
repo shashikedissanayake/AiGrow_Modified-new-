@@ -143,6 +143,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Responses\DataListResponse.cs" />
     <Compile Include="Responses\DataResponse.cs" />
+    <Compile Include="Responses\GraphDataPointResponse.cs" />
+    <Compile Include="Responses\GraphDataResponse.cs" />
     <Compile Include="Responses\GreenhouseListResponse.cs" />
     <Compile Include="Responses\GreenhouseResponse.cs" />
     <Compile Include="Responses\LocationListResponse.cs" />

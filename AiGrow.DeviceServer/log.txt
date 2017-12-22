@@ -13238,3 +13238,11 @@ Connection closed: 12/22/2017 2:50:12 PM
 ***********************************************
  
 subscribed: 12/22/2017 2:51:14 PM
+Initiating...22-Dec-17 3:33:16 PM
+Initiating...22-Dec-17 3:35:03 PM
+subscribed: 22-Dec-17 3:35:05 PM
+Initiating...22-Dec-17 3:36:03 PM
+subscribed: 22-Dec-17 3:36:04 PM
+Connection closed: 22-Dec-17 3:36:06 PM
+***********************************************
+ 
