@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminDashboardMaster.Master" AutoEventWireup="true" CodeBehind="AdminGreenhouseDashboard.aspx.cs" Inherits="AiGrow.Portal.Dashboards.Admin.AdminGreenhouseDashboard" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="cphH1Main" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphH1Small" runat="server">
@@ -6,7 +7,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="cphBreadcrumbs" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MainContent" runat="server">
-    
+
     <!-- Info boxes -->
     <div class="row">
 
@@ -72,66 +73,70 @@
     <!-- /.row -->
 
     <div class="row">
-        <div class="col-md-8">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Daily Recap Report</h3>
+        <form runat="server">
+            <div class="col-md-8">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Summary Report</h3>
 
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
-                            <i class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                    </div>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="text-center">
-                                <strong>Date : <%DateTime time = new DateTime(); time = DateTime.Now.Date; Response.Write(time.ToString("D")); %></strong>
-                            </p>
-                            <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                            <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
-                            <div class="chart" id="chart" style="height: 400px; width: 100%;">
-                                <!-- Sales Chart Canvas -->
-
-                            </div>
-
-
-                            <!-- /.chart-responsive -->
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                         </div>
-                        <!-- /.col -->
-
-                        <!-- /.col -->
                     </div>
-                    <!-- /.row -->
-                </div>
-                <!-- ./box-body -->
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" TabIndex="3" AutoPostBack="True" OnSelectedIndexChanged="period_select">
+                                    <asp:ListItem Value="1 DAY">Today </asp:ListItem>
+                                    <asp:ListItem Value="1 MONTH"> This Month </asp:ListItem>
+                                    <asp:ListItem Value="3 MONTH"> Last 3 Month </asp:ListItem>
+                                    <asp:ListItem Value="all" Selected="True"> All </asp:ListItem>
+                                </asp:RadioButtonList>
+                                <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
+                                <div class="chart" id="chart" style="height: 400px; width: 100%;">
+                                    <!-- Sales Chart Canvas -->
 
-            </div>
-            <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-4">
-            <div class="box">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Green House View</h3>
+                                </div>
 
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
-                            <i class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+
+                                <!-- /.chart-responsive -->
+                            </div>
+                            <!-- /.col -->
+
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
                     </div>
-                </div>
-                <div class="box-body" style="height :inherit; width : 100%">
-                    <img src="../../img/greenhouse_img1.jpg" style="height:inherit; width:inherit" />
-                </div>
+                    <!-- ./box-body -->
 
+                </div>
+                <!-- /.box -->
             </div>
-        </div>
+            <!-- /.col -->
+            <div class="col-md-4">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Green House View</h3>
 
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="box-body" style="height: inherit; width: 100%">
+                        <img src="../../img/greenhouse_img1.jpg" style="height: inherit; width: inherit" />
+                    </div>
+
+                </div>
+            </div>
+        </form>
     </div>
     <!-- /.row -->
 

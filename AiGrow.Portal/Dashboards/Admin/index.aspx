@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminDashboardMaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="AiGrow.Portal.Dashboards.Admin.index" %>
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <style>
@@ -237,7 +238,7 @@
                            printed = false;
                            if (data.device_type.Equals("CO2_SENSOR"))
                            {
-                               Response.Write(data.data + "<small>%</small>");
+                               Response.Write(data.data + "<small>ppm</small>");
                                printed = true;
                                break;
                            }
@@ -260,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_unique_id"]);%>" class="btn btn-block btn-social btn-facebook">
+                    <a href="AdminGreenhouseDashboard.aspx?greenhouse_id=<% Response.Write(row["greenhouse_id"]);%>" class="btn btn-block btn-social btn-facebook">
                         <i class="ionicons ion-ios-speedometer-outline"></i>Dashboard
                     </a>
                 </div>

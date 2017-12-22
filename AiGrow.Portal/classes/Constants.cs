@@ -58,6 +58,12 @@ namespace AiGrow
         public static string LEVEL2 = "L2";
         //public static string LEVEL3 = "L3";
         public static string FAST = "FAST";
+        
+        //Device type id
+        public static int TEMPERATURE_SENSOR = 1;
+        public static int HUMIDITY_SENSOR = 2;
+        public static int CO2_SENSOR = 6;
+        public static int LIGHT_INTENSITY_SENSOR = 5;
 
         //Paths & Common
         public static string HOME_URL = "index.aspx";

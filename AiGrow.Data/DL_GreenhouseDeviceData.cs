@@ -43,5 +43,16 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT * FROM latest_greenhouse_device_data lgdd WHERE lgdd.greenhouse_id = @greenhouse_id", para);
         }
+
+        public DataTable selectDeviceDataSetByType(string greenhouseID, int dataType, string from, string to)
+        {
+            var para = new MySqlParameter[4];
+            para[0] = new MySqlParameter("@greenhouse_id", greenhouseID);
+            para[1] = new MySqlParameter("@dataType", dataType);
+            para[2] = new MySqlParameter("@from", from);
+            para[3] = new MySqlParameter("@to", to);
+
+            return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, CommandType.Text, "SELECT gdd.collected_time, gdd.data FROM greenhouse_device_data gdd WHERE gdd.device_unique_id = (SELECT gd.greenhouse_device_unique_id FROM greenhouse_device gd WHERE (gd.device_type = @dataType AND gd.greenhouse_id = @greenhouse_id) LIMIT 1) AND (gdd.collected_time BETWEEN @from AND @to)", para);
+        }
     }
 }

@@ -29,5 +29,10 @@ namespace AiGrow.Business
         {
             return new DL_GreenhouseDeviceData().getLatestDataForAdmin(greenhouse_id);
         }
+
+        public DataTable selectDeviceDataSetByType(string greenhouseID, int dataType, string from, string to)
+        {
+            return new DL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID,dataType,  from, to);
+        }
     }
 }
