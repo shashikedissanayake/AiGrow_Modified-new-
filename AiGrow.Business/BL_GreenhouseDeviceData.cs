@@ -25,6 +25,10 @@ namespace AiGrow.Business
         {
             return new DL_GreenhouseDeviceData().getLatestData(greenhouse_id);
         }
+        public DataTable getLatestDataForUsers(string greenhouse_id)
+        {
+            return new DL_GreenhouseDeviceData().getLatestData(greenhouse_id);
+        }
         public DataTable getLatestDataForAdmin(string greenhouse_id)
         {
             return new DL_GreenhouseDeviceData().getLatestDataForAdmin(greenhouse_id);

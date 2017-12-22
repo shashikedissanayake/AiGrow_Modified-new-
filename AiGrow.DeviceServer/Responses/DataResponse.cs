@@ -12,5 +12,6 @@ namespace AiGrow.DeviceServer
         public string data_unit { get; set; }
         public string collected_time { get; set; }
         public string device_type { get; set; }
+        public string device_type_id { get; set; }
     }
 }

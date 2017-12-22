@@ -781,7 +781,8 @@ namespace AiGrow.DeviceServer
                                 data = item["data"].ToString(),
                                 data_unit = item["data_unit"].ToString(),
                                 device_unique_id = item["device_unique_id"].ToString(),
-                                device_type = item["device_type"].ToString()
+                                device_type = item["device_type"].ToString(),
+                                device_type_id = item["device_type_id"].ToString()
                             });
                         }
                         HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
@@ -840,6 +841,90 @@ namespace AiGrow.DeviceServer
                 }));
             }
 
+        }
+
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public void GetGreenhouseDeviceDataForGraphs(string user_id, string token, string greenhouse_id, string device_id, string start_time, string end_time)
+        {
+            token = token.Trim();
+            string role = new BL_User().getUserRoleID(user_id);
+
+            if (new BL_User().validateTokenByUserID(user_id, token) == 1 && new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id, role))
+            {
+                DataResponse response = new DataResponse();
+                try
+                {
+                    if (new BL_User().checkForAdmin(user_id) == "1")
+                    {
+
+                        DataTable Data = new BL_GreenhouseDeviceData().selectDataSet(greenhouse_id, start_time, end_time);
+
+                        List<GraphDataPointResponse> dataPointList = new List<GraphDataPointResponse>();
+
+                        foreach (DataRow item in Data.Rows)
+                        {
+                            dataPointList.Add(new GraphDataPointResponse()
+                            {
+                                time = item["collected_time"].ToString(),
+                                value = item["data"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GraphDataResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfDataPoints = dataPointList
+                        }));
+                        return;
+                    }
+                    else
+                    {
+
+                        DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestData(greenhouse_id);
+
+                        List<DataResponse> dataList = new List<DataResponse>();
+
+                        foreach (DataRow item in latestData.Rows)
+                        {
+                            dataList.Add(new DataResponse()
+                            {
+                                collected_time = item["collected_time"].ToString(),
+                                data = item["data"].ToString(),
+                                data_unit = item["data_unit"].ToString(),
+                                device_unique_id = item["device_unique_id"].ToString(),
+                                device_type = item["device_type"].ToString()
+                            });
+                        }
+                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                        {
+                            success = true,
+                            errorMessage = null,
+                            listOfData = dataList
+                        }));
+                        return;
+                    }
+                }
+                catch
+                {
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                    {
+                        success = false,
+                        errorCode = UniversalProperties.EC_UnhandledError,
+                        errorMessage = UniversalProperties.unknownError
+                    }));
+                }
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(response));
+            }
+            else
+            {
+                HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
+                {
+                    success = false,
+                    errorMessage = UniversalProperties.invalidRequest,
+                    errorCode = UniversalProperties.EC_InvalidRequest,
+                }));
+            }
         }
     }
 }
