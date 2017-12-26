@@ -10,14 +10,45 @@
 
     <!-- Info boxes -->
     <div class="row">
-
+        <%
+            AiGrow.Portal.DataListResponse dataList = AiGrow.Portal.classes.GreenhouseServices.getGreenhouseDeviceLeastData(AiGrow.SessionHandler.getLoggedInUserID(), AiGrow.SessionHandler.getToken(), HttpContext.Current.Request.QueryString["greenhouse_id"]);
+        %>
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
                 <span class="info-box-icon bg-red"><i class="ionicons ion-thermometer"></i></span>
 
                 <div class="info-box-content">
                     <span class="info-box-text">Temperature</span>
-                    <span class="info-box-number">29<sup>0</sup>C</span>
+                    <span class="info-box-number">
+                        <%
+                            bool printed = false;
+                            if (!dataList.listOfData.Count.Equals(0))
+                            {
+
+                                foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
+                                {
+                                    printed = false;
+                                    if (data.device_type.Equals("TEMPERATURE_SENSOR"))
+                                    {
+                                        Response.Write(data.data + "<sup>o</sup>c");
+                                        printed = true;
+                                        break;
+                                    }
+                                }
+
+                                if (!printed)
+                                {
+                                    Response.Write("-");
+                                }
+
+                            }
+                            else
+                            {
+                                Response.Write("-");
+                            }
+                   
+                        %>
+                    </span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -28,10 +59,39 @@
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
                 <span class="info-box-icon bg-aqua"><i class="glyphicon glyphicon-tint"></i></span>
-
                 <div class="info-box-content">
                     <span class="info-box-text">Humidity</span>
-                    <span class="info-box-number">90<small>%</small></span>
+                    <span class="info-box-number">
+                        <%
+                            
+                            if (!dataList.listOfData.Count.Equals(0))
+                            {
+
+                                foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
+                                {
+                                    printed = false;
+                                    if (data.device_type.Equals("HUMIDITY_SENSOR"))
+                                    {
+                                        Response.Write(data.data + "<small>%</small>");
+                                        printed = true;
+                                        break;
+                                    }
+                                }
+
+                                if (!printed)
+                                {
+                                    Response.Write("-");
+                                }
+
+                            }
+                            else
+                            {
+                                Response.Write("-");
+                            }
+                   
+                        %>
+
+                    </span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -49,7 +109,38 @@
 
                 <div class="info-box-content">
                     <span class="info-box-text">CO<sub>2</sub></span>
-                    <span class="info-box-number">30<small>%</small></span>
+
+                    <span class="info-box-number">
+                        <%
+                            if (!dataList.listOfData.Count.Equals(0))
+                            {
+
+                                foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
+                                {
+                                    printed = false;
+                                    if (data.device_type.Equals("CO2_SENSOR"))
+                                    {
+                                        Response.Write(data.data + "<small>ppm</small>");
+                                        printed = true;
+                                        break;
+                                    }
+                                }
+
+                                if (!printed)
+                                {
+                                    Response.Write("-");
+                                }
+
+                            }
+                            else
+                            {
+                                Response.Write("-");
+                            }
+                   
+                        %>
+
+                    </span>
+
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -62,7 +153,38 @@
 
                 <div class="info-box-content">
                     <span class="info-box-text">Light Intensttivity</span>
-                    <span class="info-box-number">76<small>W/m<sup>2</sup></small></span>
+
+                    <span class="info-box-number">
+                        <%
+                            if (!dataList.listOfData.Count.Equals(0))
+                            {
+
+                                foreach (AiGrow.Portal.DataResponse data in dataList.listOfData)
+                                {
+                                    printed = false;
+                                    if (data.device_type.Equals("LIGHT_INTENSITY_SENSOR"))
+                                    {
+                                        Response.Write(data.data + "<small>W/m<sup>2</sup></small>");
+                                        printed = true;
+                                        break;
+                                    }
+                                }
+
+                                if (!printed)
+                                {
+                                    Response.Write("-");
+                                }
+
+                            }
+                            else
+                            {
+                                Response.Write("-");
+                            }
+                   
+                        %>
+
+                    </span>
+
                 </div>
                 <!-- /.info-box-content -->
             </div>

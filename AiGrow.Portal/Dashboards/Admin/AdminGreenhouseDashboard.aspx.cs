@@ -16,10 +16,13 @@ namespace AiGrow.Portal.Dashboards.Admin
         {
             Master.FindControl("errorDiv").Visible = false;
             Master.FindControl("successDiv").Visible = false;
-            string[] time = timePeriod(RadioButtonList1.SelectedIndex);
-            string from = time[0];
-            string to = time[1];
-            graphRendering(from, to);
+            if (!IsPostBack) { 
+                string[] time = timePeriod(RadioButtonList1.SelectedIndex);
+                string from = time[0];
+                string to = time[1];
+                graphRendering(from, to);
+            }
+            
         }
 
         protected void graphRendering(string from, string to)

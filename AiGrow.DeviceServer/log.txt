@@ -13238,12 +13238,77 @@ Connection closed: 12/22/2017 2:50:12 PM
 ***********************************************
  
 subscribed: 12/22/2017 2:51:14 PM
-Initiating...22-Dec-17 3:33:16 PM
-Initiating...22-Dec-17 3:35:03 PM
-subscribed: 22-Dec-17 3:35:05 PM
-Initiating...22-Dec-17 3:36:03 PM
-subscribed: 22-Dec-17 3:36:04 PM
-Connection closed: 22-Dec-17 3:36:06 PM
+Initiating...12/22/2017 3:05:31 PM
+subscribed: 12/22/2017 3:05:34 PM
+Connection closed: 12/22/2017 3:06:34 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:07:36 PM
+Connection closed: 12/22/2017 3:08:36 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:09:38 PM
+Connection closed: 12/22/2017 3:10:38 PM
+***********************************************
+ 
+ERROR: Exception connecting to the broker
+Initiating...12/22/2017 3:12:02 PM
+subscribed: 12/22/2017 3:12:04 PM
+Connection closed: 12/22/2017 3:13:04 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:14:06 PM
+Connection closed: 12/22/2017 3:15:06 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:16:07 PM
+Connection closed: 12/22/2017 3:17:08 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:18:09 PM
+Connection closed: 12/22/2017 3:19:10 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:20:11 PM
+Connection closed: 12/22/2017 3:21:12 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:22:13 PM
+Connection closed: 12/22/2017 3:23:14 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:24:19 PM
+Connection closed: 12/22/2017 3:25:19 PM
+***********************************************
+ 
+ERROR: Exception connecting to the broker
+Initiating...12/22/2017 3:26:44 PM
+ERROR: Exception connecting to the broker
+Initiating...12/22/2017 3:27:08 PM
+subscribed: 12/22/2017 3:27:09 PM
+Connection closed: 12/22/2017 3:28:10 PM
+***********************************************
+ 
+ERROR: Exception connecting to the broker
+Initiating...12/22/2017 3:29:34 PM
+subscribed: 12/22/2017 3:29:35 PM
+Connection closed: 12/22/2017 3:30:36 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:31:39 PM
+Connection closed: 12/22/2017 3:32:39 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:33:41 PM
+Connection closed: 12/22/2017 3:34:41 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:35:42 PM
+Connection closed: 12/22/2017 3:36:03 PM
+***********************************************
+ 
+subscribed: 12/22/2017 3:37:04 PM
+Connection closed: 12/22/2017 3:38:05 PM
 ***********************************************
  
 Initiating...22-Dec-17 3:45:49 PM
