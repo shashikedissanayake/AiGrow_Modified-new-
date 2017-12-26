@@ -45,6 +45,27 @@ namespace AiGrow.Portal.Dashboards.Admin
             selectId_GetDataSet(selected);
         }
 
+        private void selectId_GetDataSet(string location)
+        {
+            DataTable dt_id_names = new BL_Greenhouse().selectUniqueIdsByTableName(location);
+            selectId.DataSource = dt_id_names;
+            selectId.DataValueField = "id";
+            selectId.DataTextField = "unique_id";
+            if (dt_id_names.Rows.Count != 0)
+            {
+                selectId.DataBind();
+                selectId.Items.Insert(0, new ListItem(String.Empty, String.Empty));
+                selectId.SelectedIndex = 0;
+            }
+            else
+            {
+                selectId.Visible = false;
+                Label1.Visible = true;
+                Label1.Text = "No devices found.";
+            }
+
+        }
+
 
         protected void id_select(object sender, EventArgs e)
         {
@@ -58,6 +79,60 @@ namespace AiGrow.Portal.Dashboards.Admin
             ltScripts.Text = null;
             RadioButtonList1.Visible = false;
             selectDevice_GetDataSet(location, id);
+        }
+
+        private void selectDevice_GetDataSet(string location, string id)
+        {
+
+            DataTable dt_device_names;
+
+            switch (location)
+            {
+                case "bay_line":
+                    dt_device_names = new BL_BayLineDevice().selectAllDevices(id);
+                    break;
+
+                case "greenhouse":
+                    dt_device_names = new BL_GreenhouseDevice().selectAllDevices(id);
+                    break;
+
+                case "level":
+                    dt_device_names = new BL_BayRackLevelDevice().selectAllDevices(id);
+                    break;
+
+                case "level_line":
+                    dt_device_names = new BL_BayRackLevelLineDevice().selectAllDevices(id);
+                    break;
+
+                case "rack":
+                    dt_device_names = new BL_BayRackDevice().selectAllDevices(id);
+                    break;
+
+                case "bay":
+                    dt_device_names = new BL_BayDevice().selectAllDevices(id);
+                    break;
+
+                default:
+                    dt_device_names = null;
+                    break;
+            }
+
+            selectDevice.DataSource = dt_device_names;
+            selectDevice.DataValueField = "device_unique_id";
+            selectDevice.DataTextField = "device_unique_id";
+            if (dt_device_names.Rows.Count != 0)
+            {
+                selectDevice.DataBind();
+                selectDevice.Items.Insert(0, new ListItem(String.Empty, String.Empty));
+                selectDevice.SelectedIndex = 0;
+            }
+            else
+            {
+                Label2.Visible = true;
+                selectDevice.Visible = false;
+                Label2.Text = "No devices found.";
+            }
+
         }
 
         protected void get_visualize_dataset(object sender, EventArgs e)
@@ -121,24 +196,49 @@ namespace AiGrow.Portal.Dashboards.Admin
             {
                 dsChartData = data;
 
-                strScript.Append(@"<script type='text/javascript'>  
-                    google.load('visualization', '1', {packages: ['corechart']});</script>  
-  
-                    <script type='text/javascript'>  
-                    function drawVisualization() {         
-                    var data = google.visualization.arrayToDataTable([   
-                    ['received_time', 'data'],");
+                strScript.Append(@"<script>
+            window.onload = function () {
+
+                var chart = new CanvasJS.Chart('chart', {
+                    animationEnabled: true,
+                    title:{
+		                    text: 'Device Data'
+	                        },
+                    axisY: {
+                        lineColor: '#369EAD',
+                        tickColor: '#369EAD',
+                        labelFontColor: '#369EAD',
+                        titleFontColor: '#369EAD',
+                        includeZero: false
+                    },
+                    toolTip: {
+                        shared: true
+                    },
+                    legend: {
+                        fontSize: 13
+                    },
+                    data: [");
+
+                strScript.Append(@"{
+                        type: 'spline',
+                        fillOpacity: .3,
+                        axisYIndex: 0,
+                        yValueFormatString: '##.00',
+                        dataPoints: [");
 
                 foreach (DataRow row in dsChartData.Rows)
                 {
-                    strScript.Append("['" + row["collected_time"] + "'," + row["data"] + "],");
+                    strScript.Append("{ x: new Date(Date.parse('" + row["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + row["data"] + "},");
                 }
                 strScript.Remove(strScript.Length - 1, 1);
-                strScript.Append("]);");
+                strScript.Append(@"]
+                        }]});
+                    chart.render();
 
-                strScript.Append("var options = { title: 'Device Data', titleTextStyle: {  fontName: 'Spectral SC', fontSize: '35', bold: 'true', italic: 'true' }, hAxis: { title: 'Time' }, vAxis: { title: 'Sensor Reading' }, legend: { position: 'right' } };");
-                strScript.Append(" var chart = new google.visualization.LineChart(document.getElementById('chart_div'));  chart.draw(data, options); } google.setOnLoadCallback(drawVisualization);");
-                strScript.Append(" </script>");
+                    }
+                </script>");
+
+
 
                 ltScripts.Text = strScript.ToString();
             }
@@ -149,82 +249,6 @@ namespace AiGrow.Portal.Dashboards.Admin
             {
                 strScript.Clear();
             }
-        }
-
-
-        private void selectDevice_GetDataSet(string location, string id)
-        {
-
-            DataTable dt_device_names;
-
-            switch (location)
-            {
-                case "bay_line":
-                    dt_device_names = new BL_BayLineDevice().selectAllDevices(id);
-                    break;
-
-                case "greenhouse":
-                    dt_device_names = new BL_GreenhouseDevice().selectAllDevices(id);
-                    break;
-
-                case "level":
-                    dt_device_names = new BL_BayRackLevelDevice().selectAllDevices(id);
-                    break;
-
-                case "level_line":
-                    dt_device_names = new BL_BayRackLevelLineDevice().selectAllDevices(id);
-                    break;
-
-                case "rack":
-                    dt_device_names = new BL_BayRackDevice().selectAllDevices(id);
-                    break;
-
-                case "bay":
-                    dt_device_names = new BL_BayDevice().selectAllDevices(id);
-                    break;
-
-                default:
-                    dt_device_names = null;
-                    break;
-            }
-
-            selectDevice.DataSource = dt_device_names;
-            selectDevice.DataValueField = "device_unique_id";
-            selectDevice.DataTextField = "device_unique_id";
-            if (dt_device_names.Rows.Count != 0)
-            {
-                selectDevice.DataBind();
-                selectDevice.Items.Insert(0, new ListItem(String.Empty, String.Empty));
-                selectDevice.SelectedIndex = 0;
-            }
-            else
-            {
-                Label2.Visible = true;
-                selectDevice.Visible = false;
-                Label2.Text = "No devices found.";
-            }
-            
-        }
-
-        private void selectId_GetDataSet(string location)
-        {
-            DataTable dt_id_names = new BL_Greenhouse().selectUniqueIdsByTableName(location);
-            selectId.DataSource = dt_id_names;
-            selectId.DataValueField = "id";
-            selectId.DataTextField = "unique_id";
-            if (dt_id_names.Rows.Count != 0)
-            {
-                selectId.DataBind();
-                selectId.Items.Insert(0, new ListItem(String.Empty, String.Empty));
-                selectId.SelectedIndex = 0;
-            }
-            else
-            {
-                selectId.Visible = false;
-                Label1.Visible = true;
-                Label1.Text = "No devices found.";
-            }
-            
         }
 
         protected void period_select(object sender, EventArgs e)

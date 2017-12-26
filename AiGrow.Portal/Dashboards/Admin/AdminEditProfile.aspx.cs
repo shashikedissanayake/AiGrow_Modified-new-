@@ -7,7 +7,6 @@ using System.Web.UI.WebControls;
 using AiGrow.Business;
 using AiGrow.Classes;
 using AiGrow.Model;
-using AiGrow.Portal.Account;
 using System.Web.Script.Serialization;
 
 namespace AiGrow.Portal.Dashboards.Admin
@@ -23,7 +22,7 @@ namespace AiGrow.Portal.Dashboards.Admin
 
             if (!IsPostBack)
             {
-                foreach (String my_country in Register.getCountryList())
+                foreach (String my_country in signUp.getCountryList())
                 {
                     lst_countries.Items.Add(my_country);
                 }

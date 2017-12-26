@@ -16,6 +16,7 @@ namespace AiGrow.Portal.Dashboards.Admin
         {
             Master.FindControl("errorDiv").Visible = false;
             Master.FindControl("successDiv").Visible = false;
+            RadioButtonList1.Visible = true;
             if (!IsPostBack) { 
                 string[] time = timePeriod(RadioButtonList1.SelectedIndex);
                 string from = time[0];
@@ -71,7 +72,10 @@ namespace AiGrow.Portal.Dashboards.Admin
                     legend: {
                         fontSize: 13
                     },
-                    data: [{
+                    data: [");
+            DataTable dt_humidity = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.HUMIDITY_SENSOR, from, to);
+
+                strScript.Append(@"{
                         type: 'spline',
                         fillOpacity: .3,
                         showInLegend: true,
@@ -80,47 +84,60 @@ namespace AiGrow.Portal.Dashboards.Admin
                         yValueFormatString: '##.00',
                         xValueFormatString: 'MMM YYYY',
                         dataPoints: [");
-            DataTable dt_humidity = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.HUMIDITY_SENSOR, from, to);
-            foreach (DataRow data in dt_humidity.Rows)
-            {
-                strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
-            }
-           // strScript.Remove(strScript.Length - 1, 1);
-            strScript.Append(@"]
- }, {
+
+                foreach (DataRow data in dt_humidity.Rows)
+                {
+                    strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
+                }
+                // strScript.Remove(strScript.Length - 1, 1);
+                strScript.Append("] },");
+
+            DataTable dt_temperature = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.TEMPERATURE_SENSOR, from, to);
+
+                strScript.Append(@"{
                         type: 'spline',
                         showInLegend: true,
                         name: 'Temperature',
                         axisYType: 'secondary',
                         yValueFormatString: '###<sup>o</sup>c',
                         dataPoints: [");
-            DataTable dt_temperature = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.TEMPERATURE_SENSOR, from, to);
-            foreach (DataRow data in dt_temperature.Rows)
-            {
-                strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
-            }
 
-            strScript.Append(@"]
-                    }, {
+                foreach (DataRow data in dt_temperature.Rows)
+                {
+                    strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
+                }
+                strScript.Append("] },");
+
+            DataTable dt_co2 = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.CO2_SENSOR, from, to);
+
+                strScript.Append(@"{
                         type: 'spline',
                         showInLegend: true,
                         name: 'CO2',
                         axisYIndex: 1,
                         yValueFormatString: '##.00',
                         dataPoints: [");
-            DataTable dt_co2 = new BL_GreenhouseDeviceData().selectDeviceDataSetByType(greenhouseID, Constants.CO2_SENSOR, from, to);
-            foreach (DataRow data in dt_co2.Rows)
-            {
-                strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
-            }
+
+                foreach (DataRow data in dt_co2.Rows)
+                {
+                    strScript.Append("{ x: new Date(Date.parse('" + data["collected_time"] + "'.replace('-', '/', 'g')))" + ", y: " + data["data"] + "},");
+                }
+                strScript.Append("] },");
+
+            
             strScript.Append(@"]
-                        }]
                         });
                     chart.render();
 
                     }
                 </script>");
             ltScripts.Text = strScript.ToString();
+
+            if ((dt_co2.Rows.Count == 0) & (dt_humidity.Rows.Count == 0) & (dt_temperature.Rows.Count == 0))
+            {
+                RadioButtonList1.Visible = false;
+                ltScripts.Text = "No Data";
+            }
 
         }
 

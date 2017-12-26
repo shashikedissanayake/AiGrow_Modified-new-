@@ -219,7 +219,9 @@
                                     <asp:ListItem Value="all" Selected="True"> All </asp:ListItem>
                                 </asp:RadioButtonList>
                                 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                                <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
+                                <center>
+                                    <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
+                                </center>
                                 <div class="chart" id="chart" style="height: 400px; width: 100%;">
                                     <!-- Sales Chart Canvas -->
 

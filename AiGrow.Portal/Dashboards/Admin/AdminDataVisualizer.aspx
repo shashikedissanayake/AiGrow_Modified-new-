@@ -40,10 +40,10 @@
                 <asp:ListItem Value="3 MONTH"> Last 3 Month </asp:ListItem>
                 <asp:ListItem Value="all" Selected="True"> All </asp:ListItem>
             </asp:RadioButtonList>
-            <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+            <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
             <center>
                 <asp:Literal ID="ltScripts" runat="server"></asp:Literal>
-                <div id="chart_div" style="width: 800px; height: 400px;"> 
+                <div id="chart" style="width: 800px; height: 400px;"> 
                 </div>
             </center>
         </div>
