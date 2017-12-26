@@ -13246,3 +13246,62 @@ subscribed: 22-Dec-17 3:36:04 PM
 Connection closed: 22-Dec-17 3:36:06 PM
 ***********************************************
  
+Initiating...22-Dec-17 3:45:49 PM
+subscribed: 22-Dec-17 3:45:51 PM
+Connection closed: 22-Dec-17 3:46:51 PM
+***********************************************
+ 
+subscribed: 22-Dec-17 3:47:58 PM
+Initiating...22-Dec-17 3:49:22 PM
+subscribed: 22-Dec-17 3:49:24 PM
+Initiating...22-Dec-17 3:50:41 PM
+subscribed: 22-Dec-17 3:50:46 PM
+Connection closed: 22-Dec-17 3:52:46 PM
+***********************************************
+ 
+Initiating...26-Dec-17 9:07:01 AM
+subscribed: 26-Dec-17 9:07:07 AM
+Connection closed: 26-Dec-17 9:08:08 AM
+***********************************************
+ 
+subscribed: 26-Dec-17 9:09:09 AM
+Initiating...26-Dec-17 9:11:36 AM
+subscribed: 26-Dec-17 9:11:38 AM
+Initiating...26-Dec-17 9:14:09 AM
+subscribed: 26-Dec-17 9:14:11 AM
+Connection closed: 26-Dec-17 9:14:38 AM
+***********************************************
+ 
+subscribed: 26-Dec-17 9:15:40 AM
+Connection closed: 26-Dec-17 9:16:13 AM
+***********************************************
+ 
+subscribed: 26-Dec-17 9:17:14 AM
+Connection closed: 26-Dec-17 9:17:42 AM
+***********************************************
+ 
+subscribed: 26-Dec-17 9:18:45 AM
+Connection closed: 26-Dec-17 9:19:16 AM
+***********************************************
+ 
+Initiating...26-Dec-17 10:47:59 AM
+subscribed: 26-Dec-17 10:48:01 AM
+Initiating...26-Dec-17 10:49:07 AM
+subscribed: 26-Dec-17 10:49:09 AM
+Initiating...26-Dec-17 10:50:05 AM
+subscribed: 26-Dec-17 10:50:07 AM
+Connection closed: 26-Dec-17 10:50:10 AM
+***********************************************
+ 
+Initiating...26-Dec-17 10:50:58 AM
+subscribed: 26-Dec-17 10:51:00 AM
+Connection closed: 26-Dec-17 10:51:09 AM
+***********************************************
+ 
+Initiating...26-Dec-17 10:51:52 AM
+subscribed: 26-Dec-17 10:51:53 AM
+Connection closed: 26-Dec-17 10:52:01 AM
+***********************************************
+ 
+Initiating...26-Dec-17 10:54:54 AM
+subscribed: 26-Dec-17 10:54:57 AM
