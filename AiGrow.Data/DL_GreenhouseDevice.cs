@@ -39,5 +39,13 @@ namespace AiGrow.Data
 
             return MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT greenhouse_device_unique_id AS device_unique_id FROM greenhouse_device gd WHERE gd.greenhouse_id = @greenhouse_id AND gd.io_type = 'in'", para);
         }
+        public bool doesGreenhouseDeviceExist(string greenhouse_id, string device_id) {
+            var para = new MySqlParameter[2];
+            para[0] = new MySqlParameter("@device_id", device_id);
+            para[1] = new MySqlParameter("@greenhouse_id", greenhouse_id);
+
+            int count = MySQLHelper.ExecuteDataTable(DBConnection.connectionString, System.Data.CommandType.Text, "SELECT * FROM greenhouse_device gd INNER JOIN greenhouse g ON gd.greenhouse_id = g.greenhouse_id WHERE gd.greenhouse_device_unique_id = @device_id AND g.greenhouse_id = @greenhouse_id", para).Rows.Count;
+            return count >= 1;
+        }
     }
 }

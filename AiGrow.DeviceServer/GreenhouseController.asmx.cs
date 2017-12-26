@@ -850,60 +850,30 @@ namespace AiGrow.DeviceServer
             token = token.Trim();
             string role = new BL_User().getUserRoleID(user_id);
 
-            if (new BL_User().validateTokenByUserID(user_id, token) == 1 && new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id, role))
+            if ((new BL_User().validateTokenByUserID(user_id, token) == 1) && (new BL_Greenhouse().doesGreenhouseIDExist(greenhouse_id, user_id, role)) && (new BL_GreenhouseDevice().doesGreenhouseDeviceExist(greenhouse_id, device_id)))
             {
                 DataResponse response = new DataResponse();
                 try
                 {
-                    if (new BL_User().checkForAdmin(user_id) == "1")
+                    DataTable Data = new BL_GreenhouseDeviceData().selectDataSet(device_id, start_time, end_time);
+
+                    List<GraphDataPointResponse> dataPointList = new List<GraphDataPointResponse>();
+
+                    foreach (DataRow item in Data.Rows)
                     {
-
-                        DataTable Data = new BL_GreenhouseDeviceData().selectDataSet(greenhouse_id, start_time, end_time);
-
-                        List<GraphDataPointResponse> dataPointList = new List<GraphDataPointResponse>();
-
-                        foreach (DataRow item in Data.Rows)
+                        dataPointList.Add(new GraphDataPointResponse()
                         {
-                            dataPointList.Add(new GraphDataPointResponse()
-                            {
-                                time = item["collected_time"].ToString(),
-                                value = item["data"].ToString()
-                            });
-                        }
-                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GraphDataResponse()
-                        {
-                            success = true,
-                            errorMessage = null,
-                            listOfDataPoints = dataPointList
-                        }));
-                        return;
+                            time = item["collected_time"].ToString(),
+                            value = item["data"].ToString()
+                        });
                     }
-                    else
+                    HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new GraphDataResponse()
                     {
-
-                        DataTable latestData = new Business.BL_GreenhouseDeviceData().getLatestData(greenhouse_id);
-
-                        List<DataResponse> dataList = new List<DataResponse>();
-
-                        foreach (DataRow item in latestData.Rows)
-                        {
-                            dataList.Add(new DataResponse()
-                            {
-                                collected_time = item["collected_time"].ToString(),
-                                data = item["data"].ToString(),
-                                data_unit = item["data_unit"].ToString(),
-                                device_unique_id = item["device_unique_id"].ToString(),
-                                device_type = item["device_type"].ToString()
-                            });
-                        }
-                        HttpContext.Current.Response.Write(new JavaScriptSerializer().Serialize(new DataListResponse()
-                        {
-                            success = true,
-                            errorMessage = null,
-                            listOfData = dataList
-                        }));
-                        return;
-                    }
+                        success = true,
+                        errorMessage = null,
+                        listOfDataPoints = dataPointList
+                    }));
+                    return;
                 }
                 catch
                 {

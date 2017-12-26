@@ -18,6 +18,10 @@ namespace AiGrow.Business
         {
             return new DL_GreenhouseDevice().doesDeviceExist(device);
         }
+        public bool doesGreenhouseDeviceExist(string greenhouse_id, string device_id)
+        {
+            return new DL_GreenhouseDevice().doesGreenhouseDeviceExist(greenhouse_id, device_id);
+        }
 
         public System.Data.DataTable selectAllDevices(string id)
         {
